@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>留言本-{$config.sitetitle}</title>
+<meta name="Keywords" content="{$config.sitekeywords}" />
+<meta name="Description" content="{$config.sitedescription}"/>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel="shortcut icon" href="__TMPL__/images/favicon.ico" type="image/x-icon" />
+<link href="__TMPL__/images/default.css" rel="stylesheet" type="text/css"/>
+<link href="__TMPL__/images/guestbook.css" rel="stylesheet" type="text/css"/>
+<script src="__TMPL__/js/common.js" type="text/javascript"></script>
+<neq name="config.rollnum" value="0"><script src="__TMPL__/js/marquee.js" type="text/javascript"></script></neq>
+</head>
+<body onLoad="showre(1);">
+<include file="$head"/>
+<div id="positionbg">
+    <div id="position"><a href="__APP__">{$config.sitetitle}</a>&nbsp;&gt;&nbsp;<a href="__APP__/Guestbook">留言本</a>&nbsp;&gt;&nbsp;留言列表</div>
+	<div id="post"><a href="#post">&raquo; 我要留言</a></div>
+</div>
+<div id="wrapper">
+<div id="content">
+<h6>留言信息</h6>
+<div id="list"></div>
+<div id="MultiPage"></div><!--留言分页 -->
+<div id="pinglunother">
+<div id="pinglunym"></div><!--评论分页信息 -->
+</div>
+<div id="pinglunfb">
+			  <div id="pinglunfbt"><a name="post">发表留言</a></div>
+			  <textarea rows="20" name="content" cols="50" class="pltextarea" id="plContent"></textarea>
+			  <div class="qdfb">大名:<input name="author" class="button" type="text" value="游客" id="Author"  maxlength="8" size="8"/>
+			  <input type="button" value="确认发表" name="submit"  id="sendGuest" class="button submit" onClick="AddNew()"></div>
+			  </div>
+		<script>
+		 var root = "{$url}";
+		 </script>
+		 <script type="text/javascript" src="__TMPL__/js/ajaxly.js"></script>
+</div>
+<div id="side">
+			{:Ad(21);}
+	     <div class="RightRecommend">
+		      <div class="RRTitle">精选推荐</div>
+		     <div class="RRList"><ul> {:ShowArt(0,5,0,2);}</ul></div></div>
+			{:Ad(22);}
+	     <div class="RightHotc">
+		      <div class="RHTitle">浏览排行</div>
+		      <div class="RHList"><ul>{:ShowArt(0,10,0,0);}</ul></div>
+         </div>
+		 {:Ad(23);}
+	</div>
+</div>
+<include file="$footer"/> 
+</body>
+</html>

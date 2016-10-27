@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$article.title}<present name="nowpage">({$nowpage})</present>-{$config.sitetitle}</title>
+<meta name="Keywords" content="{$article.keywords}" />
+<meta name="Description" content="{$article.description}"/>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel="shortcut icon" href="__TMPL__/images/favicon.ico" type="image/x-icon" />
+<link href="__TMPL__/images/default.css" rel="stylesheet" type="text/css"/>
+<script src="__TMPL__/js/common.js" type="text/javascript"></script>
+<neq name="config.rollnum" value="0"><script src="__TMPL__/js/marquee.js" type="text/javascript"></script></neq>
+</head>
+<body <eq name="config.isping" value="1">onLoad="showre({$article.aid},1)"</eq>>
+<include file="$head"/>
+<div id="positionbg">
+    <div id="position">{$nav}&nbsp;&gt;&nbsp;正文</div>
+	<div id="sousuo"><form name="search" method="post" action="{:U('s/search');}"><input type="text" name="k" id="kw" maxlength="60"><input type="submit" value="搜索" class="btn">{__TOKEN__}</form></div>
+</div>
+</div>
+<div id="wrapper">
+
+	<div id="side">
+	{:Ad(24);}
+	<neq name="config.articlerec" value="0">
+	     <div class="RightRecommend">
+		      <div class="RRTitle">{$config.artrectitle}</div>
+		     <div class="RRList"><ul> {:ShowArt(0,10,0,2,$type['typeid']);}</ul></div></div>
+	</neq>
+	{:Ad(25);}
+	<neq name="config.articlehot" value="0">
+	     <div class="RightHotc">
+		      <div class="RHTitle">{$config.arthottitle}</div>
+		      <div class="RHList"><ul>{:ShowArt(0,10,0,0,$type['typeid']);}</ul></div>
+         </div>
+		 </neq>
+		 {:Ad(26);}
+	</div>
+
+	<div id="content">
+
+         <div id="contextbg">
+              <h1><notempty name="article.titlecolor"><font color="{$article.titlecolor}"></notempty>{$article.title}<present name="nowpage">({$nowpage})</present><notempty name="article.titlecolor"></font></notempty></h1>
+              <div id="newsinfo"><eq name="config.isauthor" value="1">作者:<span class="blue">{$article.author}</span></eq> 时间:<span class="blue">{$article.addtime}</span><eq name="config.ishits" value="1">&nbsp;&nbsp;浏览:<span class="blue">{$article.hits}</span></eq><eq name="config.iscopyfrom" value="1">&nbsp;&nbsp;来源:<span class="blue">{$article.copyfrom}</span></eq>{:label(7);}</div>
+              <div id="adcontext1">{:Ad(17);}</div>
+			  <eq name="config.iszy" value="1"><div class="zhaiyao"><b>  核心提示:  </b>{$article.note}...</div></eq>
+              <div id="context">{$article.content}</div>
+			  <div id="clear"></div>
+			  <div id="page"><ul>{$page}</ul></div>
+			  <neq name="article.voteid" value="0">
+			   <div class="artvote">
+				<ul>
+			<form action="{:U('Vote/update');}" method="post">
+		<li><h5>{$votetitle}</h5></li>
+		<volist name="votedata" id="vo">
+		<li><input type="<eq name="votetype" value="0">radio<else/>checkbox</eq>"  name="vote<eq name="vtype" value="1">[]</eq>" value="{$vo.title}={$vo.num}">{$vo.title}</li>
+		</volist>
+		<li><input type="submit" value="投票" class="artsubmit">  <input type="button" onclick="window.open('{$voteid|url=votes,###}')" value="查看" class="artsubmit"></li>
+		<input type="hidden" name="id" value="{$voteid}">
+		</form>
+			</ul>
+			</div>
+			</neq>
+              <div id="adcontext2">{:Ad(18);}</div>
+			  <eq name="config.mood" value="1">
+		 <div style="margin:0 auto;width:530px;">
+		 <script language="javascript">
+		 var infoid = "{$article.aid}";
+		 var root = "{$url}";
+		 var tpl ="__TMPL__";
+		 </script>
+<script language = "JavaScript" src ="__TMPL__/js/mood.js"></script>
+		 </div>
+		 </eq>
+              <div class="Toolsbg"><a href="javascript:history.back(-1)">返回</a><a href="#top">跳至顶部</a></div>
+			  {:label(6);}
+		 </div>
+         <eq name="config.updown" value="1"><div id="next">{$updown}</div></eq>
+		 <eq name="config.xgwz" value="1">
+		 <div id="NewsRelated">
+			  <div id="NewsRelatedt">相关内容：</div><ul>
+			  <volist name="keylist" id="vo">
+			  <li><h3><a href="{$vo.aid|url=articles,###}">{$vo.title}</a></h3></li>
+			  </volist>
+			  </ul>
+		 </div>
+		 </eq>
+		 {:Ad(20);}
+	<eq name="config.isping" value="1">
+    <div id="pinglun">
+			  <div id="pinglunt">以下是网友对 <span class="blue">{$article.title}</span> 的评论：</div>
+			  <div id="list"></div>
+			  <div id="MultiPage"></div><!--评论分页 -->
+              <div id="pinglunother">
+               <div id="pinglunym"></div><!--评论信息 -->
+              </div>
+              <div id="pinglunfb">
+			  <div id="pinglunfbt">发表评论</div>
+			  <input type="hidden" name="aid" id="aid" value="{$article.aid}">
+			  <textarea rows="20" name="content" cols="50" class="pltextarea" id="plContent"></textarea>
+			  <div class="qdfb">大名:<input name="author" class="button" type="text" value="" id="Author"  maxlength="8" size="8"/>
+			  <input type="button" value="确认发表" name="submit"  id="sendGuest" class="button submit" onClick="AddNew()"></div>
+			  </div>
+         </div>
+		 <script type="text/javascript" src="__TMPL__/js/ajaxpl.js"></script>
+		 {:Ad(19);}
+    </div>
+	</eq>
+</div><include file="$footer"/>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?php if (!defined('THINK_PATH')) exit();?><html>
+<head>
+	<title></title>
+</head>
+<body>
+	<!-- <h1>忘记密码</h1>
+
+	<form action="<?php echo U('index.php/Test/find');?>" method="post">
+		<p>输入您的Email:</p><br/ >
+		<input  type="text" name="email"/><br/><br/>
+		<input type="submit" name="submit" value="找回密码" />
+	</form> -->
+
+	<form action="<?php echo U('index.php/Test/speed');?>" enctype="multipart/form-data" method="post">
+		<label from="homework">Class notes:</label><br/>
+		<input type="file" name="homework" value="" /><br/>
+		<input type="submit" name="submit" value="!" />
+	</form>
+</body>
+</html>

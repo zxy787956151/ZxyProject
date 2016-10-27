@@ -1,0 +1,1 @@
+a:7:{i:0;s:12:"friendlinkId";i:1;s:13:"friendlinkIco";i:2;s:14:"friendlinkName";i:3;s:13:"friendlinkUrl";i:4;s:14:"friendlinkSort";s:3:"_pk";s:12:"friendlinkId";s:5:"_type";a:5:{s:12:"friendlinkId";s:7:"int(11)";s:13:"friendlinkIco";s:12:"varchar(150)";s:14:"friendlinkName";s:11:"varchar(50)";s:13:"friendlinkUrl";s:12:"varchar(150)";s:14:"friendlinkSort";s:7:"int(11)";}}

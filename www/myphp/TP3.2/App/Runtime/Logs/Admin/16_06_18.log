@@ -1,0 +1,68 @@
+[ 2016-06-18T18:54:35+08:00 ] 127.0.0.1 /99m/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-06-18T19:26:00+08:00 ] 127.0.0.1 /99m/zxy.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003075s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-06-18T19:26:10+08:00 ] 127.0.0.1 /99m/admin.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-06-18T19:26:14+08:00 ] 127.0.0.1 /99m/admin.php/index
+ERR: 无法加载控制器:Index
+
+[ 2016-06-18T19:26:17+08:00 ] 127.0.0.1 /99m/admin.php/index
+ERR: 无法加载控制器:Index
+
+[ 2016-06-18T19:26:17+08:00 ] 127.0.0.1 /99m/admin.php/index
+ERR: 无法加载控制器:Index
+
+[ 2016-06-18T19:26:17+08:00 ] 127.0.0.1 /99m/admin.php/index
+ERR: 无法加载控制器:Index
+
+[ 2016-06-18T19:26:17+08:00 ] 127.0.0.1 /99m/admin.php/index
+ERR: 无法加载控制器:Index
+
+[ 2016-06-18T19:26:17+08:00 ] 127.0.0.1 /99m/admin.php/index
+ERR: 无法加载控制器:Index
+
+[ 2016-06-18T19:26:18+08:00 ] 127.0.0.1 /99m/admin.php/index
+ERR: 无法加载控制器:Index
+
+[ 2016-06-18T19:46:47+08:00 ] 127.0.0.1 /99m/admin.php/index
+ERR: 无法加载控制器:Index
+
+[ 2016-06-18T19:46:47+08:00 ] 127.0.0.1 /99m/admin.php/index
+ERR: 无法加载控制器:Index
+
+[ 2016-06-18T19:46:47+08:00 ] 127.0.0.1 /99m/admin.php/index
+ERR: 无法加载控制器:Index
+

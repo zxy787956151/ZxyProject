@@ -1,0 +1,417 @@
+[ 2016-05-07T20:48:22+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008151s ]
+SQL: SHOW COLUMNS FROM `think_move` [ RunTime:0.037898s ]
+SQL: SELECT * FROM `think_move`  [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048128s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000855s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000865s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000828s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003722s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001008s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-05-07T20:48:35+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `think_move` [ RunTime:0.004416s ]
+SQL: SELECT * FROM `think_move`  [ RunTime:0.000445s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009676s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000812s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000804s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000719s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003414s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000855s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2016-05-07T20:48:38+08:00 ] 127.0.0.1 /MyThink/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012794s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012891s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `think_move` [ RunTime:0.004335s ]
+SQL: SELECT * FROM `think_move`  [ RunTime:0.000650s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009398s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000801s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000769s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000681s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003259s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000810s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2016-05-07T20:48:38+08:00 ] 127.0.0.1 /MyThink/index.php/js/jquery.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+ERR: 无法加载模块:js
+
+[ 2016-05-07T20:48:38+08:00 ] 127.0.0.1 /MyThink/index.php/css/base.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002140s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002373s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+ERR: 无法加载模块:css
+
+[ 2016-05-07T20:48:38+08:00 ] 127.0.0.1 /MyThink/index.php/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001714s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001850s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+ERR: 无法加载模块:css
+
+[ 2016-05-07T20:48:38+08:00 ] 127.0.0.1 /MyThink/index.php/js/sliders.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001840s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001960s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+ERR: 无法加载模块:js
+
+[ 2016-05-07T20:48:38+08:00 ] 127.0.0.1 /MyThink/index.php/js/up/jquery.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+ERR: 无法加载模块:js
+
+[ 2016-05-07T20:48:38+08:00 ] 127.0.0.1 /MyThink/index.php/js/nav.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001098s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+ERR: 无法加载模块:js
+
+[ 2016-05-07T20:48:38+08:00 ] 127.0.0.1 /MyThink/index.php/js/up/js.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001521s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+ERR: 无法加载模块:js
+
+[ 2016-05-07T20:48:45+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Move/addMove
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000645s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011902s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000456s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000473s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002259s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-05-07T20:48:50+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000665s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-05-07T20:48:50+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000680s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051308s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000579s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000524s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002376s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000671s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2016-05-07T20:48:50+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000809s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+ERR: 非法操作:js
+
+[ 2016-05-07T20:48:55+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000708s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.054369s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.009765s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021228s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000560s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000557s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000408s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002307s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000721s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2016-05-07T20:48:58+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000670s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.017916s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.000674s ]
+SQL: UPDATE `think_user` SET `logintime`=1462625338,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.106400s ]
+
+[ 2016-05-07T20:48:58+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000682s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011249s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000501s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000498s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000429s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002189s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000685s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-05-07T20:49:03+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Menu/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000704s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.005370s ]
+SQL: SELECT * FROM `think_menu`  [ RunTime:0.000447s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010802s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000597s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000590s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000540s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002548s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000720s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-05-07T20:49:04+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Menu/addMenu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000671s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019958s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000443s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000375s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002157s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000834s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2016-05-07T20:49:11+08:00 ] 127.0.0.1 /MyThink/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000719s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `think_move` [ RunTime:0.004268s ]
+SQL: SELECT * FROM `think_move`  [ RunTime:0.000363s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010114s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000548s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000526s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000412s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002213s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000588s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-05-07T20:49:11+08:00 ] 127.0.0.1 /MyThink/index.php/css/base.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001079s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+ERR: 无法加载模块:css
+
+[ 2016-05-07T20:49:11+08:00 ] 127.0.0.1 /MyThink/index.php/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001580s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001729s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+ERR: 无法加载模块:css
+
+[ 2016-05-07T20:49:11+08:00 ] 127.0.0.1 /MyThink/index.php/js/jquery.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001058s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+ERR: 无法加载模块:js
+
+[ 2016-05-07T20:49:11+08:00 ] 127.0.0.1 /MyThink/index.php/js/up/jquery.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001512s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+ERR: 无法加载模块:js
+
+[ 2016-05-07T20:49:11+08:00 ] 127.0.0.1 /MyThink/index.php/js/up/js.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001383s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+ERR: 无法加载模块:js
+
+[ 2016-05-07T20:49:11+08:00 ] 127.0.0.1 /MyThink/index.php/js/sliders.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001738s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+ERR: 无法加载模块:js
+
+[ 2016-05-07T20:49:11+08:00 ] 127.0.0.1 /MyThink/index.php/js/nav.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+ERR: 无法加载模块:js
+
+[ 2016-05-07T20:54:52+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `think_move` [ RunTime:0.004189s ]
+SQL: SELECT * FROM `think_move`  [ RunTime:0.000440s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009544s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000672s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000666s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000559s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002802s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000783s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2016-05-07T20:55:11+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `think_move` [ RunTime:0.004562s ]
+SQL: SELECT * FROM `think_move`  [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008396s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000529s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000518s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002237s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000576s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-05-07T21:17:08+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `think_move` [ RunTime:0.004227s ]
+SQL: SELECT * FROM `think_move`  [ RunTime:0.000310s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009790s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000641s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000617s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000520s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002635s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000703s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000770s ]
+

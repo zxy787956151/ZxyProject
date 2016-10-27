@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'vip_name', 2 => 'vip_pwd', 3 => 'vip_apk_url', 4 => 'com_apk_url', 5 => 'vip_sn', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'int(11)', 'vip_name' => 'varchar(60)', 'vip_pwd' => 'varchar(200)', 'vip_apk_url' => 'varchar(200)', 'com_apk_url' => 'varchar(200)', 'vip_sn' => 'int(11)', ), );?>

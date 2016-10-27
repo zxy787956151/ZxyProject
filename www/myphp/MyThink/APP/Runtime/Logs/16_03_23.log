@@ -1,0 +1,1446 @@
+[ 2016-03-23T13:20:00+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-23T13:20:18+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013391s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013518s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-03-23T13:20:18+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000656s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059643s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004362s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003699s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001542s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011817s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001927s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002142s ]
+
+[ 2016-03-23T13:20:18+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/__STYLE__/css/normalize.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000813s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+ERR: 非法操作:__STYLE__
+
+[ 2016-03-23T13:20:18+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001247s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:20:26+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.072942s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.001902s ]
+SQL: UPDATE `think_user` SET `logintime`=1458710426,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.082972s ]
+
+[ 2016-03-23T13:20:26+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000503s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006563s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000659s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000506s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002575s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000588s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2016-03-23T13:20:26+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/css/style.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000514s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:20:26+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/jquery-1.8.3.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000532s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:20:26+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/menu.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:21:14+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000799s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005720s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000445s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000439s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001911s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-03-23T13:21:14+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:21:14+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/__STYLE__/css/normalize.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+ERR: 非法操作:__STYLE__
+
+[ 2016-03-23T13:21:15+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002276s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002637s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010102s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000728s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000701s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000516s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003191s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000981s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-03-23T13:21:15+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/__STYLE__/css/normalize.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000579s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+ERR: 非法操作:__STYLE__
+
+[ 2016-03-23T13:21:15+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:21:16+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011265s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000370s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000358s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001609s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-03-23T13:21:16+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000551s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:21:16+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/__STYLE__/css/normalize.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000562s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+ERR: 非法操作:__STYLE__
+
+[ 2016-03-23T13:21:16+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018961s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001196s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001132s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005120s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001510s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001746s ]
+
+[ 2016-03-23T13:21:16+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/__STYLE__/css/normalize.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000743s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+ERR: 非法操作:__STYLE__
+
+[ 2016-03-23T13:21:16+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000675s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:21:22+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000519s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008827s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: UPDATE `think_user` SET `logintime`=1458710482,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.080104s ]
+
+[ 2016-03-23T13:21:59+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002352s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002727s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008670s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000732s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000621s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000418s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002804s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-03-23T13:21:59+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/__STYLE__/css/normalize.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000564s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+ERR: 非法操作:__STYLE__
+
+[ 2016-03-23T13:21:59+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000556s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:22:00+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.017079s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: UPDATE `think_user` SET `logintime`=1458710520,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.070361s ]
+
+[ 2016-03-23T13:22:00+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000503s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005683s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000348s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000314s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000218s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001442s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000518s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-03-23T13:22:00+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/jquery-1.8.3.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000590s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:22:00+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/css/style.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000929s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:22:00+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/menu.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000561s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:36+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000818s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007871s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000462s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001950s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000528s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-03-23T13:24:36+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/css/style.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:36+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/menu.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000815s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:36+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/jquery-1.8.3.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000817s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:36+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000514s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007028s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000375s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000314s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001519s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/css/style.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000512s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/menu.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000762s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/jquery-1.8.3.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000720s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000547s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005534s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000303s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000316s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000254s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001423s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000407s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/css/style.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000474s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/jquery-1.8.3.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/menu.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007047s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000383s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000349s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000230s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001708s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000408s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/css/style.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000504s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/menu.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/jquery-1.8.3.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000614s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006335s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000319s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000319s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000224s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001411s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/jquery-1.8.3.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/menu.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000473s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/css/style.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000710s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000577s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005734s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000295s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000316s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000210s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001324s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000428s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/jquery-1.8.3.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/css/style.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:37+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/menu.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000532s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:24:57+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000523s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004730s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000332s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000348s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000229s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001470s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000415s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-03-23T13:24:57+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000480s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:24:57+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000655s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005863s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000406s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000297s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001832s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-03-23T13:24:57+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000857s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:24:58+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000483s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004618s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000336s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000301s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000207s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001392s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000427s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-03-23T13:24:58+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:24:58+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000596s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004440s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000306s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000305s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000220s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001365s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000457s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-03-23T13:24:58+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:24:58+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000931s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005229s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000329s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000306s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000220s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001387s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000450s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-03-23T13:24:58+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000485s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:24:58+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000473s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004841s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000452s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000492s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001997s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000531s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-03-23T13:24:58+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:24:59+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004530s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000305s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000322s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000213s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001387s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000439s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-03-23T13:24:59+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000518s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:24:59+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000652s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004592s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000586s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000636s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002462s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000660s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2016-03-23T13:24:59+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000459s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:24:59+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000543s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006361s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000355s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000335s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000239s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001488s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000416s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-03-23T13:24:59+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000551s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:25:13+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000524s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006293s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000478s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000440s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002066s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-03-23T13:25:13+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/__STYLE__/css/normalize.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+ERR: 非法操作:__STYLE__
+
+[ 2016-03-23T13:25:13+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:25:17+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000511s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004311s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000286s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000307s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000226s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001369s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000412s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-03-23T13:25:17+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000487s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:25:17+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/__STYLE__/css/normalize.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000459s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+ERR: 非法操作:__STYLE__
+
+[ 2016-03-23T13:25:20+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004665s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000415s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000478s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001937s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001116s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2016-03-23T13:25:20+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000523s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:25:20+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/__STYLE__/css/normalize.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+ERR: 非法操作:__STYLE__
+
+[ 2016-03-23T13:25:45+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000533s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006487s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000407s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000368s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001647s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000457s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-03-23T13:25:45+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/__STYLE__/css/normalize.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000475s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+ERR: 非法操作:__STYLE__
+
+[ 2016-03-23T13:25:45+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:25:47+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000654s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.012304s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: UPDATE `think_user` SET `logintime`=1458710747,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.061273s ]
+NOTIC: [8] Use of undefined constant __STYLE__ - assumed '__STYLE__' E:\wamp\www\myphp\MyThink\APP\Modules\Admin\Action\LoginAction.class.php 第 30 行.
+
+[ 2016-03-23T13:27:33+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001630s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001840s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003092s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.000316s ]
+SQL: UPDATE `think_user` SET `logintime`=1458710853,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.064885s ]
+NOTIC: [8] Use of undefined constant __STYLE__ - assumed '__STYLE__' E:\wamp\www\myphp\MyThink\APP\Modules\Admin\Action\LoginAction.class.php 第 30 行.
+
+[ 2016-03-23T13:28:01+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000550s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003326s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: UPDATE `think_user` SET `logintime`=1458710881,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.077626s ]
+NOTIC: [8] Use of undefined constant __STYLE__ - assumed '__STYLE__' E:\wamp\www\myphp\MyThink\APP\Modules\Admin\Action\LoginAction.class.php 第 30 行.
+
+[ 2016-03-23T13:30:06+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001072s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003083s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: UPDATE `think_user` SET `logintime`=1458711006,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.086313s ]
+NOTIC: [8] Use of undefined constant __STYLE__ - assumed '__STYLE__' E:\wamp\www\myphp\MyThink\APP\Modules\Admin\Action\LoginAction.class.php 第 30 行.
+
+[ 2016-03-23T13:30:38+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000504s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003148s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: UPDATE `think_user` SET `logintime`=1458711038,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.073681s ]
+NOTIC: [8] Use of undefined constant __STYLE__ - assumed '__STYLE__' E:\wamp\www\myphp\MyThink\APP\Modules\Admin\Action\LoginAction.class.php 第 30 行.
+
+[ 2016-03-23T13:30:45+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.017924s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: UPDATE `think_user` SET `logintime`=1458711045,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.062003s ]
+NOTIC: [8] Use of undefined constant __STYLE__ - assumed '__STYLE__' E:\wamp\www\myphp\MyThink\APP\Modules\Admin\Action\LoginAction.class.php 第 30 行.
+
+[ 2016-03-23T13:32:14+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001412s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005528s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000438s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000437s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001866s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-03-23T13:32:14+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/__STYLE__/css/normalize.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+ERR: 非法操作:__STYLE__
+
+[ 2016-03-23T13:32:14+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:32:25+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000903s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008928s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000427s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001873s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000551s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2016-03-23T13:32:25+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/__STYLE__/css/normalize.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000509s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+ERR: 非法操作:__STYLE__
+
+[ 2016-03-23T13:32:25+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000513s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:32:25+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003370s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: UPDATE `think_user` SET `logintime`=1458711145,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.069498s ]
+
+[ 2016-03-23T13:32:25+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005165s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000298s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000313s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000226s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001389s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000418s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-03-23T13:32:25+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/css/style.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:32:25+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/jquery-1.8.3.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:32:25+08:00 ] 127.0.0.1 /MyThink/index.php/__STYLE__/js/menu.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001033s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [8] Undefined variable: group E:\wamp\www\myphp\MyThink\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:__STYLE__
+
+[ 2016-03-23T13:32:59+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000762s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005988s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000391s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000357s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001642s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000475s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-03-23T13:32:59+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:33:00+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.011407s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: UPDATE `think_user` SET `logintime`=1458711180,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.062575s ]
+
+[ 2016-03-23T13:33:00+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000529s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004879s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000286s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000289s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000242s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001324s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000383s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-03-23T13:33:02+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000653s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007412s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000503s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000430s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000360s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001942s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000568s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-03-23T13:33:02+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:33:02+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000530s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005980s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000311s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000291s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001388s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000395s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-03-23T13:33:02+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000584s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+ERR: 非法操作:js
+
+[ 2016-03-23T13:33:06+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000496s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.010668s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: UPDATE `think_user` SET `logintime`=1458711185,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.084499s ]
+
+[ 2016-03-23T13:33:06+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005196s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000303s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000310s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000232s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001397s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000481s ]
+

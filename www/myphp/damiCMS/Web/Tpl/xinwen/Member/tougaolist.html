@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>{$type.typename}-{$config.sitetitle}</title>
+<meta name="Keywords" content="{$type.keywords}" />
+<meta name="Description" content="{$type.description}"/>
+<link rel="shortcut icon" href="__TMPL__/images/favicon.ico" type="image/x-icon" />
+<link href="__TMPL__/images/default.css" rel="stylesheet" type="text/css"/>
+<script src="__TMPL__/js/common.js" type="text/javascript"></script>
+<neq name="config.rollnum" value="0"><script src="__TMPL__/js/marquee.js" type="text/javascript"></script></neq>
+<script src="__TMPL__/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="__PUBLIC__/js/bootstrap.min.js" type=text/css rel=stylesheet>
+</head>
+<body>
+<include file="$head"/>
+<div id="positionbg">
+    <div id="position"><a href="/">首页</a>&nbsp;&gt;&nbsp;<a href="#">投稿列表</a></div>
+</div>
+<div id="wrapper" style="clear:both;">
+<div id="content" style="padding:10px; text-align:left">
+<div class="panel panel-default">
+  <div class="panel-heading">会员投稿列表&nbsp;&nbsp;<a href="{:U('Member/tougao')}" class="btn btn-success active" >我要投稿</a></div>
+  <div class="panel-body">
+    <table class="table table-bordered">
+<tr><th width="80" align="center">系统编号</th><th>标题</th><th width="100" align="center">状态</th><th width="150" align="center">操作</th></tr>
+<volist name="list" id="vo">
+<tr><td align="center">{$vo.aid}</td><td>{$vo.title}</td><td><eq name="vo.status" value="1"><font color="#006600">审核通过</font></eq><eq name="vo.status" value="0"><font color="#FF0000">待审核</font></eq><eq name="vo.status" value="2"><font color="#FF0000">被拒绝</font></eq></td><td align="center"><a href="{:U('Member/modpage',array('aid'=>$vo[aid]))}" class="btn btn-primary active">修改</a> <neq name="vo.status" value="1"><a href="javascript:if(confirm('您确定要删除吗?')){
+location.href='{:U('Member/delpage',array('aid'=>$vo[aid]))}';
+}" class="btn btn-danger active">删除</a></neq></td></tr>
+</volist>
+</table>
+  </div>    
+</div>
+</div>
+<div id="side">
+ <!--会员菜单-->
+ 	<div class="ClassNav">
+		      <div class="ClassTitle">会员中心</div>
+		      <div class="ClassList">
+			  <ul>
+              <volist name='member_menu' id='vo'>
+			  <li style="width:250px;"><a href="__ROOT__{$vo.url}">{$vo.name}</a></li>
+              </volist>
+              </ul></div>
+		 </div>
+</div>
+</div><!-- end page -->
+<include file="$footer" />
+</body>
+</html>

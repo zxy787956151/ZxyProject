@@ -1,0 +1,57 @@
+[ 2016-06-13T17:30:43+08:00 ] 127.0.0.1 /SoftwareEngineering/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003610s ]
+ERR: 无法加载模块:Index
+
+[ 2016-06-13T17:30:59+08:00 ] 127.0.0.1 /SoftwareEngineering/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003330s ]
+ERR: 无法加载模块:Index
+
+[ 2016-06-13T17:31:07+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.021637s ]
+INFO: [ route_check ] --END-- [ RunTime:0.022136s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002547s ]
+ERR: 无法加载模块:Login
+
+[ 2016-06-13T17:32:42+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002606s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003113s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002451s ]
+ERR: 无法加载模块:Login
+
+[ 2016-06-13T17:32:47+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002452s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002947s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003568s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-06-13T17:33:00+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Admin/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004293s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002277s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-06-13T17:51:44+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Admin/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004266s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004638s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003502s ]
+ERR: 无法加载模块:Admin
+

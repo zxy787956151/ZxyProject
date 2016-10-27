@@ -1,0 +1,15 @@
+[ 2015-08-17T16:26:13+08:00 ] 127.0.0.1 /wwwroot/install.php?s=/Install/step2.html
+ERR: Access denied for user 'zxy'@'localhost' (using password: YES)
+
+[ 2015-08-17T16:27:50+08:00 ] 127.0.0.1 /wwwroot/install.php?s=/Install/step2.html
+ERR: php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 
+
+[ 2015-08-17T16:28:30+08:00 ] 127.0.0.1 /wwwroot/install.php?s=/Install/step2.html
+ERR: php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 
+
+[ 2015-08-17T16:29:47+08:00 ] 127.0.0.1 /wwwroot/install.php?s=/Install/step2.html
+ERR: Access denied for user 'zxy'@'localhost' (using password: YES)
+
+[ 2015-08-17T17:54:12+08:00 ] 127.0.0.1 /wwwroot/install.php?s=/Install/step2.html
+ERR: php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 
+

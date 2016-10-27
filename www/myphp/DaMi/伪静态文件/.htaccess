@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+</IfModule>
+RewriteRule ^Web/Tpl/.*/.*\.(html|xml)$ / [F]
+RewriteRule ^Admin/Tpl/.*/.*\.(html|xml)$ / [F]

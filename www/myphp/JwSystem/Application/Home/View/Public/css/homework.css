@@ -1,0 +1,383 @@
+.homework h1 {margin:1.5em 0 0.2em 0;
+	            font-size:4em;
+              color:#614e3c;}
+
+.homework{text-align:center;}
+
+
+.workhead>.col-md-4{padding:0}
+.workhead{margin:3em 0 0 0;
+          }
+
+.decorate{     width:16px;
+               height:16px;
+               border-radius:8px;
+               background:black;
+               display:block;
+               position:absolute;
+               left:50%;
+               margin-left:-8px;}
+
+.headpiece1>.decorate:after,
+.headpiece2>.decorate:after{border: 1px solid #93876e;
+					   width: 190px;
+					   display: inline-block;
+					   content: "";
+					   margin:0 0px 0;
+					   position: absolute;
+					   left: 16px;
+					   top: 8px;
+                       }					  
+
+
+.headpiece2>.decorate:before,
+.headpiece3>.decorate:before{border: 1px solid #93876e;
+					    width: 190px;
+					    display: inline-block;
+					    content: "";
+					    margin: 0 0px 0;
+					    position: absolute;
+					    right: 16px;
+					    top: 8px;}
+
+.navhold{width:100px;
+         height:100px;
+         margin:auto;
+         margin-top:50px;
+         cursor:pointer;}
+
+.worknav{width:100px;
+         height:100px;
+         border-radius:50px;
+         background:#0cbbc8;
+         position:absolute;
+         left:50%;
+         margin-left:-50px;
+         text-align:center;
+         color:white;
+         line-height:100px;
+         font-weight:700;
+         font-size:25px;
+         transition:transform 1s;
+         -webkit-transition:-webkit-transform 1s;}
+
+
+
+.navhold:hover .worknav{transform:rotateY(360deg);
+                        -webkit-transform:rotateY(360deg);}
+
+.beginpub{display:none;}
+.publish>.about-icon{
+                width: 80px;
+                height: 80px;
+                border-radius: 40px;
+                position:absolute;
+                left:0;
+               }
+
+.publish-text{margin-left:100px;}
+
+.publish-text h3{color:#614e3c;
+                font-weight:700;
+                font-size:25px;
+                line-height:80px;
+
+}
+.publish-text h5{color:#614e3c;
+                font-weight:700;
+                font-size:20px;
+                line-height:40px;
+
+}
+.publishpic{background:url("../homework/work1.png");
+            border:1px solid rgba(97,78,60,0.15);
+            width:185px;
+            height:280px;
+            position:relative;
+            border-radius:3px;
+            cursor:pointer;
+            }
+
+.publish-text ul{list-style:none;
+                 color:#614e3c;
+                 margin-left:20px;}
+
+.publish-text ul span{margin-right:1em;}
+
+.onload{width:185px;
+        height:280px;
+        background:rgba(0,0,0,0.7);
+        padding:120px 20px 120px 20px;
+        margin-left:-1px;
+        border-radius:3px;
+        transform:scale(0);
+        -webkit-transform:scale(0);
+        opacity:0;
+        transition:transform 1s,opacity 1s;
+        -webkit-transition:-webkit-transform 1s,opacity 1s;
+        }
+
+.onload a{color:white;
+          display:block;
+          border:1px solid white;
+          text-align:center;
+          border-radius:5px;
+          line-height:38px;
+          text-decoration:none;
+         }
+
+.onload a:hover{color:#0cbbc8;}
+
+.publishpic:hover .onload{display:block;
+                          opacity:1;
+                          transform:scale(1);
+                          -webkit-transform:scale(1);}
+
+
+.finished ul li>.about-icon{
+                width: 60px;
+                height: 60px;
+                border-radius: 40px;
+               }
+
+.finished ul{list-style:none;}
+
+.finished ul li{height:70px;
+                padding:0px 40px 0 40px;
+                position:relative;}
+
+.finished ul li h4{line-height:70px;
+                   margin-left:6em}
+
+.finished ul li span{position:absolute;
+                     right:60px;
+                     top:50%;
+                     margin-top:-11px;
+                     color:green;
+                     font-size:22px}
+
+.upload h3{line-height:80px;
+           color: #614e3c;
+           font-weight: 700;
+           font-size: 25px;
+           margin-left:40px;}
+
+.upload ul li>.about-icon{
+                width: 60px;
+                height: 60px;
+                border-radius: 40px;
+               }
+
+.upload ul{list-style:none;}
+
+.upload ul li{height:70px;
+              padding:0px 40px 0 40px;
+              position:relative;}
+
+.upload ul li h4{line-height:70px;
+                   margin-left:6em}
+
+.upload ul li span{position:absolute;
+                     right:60px;
+                     top:50%;
+                     margin-top:-11px;
+                     font-size:22px;
+                     color:red}
+
+
+@media (max-width:992px){
+     .finished ul li{padding:0}
+     .upload ul li{padding:0}
+}      
+
+.goodjob{margin-top:2em;}
+
+.jobhead{line-height:40px;
+         width:50%;
+         background:#0cbbc8;
+         color:white;
+         text-align:center;
+         font-size:23px;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mune{
+  margin-top: 40px;
+}
+
+.photo{
+  height: 300px;
+  overflow: hidden;
+}
+.turn{
+  height: 350px;
+}
+/*第一页四张显示背景图*/
+.side1{
+   background:url(../homework/1.png) no-repeat;
+}
+.side2{
+   background:url(../homework/2.png) no-repeat;
+}
+.side{
+  height: 300px;
+  transition:1s ease;
+  -webkit-transition:1s ease;
+}
+
+
+/*图片外黑罩*/
+.side .outface{
+  width: 100%;
+  height: 100%;
+  background-color:rgba(47, 50, 56, 0);
+  -webkit-transition:0.5s ease-out;
+          transition:0.5s ease-out;
+}
+.side:hover .outface {
+  background-color:rgba(47, 50, 56, 0.4);
+}
+.outface .button-box{
+  width: 50%;
+  height: 50%;
+  float: left;  
+}
+.outface .button{
+  cursor:pointer;
+  font-size: 15px;
+  color: #d6d1d1;
+  text-align: center;
+  line-height: 85px;
+  border:1px solid #d6d1d1;
+  background-color:rgba(47, 50, 56, 0.3);
+}
+.button-box .button1{
+  width: 70%;
+  height: 60%;
+  margin-left: 54px;
+  margin-top: 43px;
+  border-top-left-radius:20px;
+  transform: translate3d(-220px,-150px,0);
+  -webkit-transition:0.3s ease-out;
+          transition:0.3s ease-out;
+}
+.button-box .button2{
+  width: 70%;
+  height: 60%;
+  margin-right: 54px;
+  margin-top: 43px;
+  border-top-right-radius:20px;
+  transform: translate3d(220px,-150px,0);
+  -webkit-transition:0.35s ease-out;
+          transition:0.35s ease-out;
+}
+.button-box .button3{
+  width: 70%;
+  height: 60%;
+  margin-left: 54px;
+  border-bottom-left-radius:20px;
+  transform: translate3d(-220px,150px,0);
+  -webkit-transition:0.4s ease-out;
+          transition:0.4s ease-out;
+}
+.button-box .button4{
+  width: 70%;
+  height: 60%;
+  margin-right: 43px;
+  border-bottom-right-radius:20px;
+  transform: translate3d(220px,150px,0);
+  -webkit-transition: 0.5s ease-out;
+          transition: 0.5s ease-out;
+          
+}
+.side:hover .button{
+    transform: translate3d(0,0,0);
+}
+.outface .button:hover{
+  border:1px solid white;
+  color:white;
+  background-color:rgba(47, 50, 56, 0.9);
+  
+}
+.outface .button1:hover{
+  border-top-left-radius:20px;
+}
+.outface .button2:hover{
+    border-top-right-radius:20px;
+}
+.outface .button3:hover{
+    border-bottom-left-radius:20px;
+}
+.outface .button4:hover{
+    border-bottom-right-radius:20px;
+}
+/*题目与日期*/
+.title1{
+  height: 40px;
+  line-height: 40px;
+  letter-spacing:3px;
+  font-size: 18px;
+  margin-left: 30%;
+    float: left;
+}
+.title2{
+  height: 40px;
+  line-height: 40px;
+  letter-spacing:2px;
+  font-size: 15px;
+  float: right;
+}
+
+/*响应式布局调整*/
+@media (max-width: 1211px)and (min-width: 1006px){
+   .button-box .button1{
+      margin-left: 45px;
+  }
+   .button-box .button3{
+      margin-left: 45px;
+  }
+}
+@media (max-width: 1006px){
+   .photo{
+      height: 300px;
+      width:480px;
+      margin-left: 15%;
+      margin-top: 10px;
+  }
+  .turn{
+        height: 300px;
+      width:480px;
+  }
+}
+@media (max-width: 680px){
+  .photo{
+      height: 300px;
+      width:480px;
+      margin-left: 5%;
+  }
+  .turn{
+    transform: scale3d(0.8,0.8,0.8);
+  }
+}
+
+
+/*上传弹出层*/
+.beginload{display:none;} 
+

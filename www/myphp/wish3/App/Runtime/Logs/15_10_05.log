@@ -1,0 +1,500 @@
+[ 2015-10-05T19:00:03+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001397s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.028606s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000614s ]
+SQL: UPDATE `hd_user` SET `logintime`=1444042803,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.000589s ]
+NOTIC: [8] Undefined index: uid D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Library\ORG\Util\RBAC.class.php 第 91 行.
+
+[ 2015-10-05T19:00:03+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017369s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000738s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000696s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000559s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003046s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000864s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2015-10-05T19:00:04+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Rbac/node
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+SQL: SHOW COLUMNS FROM `hd_node` [ RunTime:0.019948s ]
+SQL: SELECT `id`,`name`,`title`,`pid` FROM `hd_node` ORDER BY sort  [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019431s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001250s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002098s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001508s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006482s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000920s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2015-10-05T19:00:27+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000978s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011032s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000679s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000609s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000489s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002676s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000720s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2015-10-05T19:00:31+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001319s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.021769s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000437s ]
+SQL: UPDATE `hd_user` SET `logintime`=1444042831,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.000348s ]
+NOTIC: [8] Undefined index: uid D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Library\ORG\Util\RBAC.class.php 第 91 行.
+
+[ 2015-10-05T19:00:31+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009689s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000763s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000709s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000501s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003149s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001219s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2015-10-05T19:00:33+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Rbac/role
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `hd_role` [ RunTime:0.012402s ]
+SQL: SELECT * FROM `hd_role`  [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012017s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000719s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000701s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002999s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2015-10-05T19:00:33+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Rbac/addRole
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001043s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020189s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000882s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000582s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002924s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000832s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2015-10-05T19:01:02+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.104944s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000682s ]
+SQL: UPDATE `hd_user` SET `logintime`=1444042862,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.000831s ]
+NOTIC: [8] Undefined index: uid D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Library\ORG\Util\RBAC.class.php 第 91 行.
+
+[ 2015-10-05T19:01:02+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000633s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014191s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000474s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000498s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002118s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2015-10-05T19:01:02+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003585s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003815s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025918s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000723s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000452s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002403s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000796s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2015-10-05T19:01:04+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Rbac/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000629s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.021688s ]
+SQL: SELECT `id`,`username`,`logintime`,`loginip`,`lock` FROM `hd_user`  [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `hd_role` [ RunTime:0.036174s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.059754s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='2' [ RunTime:0.000424s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='3' [ RunTime:0.000355s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='4' [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010257s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000673s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000513s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002484s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2015-10-05T19:01:06+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Rbac/addUser
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `hd_role` [ RunTime:0.013984s ]
+SQL: SELECT * FROM `hd_role`  [ RunTime:0.000363s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016100s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000453s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000534s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002011s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000670s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2015-10-05T19:01:07+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Rbac/role
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `hd_role` [ RunTime:0.015498s ]
+SQL: SELECT * FROM `hd_role`  [ RunTime:0.000416s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010044s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000532s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000467s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002234s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000856s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2015-10-05T19:01:10+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000712s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009803s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000449s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000385s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001856s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000654s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2015-10-05T19:01:10+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Rbac/addNode
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000656s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075604s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000405s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000366s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001761s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2015-10-05T19:08:46+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010143s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000503s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000437s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002078s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000615s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2015-10-05T19:08:48+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Rbac/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.020047s ]
+SQL: SELECT `id`,`username`,`logintime`,`loginip`,`lock` FROM `hd_user`  [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `hd_role` [ RunTime:0.013344s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.000532s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='2' [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='3' [ RunTime:0.000376s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='4' [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011812s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000387s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000389s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001749s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000510s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2015-10-05T19:09:03+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000658s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010342s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000759s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000616s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002813s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000563s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2015-10-05T19:09:03+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000648s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008290s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000599s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002519s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005362s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000681s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2015-10-05T19:09:05+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Rbac/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000618s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.015772s ]
+SQL: SELECT `id`,`username`,`logintime`,`loginip`,`lock` FROM `hd_user`  [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `hd_role` [ RunTime:0.011381s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.000419s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='2' [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='3' [ RunTime:0.000394s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='4' [ RunTime:0.000478s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010675s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000413s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000417s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000276s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001819s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2015-10-05T19:09:05+08:00 ] 127.0.0.1 /wish3/index.php/Admin/Rbac/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000630s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.014773s ]
+SQL: SELECT `id`,`username`,`logintime`,`loginip`,`lock` FROM `hd_user`  [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `hd_role` [ RunTime:0.007929s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='1' [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='2' [ RunTime:0.000346s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='3' [ RunTime:0.000339s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_foreign_key D:\JWroom\wamp\www\myphp\wish3\ThinkPHP\Extend\Model\RelationModel.class.php 第 190 行.
+SQL: SELECT b.id, name, remark FROM hd_role_user AS a, hd_role AS b WHERE a.role_id = b.id AND a. user_id='4' [ RunTime:0.000366s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013436s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000417s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000276s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002053s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000522s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000601s ]
+

@@ -1,0 +1,35 @@
+function chk(){
+	if(document.form2.username.value==""){
+	alert('用户名不允许为空');
+	return false;
+	}
+	if(document.form2.pwd.value==""){
+	alert('密码不允许为空');
+	return false;
+	}
+	if(document.form2.rpwd.value==""){
+	alert('确认密码不允许为空');
+	return false;
+	}
+	if(document.form2.pwd.value!=document.form2.rpwd.value){
+	alert('两次输入密码不相同，请重新输入');
+	return false;
+	}
+	if(document.form2.direction.value==""){
+	alert('密保问题不允许为空');
+	return false;
+	}
+	if(document.form2.time.value==""){
+	alert('密保答案不允许为空');
+	return false;
+	}
+	if(document.form2.work.value==""){
+	alert('邮箱不允许为空');
+	return false;
+	}
+	if(document.form2.qq.value==""){
+	alert('真实姓名不允许为空');
+	return false;
+	}
+return true;
+}

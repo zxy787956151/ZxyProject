@@ -1,0 +1,71 @@
+<include file="Common:header"/>
+<include file="Common:nav"/>
+<div id="room">
+	<div class="pic">
+    	<img src="__PUBLIC__/Images/beihua.jpg" />
+        <h3>经纬工作室吧</h3>
+    </div>
+	<div class="nav">
+    	<ul>
+        	  <li><a href="#">看帖</a></li>
+            <li><a href="#">图片</a></li>
+            <li><a href="#">精品</a></li>
+            <li><a href="#">视频</a></li>
+            <li><a href="#">玩乐</a></li>
+        </ul>
+    </div>
+    <div class="tip">
+        <div class="tip_right"><a href="#">&lt;返回经纬吧</a></div>
+    </div>
+    <div id="answer1">
+    	<hr>
+    	<foreach name="forum" item="v">
+        <table width="780px" border="0" height="80px">
+           <tr height="40px">
+           	   <th style="width:60px;background:gray;border:1px">1</th>
+           	   <th width="500px" align="left">&nbsp;&nbsp;&nbsp;<a href="{:U('/'.$v['id'])}" target='_blank'>{$v.title}</a></th>
+           	   <th><img src="__PUBLIC__/Images/ren.jpg"/>{$v.louzhu}</th>
+           </tr>
+           <tr>
+           	   <td>&nbsp;</td>
+           	   <td align="left">&nbsp;&nbsp;&nbsp;{$v.content}</td>
+           	   <td>{$v.time|date='H:i',###}</td>
+           </tr>
+        </table>
+        <hr>
+        </foreach>
+    </div>
+    <div class="item">
+         <p>
+            <div id="answerNum"></div>
+            <div id="title"></div>
+            <div id="louzhu"></div>
+         </p>
+         <p>
+         	<div id="content"></div>
+         	<div id="time"></div>
+         </p>
+    </div>
+</div>
+    <div class="tip tip_btm">
+        <p class="tip_right"><a href="#">&lt;返回经纬吧&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><span>经纬发贴：共<a>{$count}</a>个帖子</sapan></p>
+    </div>
+    <div class="comment">
+    	<div class="say">
+            <div class="comment_left">
+                发表新帖|发起投票
+            </div>
+            <div class="comment_right">
+                发帖请遵守<a href="#">贴吧协议及“七条底线”</a><a href="#">贴吧投诉</a>
+            </div>
+        </div>
+        <div>
+          <form action="{:U(GROUP_NAME.'/Forum/runaddforum')}" method="POST">
+          	<input type="text" class="text" name=" title" size="113px" value="请填写标题"/><br>
+        	<a name="qwe"><textarea class="text" name="content"></textarea></a>
+        	<p class="btn2"><input type="submit" value="发表" class="btn_left"/>
+            <input type="button" value="保存至快速回帖" class="btn_right"/></p>
+          </form>
+        </div>
+    </div>
+<include file="Common:bottom"/>

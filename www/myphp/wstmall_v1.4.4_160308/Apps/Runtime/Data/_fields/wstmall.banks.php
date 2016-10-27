@@ -1,0 +1,1 @@
+a:5:{i:0;s:6:"bankId";i:1;s:8:"bankName";i:2;s:8:"bankFlag";s:3:"_pk";s:6:"bankId";s:5:"_type";a:3:{s:6:"bankId";s:7:"int(11)";s:8:"bankName";s:11:"varchar(50)";s:8:"bankFlag";s:10:"tinyint(4)";}}

@@ -1,0 +1,85 @@
+<include file="./Web/Tpl/default/head_inner.html"/>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" language="javascript" src="__PUBLIC__/js/jsAddress.js"></script>
+<script>
+$(document).ready(function() {
+	addressInit('province', 'city', 'area','{$uinfo.province}','{$uinfo.city}','{$uinfo.area}');});
+                                    </script>
+<style>
+label.valid {
+		  width: 24px;
+		  height: 24px;
+		  background: url(__PUBLIC__/image/valid.png) center center no-repeat;
+		  display: inline-block;
+		  text-indent: -9999px;
+		}
+		label.error {
+			font-weight: bold;
+			color: red;
+			padding: 2px 8px;
+			margin-top: 2px;
+		}
+</style>
+<div id='body'>
+<div class="inner" style="width:980px;">
+<div class="right" style="width:100%;">
+<div class="Position"><span>你的位置：<a href="/">首页</a>&nbsp;&gt;&nbsp;用户下单</span></div>
+<div class="HeightTab clearfix"></div>
+<div class="main">
+<form action="{:U('Member/dobuy')}" method="post" name="form1">
+<div class="panel panel-danger">
+  <div class="panel-heading">订单列表</div>
+  <div class="panel-body">
+    <table class="table table-bordered">
+<tr><td width="80" align="center">编号</td>
+  <td colspan="2">名称</td><td align="center">型号</td>
+  <td width="100" align="center">数量</td>
+  <td width="100" align="center">单价</td>
+  <td width="100" align="center">小计</td></tr>
+  <php>$total_fee=0;</php>
+<volist name="list" id="vo">
+<neq name="vo.name" value="">
+<tr><td align="center" valign="middle">{$vo.id}<input name="id[]" type="hidden" value="{$vo.id}" /></td>
+<td width="82" align="center" valign="middle"><img src="{$vo.pic}" width="20" height="20" /><input name="pic[]" type="hidden" value="{$vo.pic}" /></td>
+<td align="left" valign="middle">{$vo.name}<input name="name[]" type="hidden" value="{$vo.name}" /></td>
+<td align="center" valign="middle">{$vo.gtype}<input name="gtype[]" type="hidden" value="{$vo.gtype}" /></td>
+<td align="center" valign="middle">{$vo.qty}<input name="qty[]" type="hidden" value="{$vo.qty}" /></td>
+<td align="center" valign="middle">{$vo.price}<input name="price[]" type="hidden" value="{$vo.price}" /></td>
+<td align="center" valign="middle"><php>$total_fee += ($vo[qty]*$vo[price])*1; echo $vo[qty]*$vo[price];</php></td></tr></neq>
+</volist>
+</table>
+</div>
+  </div>
+  
+ <div class="panel panel-default">
+  <div class="panel-heading">送货地址(可修改)</div>
+  <div class="panel-body">
+    <table class="table table-bordered">
+<tr><td width="80" align="center">姓名</td>
+  <td align="center" width="90" >手机</td><td align="center" width="260">区域</td>
+  <td  align="center">详细地址</td>
+   <td width="100" align="center">付款方式</td>
+ </tr>
+  
+<tr><td align="center" valign="middle" width="50"><input type="text" name="realname" value="{$uinfo.realname}" class="dline" style="width:50px; text-align:center;" /></td>
+<td width="88" align="center" valign="middle"><input type="text" name="tel" value="{$uinfo.tel}" class="dline" style="width:88px;" /></td>
+  <td align="left" valign="middle" width="260"><select  name="province" id="province"  ></select><select  name="city" id="city"></select><select  name="area" id="area" ></select></td>
+  <td align="center" valign="middle"><input type="text" value="{$uinfo.address}" name="address" class="dline" style=" width:337px;" /></td>
+  <td align="center" valign="middle"><select name="trade_type">
+  <php>$trade_type = C('TRADE_TYPE');</php>
+  <volist name='trade_type' id="vo" key='k'>
+  <option value="{$k}">{$vo}</option>
+  </volist>
+  </select></td>
+ </tr>
+</table>
+</div>
+  </div>
+  <div style="text-align:right">合计：<font style="color:#F00; font-size:14px; font-weight:bold;">{$total_fee}</font>元&nbsp;&nbsp;&nbsp;&nbsp;
+  <input name="iscart" type="hidden" value="{$_REQUEST['iscart']}" /><input type="submit" class="btn btn-danger" value="提交订单" /><br><br>
+  </form>
+</div>
+</div>
+</div>
+</div>
+<include file="$footer"/>

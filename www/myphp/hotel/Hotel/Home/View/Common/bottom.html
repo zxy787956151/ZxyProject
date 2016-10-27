@@ -1,0 +1,43 @@
+<div class="bottom_box"><p>
+	<a href="#" onclick="setHome(this,'http://www.pageadmin.net')">设为首页</a> | <a href="javascript:AddFavorite(location.href,'网站名称')">加入收藏</a> | <a href="#">留言反馈</a>&nbsp;|&nbsp;<a href="#">人才招聘</a>&nbsp;| <a href="#">联系我们</a>&nbsp;<br />
+<span class="STYLE6">广东省中山市华拓网络版权所有&nbsp;Copyright <span style="font-family:Arial;">&copy;</span> 2008-2012</span>&nbsp;&nbsp;ICP备案号:粤ICP备xxxxxxxx号
+</p>
+<script type="text/javascript">
+function AddFavorite(sURL, sTitle)
+{
+    try
+    {
+		if( typeof(sURL) =="undefined" || sURL.length==0) { sURL=window.location; }
+		if( typeof(sTitle) =="undefined" || sTitle.length==0) { sTitle=document.title; } 
+        window.external.addFavorite(sURL, sTitle);
+    }
+    catch (e)
+    {
+        try
+        {
+            window.sidebar.addPanel(sTitle, sURL, "");
+        }
+        catch (e)
+        {
+            alert("您使用的浏览器不支持此功能，请按“Ctrl + D”键手工加入收藏!");
+        }
+    }
+}
+function setHome(objid,urls) {
+	var a = objid, b = urls, c = "unknown"; 
+	try {
+	    if( typeof(b) =="undefined" || b.length==0) { b=location.href; }		
+		a.style.behavior = "url(#default#homepage)";
+		var d = a.isHomePage(b);
+		d = (d = d || a.isHomePage(b + "/")) || a.isHomePage(b + "/#");
+		d = "" + d;
+	   if (d != "true"){
+			a.setHomePage(b);
+	   }else{
+			alert("您已经设为首页了!");
+	   }
+	} catch (e) {
+		alert("您的浏览器不支持自动设置主页，请使用浏览器菜单手动设置!");
+	}
+};
+</script></div></div></body>

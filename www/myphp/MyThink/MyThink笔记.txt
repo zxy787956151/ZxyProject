@@ -1,0 +1,63 @@
+﻿※去掉地址栏里面的index.php需要配置apache，打开httped.php,
+找到mod_rewrite.so,去掉前面的#,然后把AllowOverride none改为AllowOverride ALL,
+最后在项目根目录下新建.htaccess文件
+
+1.配置thinkphp
+
+	解压-同级index.php写配置-运行index.php
+		define('APP_NAME', 'APP');
+
+		define('APP_PATH', './APP/');
+
+		define('APP_DEBUG', TRUE);
+
+		include './ThinkPHP/ThinkPHP.php';
+
+	-就多了个APP-APP里创建关联模型文件夹Modules-Modules里分前后台
+	-控制器,配置,模板文件夹
+	-APP-Conf
+		'APP_GROUP_LIST' => 'Index,Admin',
+
+		'DEFAULT_GROUP' => 'Index',
+
+		'APP_GROUP_MODE' => 1,//为1开启独立分组
+
+		'APP_GROUP_PATH' => 'Modules',
+
+
+		'LOAD_EXT_CONFIG' => 'verify',//加载verify函数
+
+		//配置数据库
+		'DB_HOST' => '127.0.0.1',
+		'DB_USER' => 'root',
+		'DB_PWD' => '',
+		'DB_NAME' => 'blog',
+		'DB_PREFIX' => 'hd_',
+
+		// 'SHOW_PAGE_TRACE' => true,//开启显示调试模式
+
+
+
+2.开写
+	-Admin里Action,Conf			※无Tpl
+
+	-Action-LoginAction.class.-index(),login()-Admin-Tpl-Login-index.html
+
+	-把用户的数据库创了!!,创完该配置项
+
+	-Modules-Conf-config.php-Admin-Tpl-Style-__STYLE__=>__ROOT__.'/'.APP_NAME.'/Modules/'.GROUP_NAME.'/Tpl/Style'[这些为think系统参数]
+
+	//-verify模板不带就先不写了-APP-Conf-verify.php-把后台登录界面的验证码配置喽
+
+	-Action-LoginAction.class.-login()-开始判断非URL登录,登录验证-改form,input
+
+	-根下的Lib-Action-CommonAction.class.-写函数_initialize[所有继承这个类的函数都先执行这个函数]-
+	判断是否有uid以防不经登录进后台!-Login  extends  CommonAction
+
+	-前台
+
+	-修改密码-Index/index-+update&da_update
+	-Admin/Tpl/Index/update.html
+	-退出-out()-
+
+	-后台-菜单管理-数据库建表(※注意表前缀think_)[索引(主键)id int unsigned not null primary key auto_increment,]

@@ -1,0 +1,27 @@
+[ 2015-09-29T18:57:58+08:00 ] 127.0.0.1 /think/index.php/Admin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009481s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009682s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006563s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-09-29T18:58:17+08:00 ] 127.0.0.1 /think/index.php/Admin/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001409s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-09-29T18:58:25+08:00 ] 127.0.0.1 /think/index.php/Admin/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000920s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+ERR: 无法加载模块:Admin
+

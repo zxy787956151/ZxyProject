@@ -1,0 +1,7 @@
+/*guestbook css  produced by i@追影 QQ:279197963.info*/
+#content{background:url(bg2010.gif) repeat-x 0 -742px;height:auto;border:#d4d4d4 1px solid;margin-bottom:8px;text-align:left;}
+#content h6{background:url(bg2010.gif) no-repeat 4px -350px;padding:8px 0 4px 35px;border-bottom:1px solid #d4d4d4;font-size:14px;color:#333;font-weight: bold;}
+#content hr{width:95%;}
+.guestbook_note{margin:10px;}
+.guestbook_note span{float:right;}
+.reply{color:red;font-weight:bold;}

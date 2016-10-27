@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>document</title>
+<css file='__PUBLIC__/Css/public.css'/>
+</head>
+<body>
+	<table id="table" border='1'>
+        <tr>
+           <th width='5%'>ID</th>
+           <th>标题</th>
+           <th>所属分类</th>
+           <th>点击次数</th>
+           <th>发布时间</th>
+           <th>发布人</th>
+           <th>操作</th>
+        </tr>
+        <foreach name="advice" item="v">
+        <tr>
+          <td>{$v.id}</td>
+          <td>{$v.title}<foreach name="v.attr" item="value"><strong style="color:{$value.color};padding:0 5px;">[{$value.name}]</strong></foreach>
+          </td>
+          <td width='10%'>{$v.direction}</td>
+          <td width='10%'>{$v.click}</td>
+          <td width='15%'>{$v.time|date='y-m-d H:i',###}</td>
+          <td width='10%'>{$v.xzname}</td>
+          <td width='20%'>    
+            <if condition='ACTION_NAME eq "index"'>
+               <a href="">[修改]</a>
+               <a href="{:U(GROUP_NAME.'/Advice/toTrach',array('id'=>$v['id'],'type'=>1))}">[删除]</a>
+            <else/>
+               <a href="{:U(GROUP_NAME.'/Advice/toTrach',array('id'=>$v['id'],'type'=>0))}">[还原]</a>
+               <a href="{:U(GROUP_NAME.'/Advice/delete',array('id'=>$v['id']))}">[彻底删除]</a>
+            </if>
+          </td>
+        </tr>
+        </foreach>
+        <if condition='ACTION_NAME eq "index"'>
+            <tr></tr>
+        <else/>
+            <tr><td colspan='6' align="center"><a href="{:U(GROUP_NAME.'/Advice/clear',array('type'=>1))}"><input type="button" value="清空回收站"/></a></td>
+            </tr>
+        </if>
+	</table>
+</body>
+</html>

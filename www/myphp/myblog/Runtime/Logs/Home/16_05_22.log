@@ -1,0 +1,1558 @@
+[ 2016-05-22T08:31:32+08:00 ] 127.0.0.1 /myblog/about/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [2048] Declaration of Home\Widget\ShowWidget::show() should be compatible with that of Think\Controller::show() G:\wamp\wamp\www\text\myblog\Myblog\Home\Widget\ShowWidget.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `mb_blog` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`title` FROM `mb_blog`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020941s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008022s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.026113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002639s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003233s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2016-05-22T08:31:34+08:00 ] 127.0.0.1 /myblog/about/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [2048] Declaration of Home\Widget\ShowWidget::show() should be compatible with that of Think\Controller::show() G:\wamp\wamp\www\text\myblog\Myblog\Home\Widget\ShowWidget.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `mb_blog` [ RunTime:0.0046s ]
+SQL: SELECT `id`,`title` FROM `mb_blog`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.019668s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007368s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.024515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002355s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002709s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-05-22T08:31:47+08:00 ] 127.0.0.1 /myblog/about/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [2048] Declaration of Home\Widget\ShowWidget::show() should be compatible with that of Think\Controller::show() G:\wamp\wamp\www\text\myblog\Myblog\Home\Widget\ShowWidget.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `mb_blog` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title` FROM `mb_blog`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018888s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007469s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.023933s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002339s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018846s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002696s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2016-05-22T08:31:49+08:00 ] 127.0.0.1 /myblog/about/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [2048] Declaration of Home\Widget\ShowWidget::show() should be compatible with that of Think\Controller::show() G:\wamp\wamp\www\text\myblog\Myblog\Home\Widget\ShowWidget.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005551s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `mb_blog` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`title` FROM `mb_blog`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.019796s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007985s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014704s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.024846s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002565s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018575s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002950s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.018933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2016-05-22T08:31:49+08:00 ] 127.0.0.1 /myblog/about/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [2048] Declaration of Home\Widget\ShowWidget::show() should be compatible with that of Think\Controller::show() G:\wamp\wamp\www\text\myblog\Myblog\Home\Widget\ShowWidget.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `mb_blog` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`title` FROM `mb_blog`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020888s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008413s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016815s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.027116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002606s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.018880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.021069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002998s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.018880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.021433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2016-05-22T08:31:51+08:00 ] 127.0.0.1 /myblog/diary/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mb_public` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 3 ORDER BY time DESC LIMIT 0,2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [2048] Declaration of Home\Widget\ShowWidget::show() should be compatible with that of Think\Controller::show() G:\wamp\wamp\www\text\myblog\Myblog\Home\Widget\ShowWidget.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004686s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `mb_blog` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`title` FROM `mb_blog`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020511s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008191s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.016753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.025961s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002543s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.018479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020663s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002949s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.018479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.021041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-05-22T08:31:53+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+ERR: 无法加载缓存类型:127.0.0.1
+
+[ 2016-05-22T08:31:53+08:00 ] 127.0.0.1 /myblog/talk/Public/Error/css/404.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+ERR: 非法操作:Public
+
+[ 2016-05-22T08:31:53+08:00 ] 127.0.0.1 /myblog/talk/Public/Error/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+ERR: 非法操作:Public
+
+[ 2016-05-22T08:31:53+08:00 ] 127.0.0.1 /myblog/talk/Public/Error/images/yun1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+
+[ 2016-05-22T08:31:53+08:00 ] 127.0.0.1 /myblog/talk/Public/Error/images/yun0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+
+[ 2016-05-22T08:31:53+08:00 ] 127.0.0.1 /myblog/talk/Public/Error/images/bird.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+
+[ 2016-05-22T08:31:53+08:00 ] 127.0.0.1 /myblog/talk/Public/Error/images/yun2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+
+[ 2016-05-22T08:31:54+08:00 ] 127.0.0.1 /myblog/talk/Public/Error/images/san.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-05-22T08:32:01+08:00 ] 127.0.0.1 /myblog/diary/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mb_public` WHERE `cid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 3 ORDER BY time DESC LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [2048] Declaration of Home\Widget\ShowWidget::show() should be compatible with that of Think\Controller::show() G:\wamp\wamp\www\text\myblog\Myblog\Home\Widget\ShowWidget.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `mb_blog` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title` FROM `mb_blog`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007822s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015166s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.025280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002486s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019018s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002826s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2016-05-22T08:32:02+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+ERR: 无法加载缓存类型:127.0.0.1
+
+[ 2016-05-22T08:32:02+08:00 ] 127.0.0.1 /myblog/talk/Public/Error/js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+ERR: 非法操作:Public
+
+[ 2016-05-22T08:32:03+08:00 ] 127.0.0.1 /myblog/talk/Public/Error/css/404.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+ERR: 非法操作:Public
+
+[ 2016-05-22T08:32:03+08:00 ] 127.0.0.1 /myblog/talk/Public/Error/images/yun0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+
+[ 2016-05-22T08:32:03+08:00 ] 127.0.0.1 /myblog/talk/Public/Error/images/yun1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+
+[ 2016-05-22T08:32:03+08:00 ] 127.0.0.1 /myblog/talk/Public/Error/images/san.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+
+[ 2016-05-22T08:32:03+08:00 ] 127.0.0.1 /myblog/talk/Public/Error/images/bird.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000428s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001514s ]
+
+[ 2016-05-22T08:32:03+08:00 ] 127.0.0.1 /myblog/talk/Public/Error/images/yun2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001574s ]
+
+[ 2016-05-22T08:32:24+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: key G:\wamp\wamp\www\text\myblog\Myblog\Home\Controller\TalkController.class.php 第 12 行.
+NOTIC: [2] Memcache::add() [<a href='memcache.add'>memcache.add</a>]: Key cannot be empty G:\wamp\wamp\www\text\myblog\ThinkPHP\Library\Think\Cache.class.php 第 121 行.
+
+[ 2016-05-22T08:32:26+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: key G:\wamp\wamp\www\text\myblog\Myblog\Home\Controller\TalkController.class.php 第 12 行.
+NOTIC: [2] Memcache::add() [<a href='memcache.add'>memcache.add</a>]: Key cannot be empty G:\wamp\wamp\www\text\myblog\ThinkPHP\Library\Think\Cache.class.php 第 121 行.
+
+[ 2016-05-22T08:35:54+08:00 ] 127.0.0.1 /myblog/about/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+NOTIC: [2048] Declaration of Home\Widget\ShowWidget::show() should be compatible with that of Think\Controller::show() G:\wamp\wamp\www\text\myblog\Myblog\Home\Widget\ShowWidget.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `mb_blog` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`title` FROM `mb_blog`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007873s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.025643s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002511s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019416s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002917s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2016-05-22T08:35:55+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: key G:\wamp\wamp\www\text\myblog\Myblog\Home\Controller\TalkController.class.php 第 12 行.
+NOTIC: [2] Memcache::add() [<a href='memcache.add'>memcache.add</a>]: Key cannot be empty G:\wamp\wamp\www\text\myblog\ThinkPHP\Library\Think\Cache.class.php 第 121 行.
+
+[ 2016-05-22T08:40:12+08:00 ] 127.0.0.1 /myblog/about/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [2048] Declaration of Home\Widget\ShowWidget::show() should be compatible with that of Think\Controller::show() G:\wamp\wamp\www\text\myblog\Myblog\Home\Widget\ShowWidget.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `mb_blog` [ RunTime:0.0051s ]
+SQL: SELECT `id`,`title` FROM `mb_blog`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.020761s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008376s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015829s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.025829s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002708s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019983s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003285s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2016-05-22T08:40:14+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+
+[ 2016-05-22T08:47:35+08:00 ] 127.0.0.1 /myblog/about/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [2048] Declaration of Home\Widget\ShowWidget::show() should be compatible with that of Think\Controller::show() G:\wamp\wamp\www\text\myblog\Myblog\Home\Widget\ShowWidget.class.php 第 9 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `mb_blog` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`title` FROM `mb_blog`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.019497s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007814s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.007750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.024834s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002715s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003463s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2016-05-22T08:47:37+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0056s ]
+
+[ 2016-05-22T08:48:26+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: id G:\wamp\wamp\www\text\myblog\Myblog\Home\Controller\TalkController.class.php 第 11 行.
+SQL: SELECT * FROM `mb_public` WHERE `cid` = null  [ RunTime:0.0375s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-05-22T08:48:29+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2016-05-22T08:48:31+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined variable: id G:\wamp\wamp\www\text\myblog\Myblog\Home\Controller\TalkController.class.php 第 11 行.
+SQL: SELECT * FROM `mb_public` WHERE `cid` = null  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2016-05-22T08:48:32+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-05-22T08:48:33+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined variable: id G:\wamp\wamp\www\text\myblog\Myblog\Home\Controller\TalkController.class.php 第 11 行.
+SQL: SELECT * FROM `mb_public` WHERE `cid` = null  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2016-05-22T08:48:34+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2016-05-22T08:48:34+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: id G:\wamp\wamp\www\text\myblog\Myblog\Home\Controller\TalkController.class.php 第 11 行.
+SQL: SELECT * FROM `mb_public` WHERE `cid` = null  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-05-22T08:48:35+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-05-22T08:48:37+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: id G:\wamp\wamp\www\text\myblog\Myblog\Home\Controller\TalkController.class.php 第 11 行.
+SQL: SELECT * FROM `mb_public` WHERE `cid` = null  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2016-05-22T08:48:37+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2016-05-22T08:49:06+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-22T08:49:07+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2016-05-22T08:49:09+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2016-05-22T08:49:09+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2016-05-22T08:49:10+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2016-05-22T08:49:11+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2016-05-22T08:49:11+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2016-05-22T08:49:12+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2016-05-22T08:49:12+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2016-05-22T08:49:13+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2016-05-22T08:49:14+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2016-05-22T08:49:14+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-05-22T08:49:15+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2016-05-22T08:49:38+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2016-05-22T08:49:39+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2016-05-22T08:49:44+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2016-05-22T08:49:45+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2016-05-22T08:49:46+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2016-05-22T08:49:47+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2016-05-22T08:49:47+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2016-05-22T08:49:48+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2016-05-22T08:49:49+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2016-05-22T08:49:57+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `mb_public`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2016-05-22T08:50:13+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `mb_public`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001305s ]
+
+[ 2016-05-22T08:50:39+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `mb_public`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2016-05-22T08:51:01+08:00 ] 127.0.0.1 /myblog/talk/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `mb_public` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `mb_public`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `mb_public` WHERE `cid` = 2  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mb_cate` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `mb_cate` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+

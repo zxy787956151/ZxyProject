@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>链接申请</title>
+<style> 
+body {margin:0;padding:0;}
+body,td {font-size:12px;}
+</style>
+</head>
+<body>
+<script language=javascript> 
+function CheckForm()
+{ 
+  if (document.myform.Title.value==""){
+	alert("请填写网站名称！");
+	document.myform.Title.focus();
+	return false;
+  }
+  if (document.myform.LinkUrl.value==""){
+	alert("请填写网址！");
+	document.myform.LinkUrl.focus();
+	return false;
+  }
+}
+</script>
+<form onSubmit="return CheckForm();" id="myform" name="myform" method="post" action="{:U('index/doreglink');}">
+  <table width="266" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:20px;">
+    <tr>
+      <td width="28%" height="30" align="right">网站名称：</td>
+      <td width="72%" align="center"><input name="Title" type="text" id="Title" /></td>
+    </tr>
+    <tr>
+      <td height="30" align="right">网站地址：</td>
+      <td align="center"><input type="text" name="LinkUrl" id="LinkUrl" /></td>
+    </tr>
+    <tr>
+      <td height="30" align="right">Logo地址：</td>
+      <td align="center"><input type="text" name="LogoUrl" id="LogoUrl" /></td>
+    </tr>
+    <tr>
+      <td height="30">&nbsp;</td>
+      <td align="left" style="padding-left:20px;"><input type="submit" name="button" id="button" value="申请" /></td>
+    </tr>
+  </table>
+</form>
+ 
+</body>
+</html>

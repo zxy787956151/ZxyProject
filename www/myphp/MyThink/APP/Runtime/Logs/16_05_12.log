@@ -1,0 +1,188 @@
+[ 2016-05-12T11:37:11+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+SQL: SHOW COLUMNS FROM `think_move` [ RunTime:0.051103s ]
+SQL: SELECT * FROM `think_move`  [ RunTime:0.000882s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033073s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000797s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000779s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003325s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000877s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-05-12T11:37:15+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+
+[ 2016-05-12T11:37:15+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022928s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000614s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000571s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000490s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002477s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000701s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2016-05-12T11:37:15+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000719s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+ERR: 非法操作:js
+
+[ 2016-05-12T11:37:18+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.044890s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.000919s ]
+SQL: UPDATE `think_user` SET `logintime`=1463024238,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.058834s ]
+
+[ 2016-05-12T11:37:18+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001079s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018444s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000835s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000852s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000708s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003553s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000974s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-05-12T11:37:20+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Menu/addMenu
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000773s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024167s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000619s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000666s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000520s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002684s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000947s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-05-12T11:37:21+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Menu/logo
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030108s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000614s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000619s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000509s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002596s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000734s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2016-05-12T11:37:52+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Menu/logo
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000743s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005887s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000597s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000587s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000486s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002470s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-05-12T11:38:04+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Menu/upfile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000776s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [2] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: File exists E:\wamp\www\myphp\MyThink\APP\Modules\Admin\Action\MenuAction.class.php 第 68 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013798s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000458s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000470s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000385s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002017s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000570s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-05-12T11:38:06+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Menu/logo
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001167s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004640s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000405s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000388s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000242s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001759s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000428s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000493s ]
+

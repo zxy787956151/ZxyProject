@@ -1,0 +1,6 @@
+[ 2016-05-23T14:03:18+08:00 ] 127.0.0.1 /myblog/Admin/head.html
+ERR: 无法加载控制器:Head
+
+[ 2016-05-23T14:03:18+08:00 ] 127.0.0.1 /myblog/Admin/center.html
+ERR: 无法加载控制器:Center
+

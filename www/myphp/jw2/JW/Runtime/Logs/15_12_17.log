@@ -1,0 +1,82 @@
+[ 2015-12-17T18:51:21+08:00 ] 127.0.0.1 /jw2/c_1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000768s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.002767s ]
+SQL: SELECT * FROM `jw_forum`  [ RunTime:0.000265s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jw_forum` LIMIT 1   [ RunTime:0.000168s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant php - assumed 'php' E:\wamp\www\text\jw2\JW\Runtime\Cache\Index\7cb71b68c154dc0d61802663b70af762.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010055s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000512s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000453s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001995s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000544s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2015-12-17T18:51:23+08:00 ] 127.0.0.1 /jw2/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000762s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.002640s ]
+SQL: SELECT * FROM `jw_forum` WHERE ( `id` = 1 )  [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `jw_answer` [ RunTime:0.002182s ]
+SQL: SELECT * FROM `jw_answer` WHERE ( `forum_id` = 1 )  [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `jw_user` [ RunTime:0.002324s ]
+SQL: SELECT * FROM `jw_user` WHERE ( `id` = 1 )  [ RunTime:0.000239s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant php - assumed 'php' E:\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 28 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 85 行.
+NOTIC: [8] Undefined index: pic E:\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 136 行.
+NOTIC: [8] Undefined index: pic E:\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 136 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015048s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000623s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000469s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002074s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000735s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2015-12-17T18:51:35+08:00 ] 127.0.0.1 /jw2/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.003885s ]
+SQL: SELECT * FROM `jw_forum` WHERE ( `id` = 2 )  [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `jw_answer` [ RunTime:0.002761s ]
+SQL: SELECT * FROM `jw_answer` WHERE ( `forum_id` = 2 )  [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `jw_user` [ RunTime:0.002169s ]
+SQL: SELECT * FROM `jw_user` WHERE ( `id` = 2 )  [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant php - assumed 'php' E:\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 28 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 85 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013484s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000559s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000746s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002829s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000567s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000624s ]
+

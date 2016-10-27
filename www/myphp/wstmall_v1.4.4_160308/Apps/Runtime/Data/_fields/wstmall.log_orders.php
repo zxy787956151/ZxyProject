@@ -1,0 +1,1 @@
+a:8:{i:0;s:5:"logId";i:1;s:7:"orderId";i:2;s:10:"logContent";i:3;s:9:"logUserId";i:4;s:7:"logType";i:5;s:7:"logTime";s:3:"_pk";s:5:"logId";s:5:"_type";a:6:{s:5:"logId";s:7:"int(11)";s:7:"orderId";s:7:"int(11)";s:10:"logContent";s:12:"varchar(255)";s:9:"logUserId";s:7:"int(11)";s:7:"logType";s:10:"tinyint(4)";s:7:"logTime";s:8:"datetime";}}

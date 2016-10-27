@@ -1,0 +1,3 @@
+<?php
+//000031536000a:9:{i:0;a:2:{s:11:"communityId";s:2:"15";s:13:"communityName";s:18:"五山岑村社区";}i:1;a:2:{s:11:"communityId";s:2:"16";s:13:"communityName";s:24:"华南农业大学社区";}i:2;a:2:{s:11:"communityId";s:2:"17";s:13:"communityName";s:24:"华南理工大学社区";}i:3;a:2:{s:11:"communityId";s:2:"18";s:13:"communityName";s:18:"暨南大学社区";}i:4;a:2:{s:11:"communityId";s:2:"19";s:13:"communityName";s:24:"华南师范大学社区";}i:5;a:2:{s:11:"communityId";s:2:"21";s:13:"communityName";s:12:"岗顶社区";}i:6;a:2:{s:11:"communityId";s:2:"22";s:13:"communityName";s:12:"五羊新村";}i:7;a:2:{s:11:"communityId";s:2:"23";s:13:"communityName";s:18:"天河体育中心";}i:8;a:2:{s:11:"communityId";s:2:"20";s:13:"communityName";s:15:"石牌桥社区";}}
+?>

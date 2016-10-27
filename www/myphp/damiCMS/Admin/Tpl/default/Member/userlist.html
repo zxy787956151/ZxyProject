@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>网站后台管理</title>
+<link href="__PUBLIC__/Admin/images/Admin_css.css" type=text/css rel=stylesheet>
+<link rel="shortcut icon" href="__PUBLIC__/Admin/images/myfav.ico" type="image/x-icon" />
+<import file= "Admin.setdate.WdatePicker,Admin.js.admin,Admin.js.Ajax,Admin.js.Jquery"/> 
+</head>
+<body>
+<table border="0" cellspacing="2" cellpadding="3"  align="center" class="admintable" style="width:98%;margin-bottom:5px;">
+    <tr>
+      <td width="6%" height="25" bgcolor="f7f7f7">快速查找：      </td>
+      <td width="93%" align="left" valign="top" bgcolor="f7f7f7">
+	  <form name="form1" method="POST" action="{:U('Member/userlist')}">
+	    &nbsp;关键字:&nbsp;
+        <input name="keyword" type="text" id="keyword" value="" class="s26">
+        <input type="submit" class="btn btn-danger btn-sm" value="搜索">&nbsp;
+		<a class="btn btn-success btn-sm active" href="{:U('Member/goexcel')}">导出EXCEL</a>&nbsp;<a class="btn btn-success btn-sm active" href="{:U('Member/send_mail')}">邮件群发</a>			
+      </form></td>
+      <td width="1%" align="right" bgcolor="f7f7f7"></td>
+    </tr>
+</table>
+<div class="main_center">
+<table width="95%" border="0"  align=center cellpadding="3" cellspacing="1" bgcolor="#F2F9E8" class="table table-bordered">
+<tr> 
+<td colspan="7" align=left class="admintitle">会员列表</td></tr>
+    <tr bgcolor="#f1f3f5" style="font-weight:bold;">
+    <td width="10%" height="30" align="center" class="ButtonList">编号</td>
+    <td width="10%" align="center" class="ButtonList">用户名</td>
+    <td width="25%" align="center" class="ButtonList">联系方式</td>
+	<td width="5%" align="center" class="ButtonList">注册日期</td>
+	<td width="10%" align="center" class="ButtonList">联系电话</td>
+    <td width="25%" height="25" align="center" class="ButtonList">地址</td>  
+    <td width="15%" height="25" align="center" class="ButtonList">操作</td>      
+    </tr>
+	<volist name="list" id="vo"> 
+    <tr bgcolor="#ffffff" onMouseOver="this.style.backgroundColor='#EAFCD5';" onMouseOut="this.style.backgroundColor='';this.style.color=''">
+    <td height="25">{$vo.id}</td>
+    <td height="25" align="center"><a href="{:U('Member/showuser',array('id'=>$vo[id]))}">{$vo.username}<neq name="vo.realname" value="">【{$vo.realname}】</neq></a></td>
+    <td align="center">电话:{$vo.tel}&nbsp;/qq:{$vo.qq}&nbsp;/email:{$vo.email}</td>
+    <td height="25" align="center">{:date('Y-m-d',$vo['addtime'])}</td>
+	 <td height="25" align="center">{$vo.tel}</td>
+    <td align="left">{$vo.province}{$vo.city}{$vo.area}<br>{$vo.address}</td>
+    <td align="center">
+     <a class="btn btn-success btn-sm active" href="{:U('Member/moduser',array('id'=>$vo[id]))}">修改资料</a>
+    <a class="btn btn-danger btn-sm active" href="javascript:if(confirm('您确定删除吗?')){
+location.href='{:U('Member/deluser',array('id'=>$vo[id]))}';}">删除</a>
+    </td>
+    </tr>
+	</volist>
+	<tr><td bgcolor="f7f7f7" colspan="7" align="left"><ul class="pagination">{$page}</ul></td></tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,225 @@
+[ 2015-09-09T13:10:12+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+
+[ 2015-09-09T13:12:37+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+
+[ 2015-09-09T13:12:37+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+
+[ 2015-09-09T13:12:39+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+
+[ 2015-09-09T13:12:39+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+
+[ 2015-09-09T13:12:39+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+
+[ 2015-09-09T13:12:40+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+
+[ 2015-09-09T13:12:40+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+
+[ 2015-09-09T13:12:40+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+
+[ 2015-09-09T13:12:40+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+
+[ 2015-09-09T13:12:40+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+
+[ 2015-09-09T13:12:41+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+
+[ 2015-09-09T13:12:41+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+
+[ 2015-09-09T13:12:41+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+
+[ 2015-09-09T13:12:41+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+
+[ 2015-09-09T13:12:42+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002428s ]
+
+[ 2015-09-09T13:12:45+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+
+[ 2015-09-09T13:12:45+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+
+[ 2015-09-09T13:12:45+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+
+[ 2015-09-09T13:12:45+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+
+[ 2015-09-09T13:12:45+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+
+[ 2015-09-09T13:12:46+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+
+[ 2015-09-09T13:12:46+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+
+[ 2015-09-09T13:12:46+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+
+[ 2015-09-09T13:12:46+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+
+[ 2015-09-09T13:12:47+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+
+[ 2015-09-09T13:12:47+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+
+[ 2015-09-09T13:12:47+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+
+[ 2015-09-09T13:12:47+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+
+[ 2015-09-09T13:12:48+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002801s ]
+
+[ 2015-09-09T13:12:48+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+
+[ 2015-09-09T13:12:48+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+
+[ 2015-09-09T13:12:48+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+
+[ 2015-09-09T13:12:49+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+
+[ 2015-09-09T13:12:49+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+
+[ 2015-09-09T13:12:50+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002268s ]
+
+[ 2015-09-09T13:12:50+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+
+[ 2015-09-09T13:12:51+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002056s ]
+
+[ 2015-09-09T13:12:51+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002136s ]
+
+[ 2015-09-09T13:12:51+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+
+[ 2015-09-09T13:12:52+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+
+[ 2015-09-09T13:13:07+08:00 ] 127.0.0.1 /thinkPHP/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+
+[ 2015-09-09T13:16:20+08:00 ] 127.0.0.1 /think/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+
+[ 2015-09-09T13:16:23+08:00 ] 127.0.0.1 /think/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+
+[ 2015-09-09T13:17:58+08:00 ] 127.0.0.1 /think/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001753s ]
+

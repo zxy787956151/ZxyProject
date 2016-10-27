@@ -1,0 +1,36 @@
+[ 2016-03-07T19:39:31+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.018976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019420s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-07T20:04:49+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-07T20:04:49+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-07T20:04:50+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-07T20:04:50+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002050s ]
+ERR: 无法加载模块:Index
+
+[ 2016-03-07T20:04:50+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+ERR: 无法加载模块:Index
+

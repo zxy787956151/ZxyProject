@@ -1,0 +1,1090 @@
+[ 2015-10-28T19:24:00+08:00 ] 127.0.0.1 /jw/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006234s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018643s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001538s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001135s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000848s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005040s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001347s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2015-10-28T19:24:36+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.035239s ]
+INFO: [ route_check ] --END-- [ RunTime:0.035380s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035518s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000806s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000824s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000697s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003544s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001945s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002066s ]
+
+[ 2015-10-28T19:24:36+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001117s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+
+[ 2015-10-28T19:24:46+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001343s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013428s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000897s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000838s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000626s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003646s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000920s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2015-10-28T19:25:14+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 17 行.
+
+[ 2015-10-28T19:25:14+08:00 ] 127.0.0.1 /jw/index.php/Index/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001096s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011235s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000685s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000523s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000425s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002653s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000733s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2015-10-28T19:25:14+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003454s ]
+
+[ 2015-10-28T19:25:22+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001663s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012473s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000777s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000779s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003654s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001093s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2015-10-28T19:25:26+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009220s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000526s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000624s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003386s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000937s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2015-10-28T19:25:36+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001158s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010142s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000677s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000661s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000478s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002948s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000988s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2015-10-28T19:26:33+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010331s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000515s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000531s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000355s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002307s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000817s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-10-28T19:26:36+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010180s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000561s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000351s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002269s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000874s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2015-10-28T19:26:46+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001437s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014959s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000609s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000537s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000461s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002569s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000726s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2015-10-28T19:27:18+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013567s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001230s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000842s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000654s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003917s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000969s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2015-10-28T19:27:22+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001710s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013481s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001032s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001301s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004506s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001071s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2015-10-28T19:27:30+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001759s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001980s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011167s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001941s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001350s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000979s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006514s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001123s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2015-10-28T19:27:38+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001998s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 17 行.
+
+[ 2015-10-28T19:27:38+08:00 ] 127.0.0.1 /jw/index.php/Index/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014112s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000755s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000715s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000561s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003104s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000847s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2015-10-28T19:27:39+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001171s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+
+[ 2015-10-28T19:27:57+08:00 ] 127.0.0.1 /jw/index.php/Index/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001049s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011711s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000632s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000572s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000420s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002612s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000769s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2015-10-28T19:27:57+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001663s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+
+[ 2015-10-28T19:28:56+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001069s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014980s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000547s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000560s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000528s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003197s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000860s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2015-10-28T19:50:31+08:00 ] 127.0.0.1 /jw/index.php/Index/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001392s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020105s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000822s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000735s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003287s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001742s ]
+
+[ 2015-10-28T19:50:31+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001529s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+
+[ 2015-10-28T19:50:42+08:00 ] 127.0.0.1 /jw/index.php/Login/Index/Index/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001133s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016860s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001246s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003094s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002007s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007921s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001512s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001732s ]
+
+[ 2015-10-28T19:50:42+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001287s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+
+[ 2015-10-28T19:50:58+08:00 ] 127.0.0.1 /jw/index.php/Login/Index/Index/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001093s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020319s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001874s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002084s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000849s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006389s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2015-10-28T19:50:58+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001700s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001872s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+
+[ 2015-10-28T19:51:52+08:00 ] 127.0.0.1 /jw/index.php/Login/Index/Index/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001108s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021777s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001616s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001433s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005164s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000944s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2015-10-28T19:51:52+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001167s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+
+[ 2015-10-28T19:52:09+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013752s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000780s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000787s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003393s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2015-10-28T19:52:09+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001729s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+
+[ 2015-10-28T19:52:21+08:00 ] 127.0.0.1 /jw/index.php/Login/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001672s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015801s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001182s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001004s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000861s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004797s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001684s ]
+
+[ 2015-10-28T19:52:21+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+
+[ 2015-10-28T19:53:30+08:00 ] 127.0.0.1 /jw/index.php/Login/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014238s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000895s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000951s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003950s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001826s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002124s ]
+
+[ 2015-10-28T19:53:30+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+
+[ 2015-10-28T19:53:40+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001572s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001760s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014271s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000748s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000766s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000578s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003193s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000932s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2015-10-28T19:53:40+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001005s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+
+[ 2015-10-28T19:53:48+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001610s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001837s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012072s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000669s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000673s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000570s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003028s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000838s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2015-10-28T19:54:33+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001050s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010197s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000667s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000835s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000844s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003800s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001044s ]
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 6 行.
+
+[ 2015-10-28T19:54:35+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001071s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012150s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000619s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000613s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000463s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002663s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000870s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000978s ]
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 6 行.
+
+[ 2015-10-28T19:54:43+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001081s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014553s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000945s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000732s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003718s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001241s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001414s ]
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 6 行.
+
+[ 2015-10-28T19:55:03+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000981s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 19 行.
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011544s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000652s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000628s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002728s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001050s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2015-10-28T19:55:20+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001570s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001871s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 19 行.
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015192s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000738s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000706s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000826s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003832s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001084s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2015-10-28T19:57:00+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001764s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 20 行.
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010690s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000757s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000712s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000641s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003225s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001299s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2015-10-28T19:57:07+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014199s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000675s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000650s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000511s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002826s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2015-10-28T19:57:07+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+
+[ 2015-10-28T19:57:15+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001455s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001677s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014522s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001164s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002135s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001350s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006376s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001205s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2015-10-28T19:57:49+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001298s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019135s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001360s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001186s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005491s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001747s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001959s ]
+
+[ 2015-10-28T19:57:50+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+
+[ 2015-10-28T19:57:58+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012673s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000783s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000748s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000996s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004622s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002725s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003015s ]
+
+[ 2015-10-28T19:58:35+08:00 ] 127.0.0.1 /jw/index.php/Index/System/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003614s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003779s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010155s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000862s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000679s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001276s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004960s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001134s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2015-10-28T19:58:37+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001129s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 19 行.
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010794s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000924s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000947s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003637s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001121s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2015-10-28T19:59:04+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001164s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013698s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001268s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001107s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004286s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001012s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2015-10-28T19:59:04+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001553s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+
+[ 2015-10-28T19:59:14+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015323s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001028s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001998s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001086s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006752s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001302s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2015-10-28T20:00:13+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001217s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 18 行.
+
+[ 2015-10-28T20:01:39+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000987s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+
+[ 2015-10-28T20:02:06+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001038s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003212s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 19 行.
+
+[ 2015-10-28T20:02:09+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000970s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 19 行.
+
+[ 2015-10-28T20:03:03+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001161s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 19 行.
+
+[ 2015-10-28T20:03:20+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001144s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 19 行.
+
+[ 2015-10-28T20:04:00+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001821s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002144s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 19 行.
+
+[ 2015-10-28T20:04:36+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001060s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 19 行.
+
+[ 2015-10-28T20:04:36+08:00 ] 127.0.0.1 /jw/index.php/Index/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000941s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012171s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000778s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000794s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003306s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000867s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2015-10-28T20:04:36+08:00 ] 127.0.0.1 /jw/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001019s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-10-28T20:04:45+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001400s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012667s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002805s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000790s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005433s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001031s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2015-10-28T20:04:50+08:00 ] 127.0.0.1 /jw/index.php/Index/Index/show
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001093s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw\JW\Modules\Index\Action\IndexAction.class.php 第 19 行.
+

@@ -1,0 +1,121 @@
+<include file="Common:header"/>
+<include file="Common:nav"/>
+<div id="room">
+ 	<div class="pic">
+    	<img src="__PUBLIC__/Images/beihua.jpg" />
+        <h3>经纬工作室吧</h3>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="#">看帖</a></li>
+            <li><a href="#">图片</a></li>
+            <li><a href="#">精品</a></li>
+            <li><a href="#">视频</a></li>
+            <li><a href="#">玩乐</a></li>
+        </ul>
+    </div>
+    <div class="tip">
+        <p class="tip_right"><a href="{:U(GROUP_NAME.'/Forum/forum')}">&lt;返回经纬吧&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a>{$page}</a></p>
+    </div>
+   
+    <div class="main">
+     <foreach name="user" item='v'>
+    	<div class="main_left">
+            <div class="main_left_top">
+                <div class="main_left_top_left">      
+                    <span>楼主：{$v.username}</span> 
+                </div>
+                <div class="main_left_top_right">
+                    <input type="button" value="只看楼主" class="btn"/>
+                    <input type="button" value="收藏" class="btn" />
+                    <a href="{:U(GROUP_NAME.'/Forum/index/#qwe',array('flag'=>1,'fid'=>$v['id']))}"><input type="button" value="回复" class="btn" /></a>
+                </div>
+            </div>
+            <div class="main_left_bottom">
+                <div class="main_left_bottom_left house">
+                    <img src="__PUBLIC__/Images/{$v.img}" />
+                </div>
+                <div class="main_left_bottom_right">
+                    <p>{$v.content}</p>
+                    <div class="lhand">
+                        <div class="myshow" id="wrap">
+                            <span class="lhands" >举报</span>
+                        </div>
+                        <img src="__PUBLIC__/Images/tip.png" /> |
+                        来自
+                        <a href="#">Android客户端</a>
+                        &nbsp;&nbsp;&nbsp;
+                        {$v.time|date='y-m-d H:i',###}
+                        <a href="{:U(GROUP_NAME.'/Forum/index/#qwe',array('flag'=>1,'fid'=>$v['id']))}">回复</a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="main_right">
+            <div class="main_right_top">
+                <span>登录百度账号</span>
+            </div>
+            <div class="main_right_bottom">
+                <input type="text" class="txt" placeholder="手机/邮箱/用户名"/>
+                <input type="password" class="txtt" placeholder="密码" />
+                <input type="checkbox" class="check" /><span>下次自动登录</span>
+                <a href="#">忘记密码？</a>
+                <input type="button" value="登录" class="login" />
+                <a class="last" href="#">立即注册</a>
+            </div>
+        </div>
+    </foreach>
+    </div>
+    <foreach name='answer' item='v'>
+    <div class="main_left_bottom">
+    <div id="answer">
+        <div class="main_left_bottom_left">
+            <img src="__PUBLIC__/Images/{$v.img}" />
+            <span id="username"><a>第{$v.sort}楼</a>{$v.username}</span> 
+        </div>
+        <div class="main_left_bottom_right">
+            <p>{$v.content}</p>
+            <div class="lhand">
+                <div class="myshow" id="wrap">
+                    <span class="lhands" >举报</span>
+                    <ul class="myhide" id="show" style="display:none;">
+                        <li><a href="#">个人企业举报</a></li>
+                        <li><a href="#">垃圾信息举报</a></li>
+                    </ul>
+                </div>
+                <img src="__PUBLIC__/Images/tip.png" /> |
+                来自
+                <a href="#">Android客户端</a>
+                &nbsp;&nbsp;&nbsp;
+                {$v.time|date='y-m-d H:i',###}
+                <a href="{:U(GROUP_NAME.'/Forum/index/#qwe',array('flag'=>2,'id'=>1
+                    ))}">回复</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </foreach>
+    <div class="tip tip_btm">
+        <p class="tip_right"><a href="{:U(GROUP_NAME.'/Forum/forum')}">&lt;返回经纬吧&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><span>回复贴：共<a>5</a>个回复</sapan></p>
+    </div>
+    <div class="comment">
+        <div class="say">
+            <div class="comment_left">
+                回复
+            </div>
+            <div class="comment_right">
+                发帖请遵守<a href="#">贴吧协议及“七条底线”</a><a href="#">贴吧投诉</a>
+            </div>
+        </div>
+        <div>
+          <form action="{:U(GROUP_NAME.'/Forum/runanswer')}" method="POST">
+            <a name="qwe"><textarea class="text" name="answer"></textarea></a>
+            <p class="btn2"><input type="submit" value="回复" class="btn_left"/>
+            <input type="hidden" name="flag" value="{$flag}"/>
+            <input type="hidden" name="fid" value="{$fid}">
+            <input type="button" value="保存至快速回帖" class="btn_right"/></p>
+          </form>
+        </div>
+    </div>
+ </div>
+<include file="Common:bottom"/>

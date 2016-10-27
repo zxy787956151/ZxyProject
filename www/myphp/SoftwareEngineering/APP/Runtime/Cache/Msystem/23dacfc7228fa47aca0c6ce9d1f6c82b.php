@@ -1,0 +1,58 @@
+<?php if (!defined('THINK_PATH')) exit();?>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+   <link href="__PUBLIC__/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/main_style.css">
+   <script src="__PUBLIC__/js/jquery-1.10.2.min.js"></script>
+   <script src="__PUBLIC__/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div  id="results_ranking">
+      <h1>学生成绩排名</h1>
+      <form role="form" class="form1" action="<?php echo U(GROUP_NAME . '/Grade/Grank');?>" method="post">
+         <span>选择系别</span>
+         <select class="form-control" id="input" name="department">
+               <option value ="软件工程" <?php if($_SESSION['department']=="软件工程"){echo "selected = 'selected'";} ?> >软件工程</option>
+               <option value ="网络工程" <?php if($_SESSION['department']=="网络工程"){echo "selected = 'selected'";} ?>>网络工程</option>
+               <option value ="计算机科学与技术" <?php if($_SESSION['department']=="软计算机科学与技术"){echo "selected = 'selected'";} ?>>计算机科学与技术</option>
+         </select>
+         <input type="submit" class="btn btn-default" style="margin-top:10px;" value="查询专业排名" name="submit" />
+      </form>
+      <div class="detail-table">
+        <table class="table table-striped">
+   <thead>
+
+       
+      <?php if(is_array($gra)): foreach($gra as $key=>$v2): ?><tr>
+         <td>学号</td>
+         <td>姓名</td>
+         <?php if(is_array($tab)): foreach($tab as $key=>$v): ?><td><?php echo ($v["class"]); ?></td>
+         <?php  $gra = M('grade')->where("num=$v2[num] and classId = $v[classId]")->select(); foreach ($gra as $v) { $Garray[$i] = $v['grade']; $i++; } endforeach; endif; ?>
+         <td>综测成绩</td>
+         <td>名次</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr> 
+         <td><?php echo ($v2["num"]); ?></td>
+         <?php  $name = M('information')->where("num=$v2[num]")->select(); foreach ($name as $v) { } ?>
+         <td><?php echo $v['name']; ?> </td>
+         
+         <?php  for($j=$k;$j<$k+5;$j++){ echo "<td>".$Garray[$j]."</td>"; } $k+=5; ?>
+         
+
+         <td><?php echo ($v2["grade"]); ?></td>
+
+         <td><?php echo $pm; $pm++;?></td>
+         
+      </tr><?php endforeach; endif; ?>
+     
+
+   </tbody>
+    </table>
+      </div>
+   </div>
+</body>
+</html>

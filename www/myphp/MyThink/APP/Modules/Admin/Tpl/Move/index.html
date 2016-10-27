@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<css file="__STYLE__/css/public.css" />
+</head>
+<body>
+	<table class="table">
+		<tr>
+			<th>UID</th>
+			<th>图片名</th>
+			<th>图片标题</th>
+			<th>图片内容</th>
+			<th>操作</th>
+		</tr>
+		
+		<foreach name="move" item="v">
+			<tr>
+				<td width="8%">{$v.uid}</td>
+				<td width="12%">{$v.name}</td>
+				<td width="12%">{$v.title}</td>
+				<td width="12%">{$v.content}</td>
+				<td width="12%">
+					[<a href="{:U(GROUP_NAME . '/Move/move_update', array('move_uid'=> $v['uid'],'move_title'=>$v['title'],'move_content'=>$v['content']))}">修改文字</a>]
+					[<a href="{:U(GROUP_NAME . '/Move/img_update', array('move_uid'=> $v['uid']))}">修改图片</a>]
+					[<a href="{:U(GROUP_NAME . '/Move/deleteMove', array('move_content'=> $v['content']))}">删除整行</a>]
+				</td>
+			</tr>
+		</foreach>
+
+
+		<!-- 内层循环里的item不能等于外层循环的item -->
+	</table>
+</body>
+</html>

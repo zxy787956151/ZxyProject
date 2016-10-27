@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>{$type.typename}-{$config.sitetitle}</title>
+<meta name="Keywords" content="{$type.keywords}" />
+<meta name="Description" content="{$type.description}"/>
+<link rel="shortcut icon" href="__TMPL__/images/favicon.ico" type="image/x-icon" />
+<link href="__TMPL__/images/default.css" rel="stylesheet" type="text/css"/>
+<script src="__TMPL__/js/common.js" type="text/javascript"></script>
+<neq name="config.rollnum" value="0"><script src="__TMPL__/js/marquee.js" type="text/javascript"></script></neq>
+</head>
+<body>
+<include file="$head"/>
+<div id="positionbg">
+    <div id="position">{$nav}&nbsp;&gt;&nbsp;列表</div>
+	<div id="sousuo"><form name="search" method="POST" action="{:U('s/search');}"><input type="text" name="k" id="kw" maxlength="60"><input type="submit" value="搜索" class="btn">{__TOKEN__}</form></div>
+</div>
+
+<div id="wrapper">
+
+    <div id="content">
+	     <div id="news">
+			<volist name="list" id="vo" mod="5">
+		     <div class="list">
+			 <div class="lb4">({$vo.addtime|substr=0,10})</div>
+			 <div class="lb1"></div>
+			 <div class="lb2">[<a href="{$vo.typeid|url=lists,###}">{$vo.typename}</a>]</div>
+			 <div class="lb3"><a href="{$vo.aid|url=articles,###}"><notempty name="vo.titlecolor"><font color="{$vo.titlecolor}"></notempty>{$vo.title|msubstr=###,0,38,'utf-8'}<notempty name="vo.titlecolor"></font></notempty></a></div>
+			 </div>
+			 <eq name="mod" value="0"><br/></eq>
+			 </volist> 
+			 <div id="page">{$page}</div>
+	</div></div>
+
+	<div id="side">
+	{:Ad(12);}
+	     <div class="ClassNav">
+		      <div class="ClassTitle">分类导航</div>
+		      <div class="ClassList">
+			  <ul>
+			  <volist name="dh" id="vo">
+			  <li><a href="{$vo.typeid|url=lists,###}">{$vo.typename}</a></li>
+			  </volist>
+			  </ul></div>
+		 </div>
+         {:Ad(13);}
+		 <neq name="config.artlistrec" value="0">
+	     <div class="RightRecommend">
+		      <div class="RRTitle">{$config.listrectitle}</div>
+		     <div class="RRList"><ul> {$config.artlistrec|ShowArt=0,###,0,2,$type['typeid']}</ul></div></div>
+			</neq>
+		{:Ad(14);}
+		<neq name="config.artlisthot" value="0">
+	     <div class="RightHotc">
+		      <div class="RHTitle">{$config.listhottitle}</div>
+		      <div class="RHList"><ul>{$config.artlisthot|ShowArt=0,###,0,0,$type['typeid']}</ul></div>
+         </div>
+		 </neq>
+		 {:Ad(15);}
+	</div>
+	{:Ad(16);}
+</div><include file="$footer"/>
+</body>
+</html>

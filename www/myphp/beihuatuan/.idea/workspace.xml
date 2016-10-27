@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39ca596e-056c-48c3-8e62-c47728bcbb46" name="【有道】默认的" comment="" />
+    <ignored path="beihuatuan.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="beihuatuan" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.8333333">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShopApp.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Lib/ShopApp.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.483334">
+              <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shop_init.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Lib/shop_init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.6">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding>
+                <element signature="e#6#80#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="system_init.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system/system_init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42990655">
+              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Tpl/fanwe/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="138" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Tpl/fanwe/inc/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.433333">
+              <caret line="62" column="76" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deal_mail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Tpl/fanwe/deal_mail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.666667">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shop.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/admin/Lib/Action/BaseAction.class.php" />
+        <option value="$PROJECT_DIR$/admin/Tpl/default/Public/login.html" />
+        <option value="$PROJECT_DIR$/admin/Lib/Action/PublicAction.class.php" />
+        <option value="$PROJECT_DIR$/public/db_config.php" />
+        <option value="$PROJECT_DIR$/admin/Conf/config.php" />
+        <option value="$PROJECT_DIR$/app/Tpl/fanwe/index.html" />
+        <option value="$PROJECT_DIR$/system/system_init.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="添加" />
+    <OptionsSetting value="true" id="移除" />
+    <OptionsSetting value="true" id="签出" />
+    <OptionsSetting value="true" id="更新" />
+    <OptionsSetting value="true" id="状态" />
+    <OptionsSetting value="true" id="编辑" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beihuatuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beihuatuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beihuatuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beihuatuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beihuatuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beihuatuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beihuatuan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39ca596e-056c-48c3-8e62-c47728bcbb46" name="【有道】默认的" comment="" />
+      <created>1459179516212</created>
+      <option name="number" value="Default" />
+      <updated>1459179516212</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15355521" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Lib/Action/PublicAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Tpl/default/Public/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#11;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Lib/Action/PublicAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Tpl/default/Public/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#11;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Lib/Action/PublicAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Tpl/default/Public/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#11;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uc_client/model/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/verify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youhui.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dh/hao123.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.47079647">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install/Lib/Action/IndexAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23539823">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Tpl/default/Public/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46332738">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40250447">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26833633">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Lib/Action/BaseAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9702048">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/db/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.040852576">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Conf/taglibs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69906545">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="23" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/db_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08170515">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Tpl/default/Public/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6920354">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#11;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/Lib/Action/PublicAction.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4990138">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Tpl/fanwe/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="138" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5966229">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Tpl/fanwe/deal_mail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.666667">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2468917">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <marker date="1377051256000" expanded="true" signature="5627:5682" placeholder="select id fr..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="5993:6037" placeholder="select * fro..${DB_PREFIX}brand..." />
+            <marker date="1377051256000" expanded="true" signature="8292:8371" placeholder="select * fro..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="11966:12055" placeholder="select * fro..${DB_PREFIX}deal_coupon..." />
+            <marker date="1377051256000" expanded="true" signature="13022:13072" placeholder="select * fro..${DB_PREFIX}deal_coupon..." />
+            <marker date="1377051256000" expanded="true" signature="13153:13223" placeholder="select * fro..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="13595:13638" placeholder="select * fro..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="13777:13834" placeholder="select name ..${DB_PREFIX}deal_order_item..." />
+            <marker date="1377051256000" expanded="true" signature="13927:13988" placeholder="select sub_n..${DB_PREFIX}deal_order_item..." />
+            <marker date="1377051256000" expanded="true" signature="14078:14145" placeholder="select tel f..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="14237:14308" placeholder="select addre..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="14502:14557" placeholder="select name,..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="14813:14867" placeholder="select * fro..${DB_PREFIX}deal_order_item..." />
+            <marker date="1377051256000" expanded="true" signature="14956:15007" placeholder="select deal_..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="16014:16063" placeholder="select * fro..${DB_PREFIX}deal_order..." />
+            <marker date="1377051256000" expanded="true" signature="16137:16206" placeholder="select * fro..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="16291:16334" placeholder="select * fro..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="17430:17480" placeholder="select * fro..${DB_PREFIX}deal_coupon..." />
+            <marker date="1377051256000" expanded="true" signature="17575:17627" placeholder="select forbi..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="17724:17767" placeholder="select * fro..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="17871:17940" placeholder="select * fro..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="18397:18454" placeholder="select name ..${DB_PREFIX}deal_order_item..." />
+            <marker date="1377051256000" expanded="true" signature="18549:18610" placeholder="select sub_n..${DB_PREFIX}deal_order_item..." />
+            <marker date="1377051256000" expanded="true" signature="18702:18769" placeholder="select tel f..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="18867:18938" placeholder="select addre..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="19129:19184" placeholder="select name,..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="19446:19500" placeholder="select * fro..${DB_PREFIX}deal_order_item..." />
+            <marker date="1377051256000" expanded="true" signature="19591:19642" placeholder="select deal_..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="20635:20684" placeholder="select * fro..${DB_PREFIX}deal_order..." />
+            <marker date="1377051256000" expanded="true" signature="20758:20826" placeholder="select * fro..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="20911:20954" placeholder="select * fro..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="22063:22113" placeholder="select * fro..${DB_PREFIX}deal_coupon..." />
+            <marker date="1377051256000" expanded="true" signature="22200:22243" placeholder="select * fro..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="22344:22417" placeholder="select * fro..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="22671:22728" placeholder="select name ..${DB_PREFIX}deal_order_item..." />
+            <marker date="1377051256000" expanded="true" signature="22822:22883" placeholder="select sub_n..${DB_PREFIX}deal_order_item..." />
+            <marker date="1377051256000" expanded="true" signature="23076:23131" placeholder="select name,..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="23392:23446" placeholder="select * fro..${DB_PREFIX}deal_order_item..." />
+            <marker date="1377051256000" expanded="true" signature="23536:23587" placeholder="select deal_..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="24570:24620" placeholder="select * fro..${DB_PREFIX}deal_coupon..." />
+            <marker date="1377051256000" expanded="true" signature="24707:24750" placeholder="select * fro..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="24818:24892" placeholder="select * fro..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="25146:25203" placeholder="select name ..${DB_PREFIX}deal_order_item..." />
+            <marker date="1377051256000" expanded="true" signature="25297:25358" placeholder="select sub_n..${DB_PREFIX}deal_order_item..." />
+            <marker date="1377051256000" expanded="true" signature="25551:25606" placeholder="select name,..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="25867:25921" placeholder="select * fro..${DB_PREFIX}deal_order_item..." />
+            <marker date="1377051256000" expanded="true" signature="26011:26062" placeholder="select deal_..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="27043:27089" placeholder="select * fro..${DB_PREFIX}lottery..." />
+            <marker date="1377051256000" expanded="true" signature="27173:27216" placeholder="select * fro..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="27282:27352" placeholder="select * fro..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="27513:27559" placeholder="select name ..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="27649:27699" placeholder="select sub_n..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="28533:28576" placeholder="select * fro..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="28648:28723" placeholder="select * fro..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="29738:29781" placeholder="select * fro..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="29853:29930" placeholder="select * fro..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="30838:30891" placeholder="select * fro..${DB_PREFIX}payment_notice..." />
+            <marker date="1377051256000" expanded="true" signature="30973:31016" placeholder="select * fro..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="31085:31134" placeholder="select * fro..${DB_PREFIX}deal_order..." />
+            <marker date="1377051256000" expanded="true" signature="31263:31333" placeholder="select * fro..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="31491:31547" placeholder="select order..${DB_PREFIX}deal_order..." />
+            <marker date="1377051256000" expanded="true" signature="32532:32585" placeholder="select * fro..${DB_PREFIX}payment_notice..." />
+            <marker date="1377051256000" expanded="true" signature="32667:32710" placeholder="select * fro..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="32810:32881" placeholder="select * fro..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="33039:33095" placeholder="select order..${DB_PREFIX}deal_order..." />
+            <marker date="1377051256000" expanded="true" signature="34051:34235" placeholder="select dn.* ..${DB_PREFIX}delivery_notice..." />
+            <marker date="1377051256000" expanded="true" signature="34316:34359" placeholder="select * fro..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="34459:34531" placeholder="select * fro..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="34689:34828" placeholder="select do.or..${DB_PREFIX}deal_order_item..." />
+            <marker date="1377051256000" expanded="true" signature="35770:35954" placeholder="select dn.* ..${DB_PREFIX}delivery_notice..." />
+            <marker date="1377051256000" expanded="true" signature="36038:36087" placeholder="select * fro..${DB_PREFIX}deal_order..." />
+            <marker date="1377051256000" expanded="true" signature="36141:36184" placeholder="select * fro..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="36312:36383" placeholder="select * fro..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="36541:36680" placeholder="select do.or..${DB_PREFIX}deal_order_item..." />
+            <marker date="1377051256000" expanded="true" signature="38056:38130" placeholder="select * fro..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="39016:39101" placeholder="select * fro..${DB_PREFIX}mail_list..." />
+            <marker date="1377051256000" expanded="true" signature="39165:39240" placeholder="select * fro..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="40089:40139" placeholder="select name ..${DB_PREFIX}deal_cate..." />
+            <marker date="1377051256000" expanded="true" signature="40228:40278" placeholder="select name ..${DB_PREFIX}deal_city..." />
+            <marker date="1377051256000" expanded="true" signature="44077:44125" placeholder="select * fro..${DB_PREFIX}referrals..." />
+            <marker date="1377051256000" expanded="true" signature="44459:44515" placeholder="select order..${DB_PREFIX}deal_order..." />
+            <marker date="1377051256000" expanded="true" signature="44587:44638" placeholder="select user_..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="44713:44764" placeholder="select user_..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="45483:45546" placeholder="delete from ..." />
+            <marker date="1377051256000" expanded="true" signature="45604:45653" placeholder="select * fro..${DB_PREFIX}deal_order..." />
+            <marker date="1377051256000" expanded="true" signature="46526:46574" placeholder="select * fro..${DB_PREFIX}deal_city..." />
+            <marker date="1377051256000" expanded="true" signature="47429:47476" placeholder="select * fro..${DB_PREFIX}supplier..." />
+            <marker date="1377051256000" expanded="true" signature="47553:47658" placeholder="select * fro..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="48734:48814" placeholder="select conte..${DB_PREFIX}msg_template..." />
+            <marker date="1377051256000" expanded="true" signature="48851:48894" placeholder="select * fro..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="49583:49661" placeholder="select * fro..${DB_PREFIX}deal_coupon..." />
+            <marker date="1377051256000" expanded="true" signature="49775:49829" placeholder="select * fro..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="49969:50023" placeholder="select * fro..${DB_PREFIX}deal_order_item..." />
+            <marker date="1377051256000" expanded="true" signature="50103:50146" placeholder="select * fro..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="57314:57397" placeholder="select id,ur..${DB_PREFIX}urls..." />
+            <marker date="1377051256000" expanded="true" signature="58424:58537" placeholder="select id,us..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="59253:59336" placeholder="select id,ur..${DB_PREFIX}urls..." />
+            <marker date="1377051256000" expanded="true" signature="60416:60529" placeholder="select id,us..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="61016:61123" placeholder="select id,pa..${DB_PREFIX}topic_image..." />
+            <marker date="1377051256000" expanded="true" signature="61819:61902" placeholder="select id,ur..${DB_PREFIX}urls..." />
+            <marker date="1377051256000" expanded="true" signature="64005:64125" placeholder="select count..${DB_PREFIX}..." />
+            <marker date="1377051256000" expanded="true" signature="64233:64279" placeholder="select * fro..${DB_PREFIX}..." />
+            <marker date="1377051256000" expanded="true" signature="64798:64836" placeholder="select pid f..${$table}..." />
+            <marker date="1377051256000" expanded="true" signature="65061:65130" placeholder="select * fro..${DB_PREFIX}topic_title..." />
+            <marker date="1377051256000" expanded="true" signature="65390:65503" placeholder="select count..${DB_PREFIX}topic..." />
+            <marker date="1377051256000" expanded="true" signature="65660:65703" placeholder="select * fro..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="66238:66298" placeholder="select filte..${DB_PREFIX}deal_filter..." />
+            <marker date="1377051256000" expanded="true" signature="66569:66625" placeholder="select name ..${DB_PREFIX}deal_attr..." />
+            <marker date="1377051256000" expanded="true" signature="66989:67036" placeholder="select name ..${DB_PREFIX}brand..." />
+            <marker date="1377051256000" expanded="true" signature="67309:67390" placeholder="select name ..${DB_PREFIX}deal_cate..." />
+            <marker date="1377051256000" expanded="true" signature="67701:67783" placeholder="select name ..${DB_PREFIX}shop_cate..." />
+            <marker date="1377051256000" expanded="true" signature="67961:68114" placeholder="select t.nam..${DB_PREFIX}deal_cate_type..." />
+            <marker date="1377051256000" expanded="true" signature="68437:68522" placeholder="select name ..${DB_PREFIX}deal_city..." />
+            <marker date="1377051256000" expanded="true" signature="68699:68893" placeholder="select a.* f..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="69171:69317" placeholder="select a.nam..${DB_PREFIX}area..." />
+            <marker date="1377051256000" expanded="true" signature="69441:69487" placeholder="select name ..${DB_PREFIX}area..." />
+            <marker date="1377051256000" expanded="true" signature="69946:69990" placeholder="select * fro..${DB_PREFIX}event..." />
+            <marker date="1377051256000" expanded="true" signature="70712:70764" placeholder="select name ..${DB_PREFIX}event_cate..." />
+            <marker date="1377051256000" expanded="true" signature="71046:71131" placeholder="select name ..${DB_PREFIX}deal_city..." />
+            <marker date="1377051256000" expanded="true" signature="71478:71609" placeholder="select a.nam..${DB_PREFIX}area..." />
+            <marker date="1377051256000" expanded="true" signature="71731:71777" placeholder="select name ..${DB_PREFIX}area..." />
+            <marker date="1377051256000" expanded="true" signature="72052:72108" placeholder="select * fro..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="72790:72933" placeholder="select b.nam..${DB_PREFIX}brand..." />
+            <marker date="1377051256000" expanded="true" signature="73270:73351" placeholder="select name ..${DB_PREFIX}deal_cate..." />
+            <marker date="1377051256000" expanded="true" signature="73545:73706" placeholder="select t.nam..${DB_PREFIX}deal_cate_type..." />
+            <marker date="1377051256000" expanded="true" signature="74249:74318" placeholder="select * fro..${DB_PREFIX}supplier_tag..." />
+            <marker date="1377051256000" expanded="true" signature="74509:74655" placeholder="select a.nam..${DB_PREFIX}area..." />
+            <marker date="1377051256000" expanded="true" signature="74780:74826" placeholder="select name ..${DB_PREFIX}area..." />
+            <marker date="1377051256000" expanded="true" signature="75122:75169" placeholder="select * fro..${DB_PREFIX}supplier..." />
+            <marker date="1377051256000" expanded="true" signature="75657:75701" placeholder="select * fro..${DB_PREFIX}topic..." />
+            <marker date="1377051256000" expanded="true" signature="75932:76046" placeholder="select id,us..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="76685:76817" placeholder="select t.* f..${DB_PREFIX}topic_tag_cate..." />
+            <marker date="1377051256000" expanded="true" signature="76974:77037" placeholder="select count..${DB_PREFIX}topic_image..." />
+            <marker date="1377051256000" expanded="true" signature="77278:77323" placeholder="select * fro..${DB_PREFIX}youhui..." />
+            <marker date="1377051256000" expanded="true" signature="77895:77942" placeholder="select name ..${DB_PREFIX}brand..." />
+            <marker date="1377051256000" expanded="true" signature="78232:78313" placeholder="select name ..${DB_PREFIX}deal_cate..." />
+            <marker date="1377051256000" expanded="true" signature="78494:78651" placeholder="select t.nam..${DB_PREFIX}deal_cate_type..." />
+            <marker date="1377051256000" expanded="true" signature="78982:79067" placeholder="select name ..${DB_PREFIX}deal_city..." />
+            <marker date="1377051256000" expanded="true" signature="79249:79449" placeholder="select a.* f..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="79736:79882" placeholder="select a.nam..${DB_PREFIX}area..." />
+            <marker date="1377051256000" expanded="true" signature="80006:80052" placeholder="select name ..${DB_PREFIX}area..." />
+            <marker date="1377051256000" expanded="true" signature="80345:80396" placeholder="select user_..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="80468:80629" placeholder="select g.id,..${DB_PREFIX}supplier_location_dp_point_result..." />
+            <marker date="1377051256000" expanded="true" signature="80759:80855" placeholder="select * fro..${DB_PREFIX}supplier_location_images..." />
+            <marker date="1377051256000" expanded="true" signature="80905:81008" placeholder="select count..${DB_PREFIX}supplier_location_images..." />
+            <marker date="1377051256000" expanded="true" signature="81297:81487" placeholder="select g.id,..${DB_PREFIX}supplier_location_dp_tag_result..." />
+            <marker date="1377051256000" expanded="true" signature="82002:82058" placeholder="select * fro..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="82164:82314" placeholder="select count..${DB_PREFIX}supplier_location_dp..." />
+            <marker date="1377051256000" expanded="true" signature="82433:82532" placeholder="select count..${DB_PREFIX}supplier_location_dp..." />
+            <marker date="1377051256000" expanded="true" signature="82639:82742" placeholder="select count..${DB_PREFIX}supplier_location_images..." />
+            <marker date="1377051256000" expanded="true" signature="82853:82956" placeholder="select avg(a..${DB_PREFIX}supplier_location_dp..." />
+            <marker date="1377051256000" expanded="true" signature="83064:83176" placeholder="select count..${DB_PREFIX}supplier_location_dp..." />
+            <marker date="1377051256000" expanded="true" signature="83287:83398" placeholder="select count..${DB_PREFIX}supplier_location_dp..." />
+            <marker date="1377051256000" expanded="true" signature="83506:83617" placeholder="select count..${DB_PREFIX}supplier_location_dp..." />
+            <marker date="1377051256000" expanded="true" signature="84101:84202" placeholder="select sum(p..${DB_PREFIX}supplier_location_dp..." />
+            <marker date="1377051256000" expanded="true" signature="84270:84353" placeholder="select sum(p..${DB_PREFIX}supplier_location_sign_log..." />
+            <marker date="1377051256000" expanded="true" signature="84432:84533" placeholder="select avg(p..${DB_PREFIX}supplier_location_dp..." />
+            <marker date="1377051256000" expanded="true" signature="84613:84696" placeholder="select avg(p..${DB_PREFIX}supplier_location_sign_log..." />
+            <marker date="1377051256000" expanded="true" signature="85137:85355" placeholder="select suppl..${DB_PREFIX}supplier_location_dp_point_result..." />
+            <marker date="1377051256000" expanded="true" signature="85431:85575" placeholder="select count..${DB_PREFIX}supplier_location_point_result..." />
+            <marker date="1377051256000" expanded="true" signature="91474:91519" placeholder="select * fro..${DB_PREFIX}youhui..." />
+            <marker date="1377051256000" expanded="true" signature="91601:91644" placeholder="select * fro..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="92621:92670" placeholder="select * fro..${DB_PREFIX}youhui_log..." />
+            <marker date="1377051256000" expanded="true" signature="92724:92769" placeholder="select * fro..${DB_PREFIX}youhui..." />
+            <marker date="1377051256000" expanded="true" signature="92863:92906" placeholder="select * fro..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="97582:97729" placeholder="select id,us..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="98091:98241" placeholder="select id,us..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="98604:98756" placeholder="select id,us..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="99230:99379" placeholder="select id,us..${DB_PREFIX}user..." />
+            <marker date="1377051256000" expanded="true" signature="101017:101113" placeholder="select count..${DB_PREFIX}user_focus..." />
+            <marker date="1377051256000" expanded="true" signature="101698:101794" placeholder="select count..${DB_PREFIX}user_focus..." />
+            <marker date="1377051256000" expanded="true" signature="102778:102905" placeholder="select sum(m..${DB_PREFIX}user_active_log..." />
+            <marker date="1377051256000" expanded="true" signature="102967:103094" placeholder="select sum(s..${DB_PREFIX}user_active_log..." />
+            <marker date="1377051256000" expanded="true" signature="103156:103283" placeholder="select sum(p..${DB_PREFIX}user_active_log..." />
+            <marker date="1377051256000" expanded="true" signature="104049:104105" placeholder="select * fro..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="104134:104348" placeholder="select count..${DB_PREFIX}deal_location_link..." />
+            <marker date="1377051256000" expanded="true" signature="104571:104812" placeholder="select d.nam..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="105053:105109" placeholder="select * fro..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="105138:105352" placeholder="select count..${DB_PREFIX}deal_location_link..." />
+            <marker date="1377051256000" expanded="true" signature="105627:105683" placeholder="select * fro..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="105712:105926" placeholder="select count..${DB_PREFIX}deal_location_link..." />
+            <marker date="1377051256000" expanded="true" signature="106200:106256" placeholder="select * fro..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="106397:106570" placeholder="select count..${DB_PREFIX}event_location_link..." />
+            <marker date="1377051256000" expanded="true" signature="106845:106901" placeholder="select * fro..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="107030:107206" placeholder="select count..${DB_PREFIX}youhui_location_link..." />
+            <marker date="1377051256000" expanded="true" signature="107438:107678" placeholder="select y.nam..${DB_PREFIX}youhui..." />
+            <marker date="1377051256000" expanded="true" signature="108395:108441" placeholder="select name ..${DB_PREFIX}area..." />
+            <marker date="1377051256000" expanded="true" signature="108803:108875" placeholder="select `name..${DB_PREFIX}area..." />
+            <marker date="1377051256000" expanded="true" signature="109222:109273" placeholder="select name ..${DB_PREFIX}deal_cate..." />
+            <marker date="1377051256000" expanded="true" signature="109425:109481" placeholder="select name ..${DB_PREFIX}deal_cate_type..." />
+            <marker date="1377051256000" expanded="true" signature="110275:110374" placeholder="select id,na..${DB_PREFIX}deal_cate..." />
+            <marker date="1377051256000" expanded="true" signature="110523:110709" placeholder="select t.id,..${DB_PREFIX}deal_cate_type..." />
+            <marker date="1377051256000" expanded="true" signature="111381:111505" placeholder="select id,na..${DB_PREFIX}area..." />
+            <marker date="1377051256000" expanded="true" signature="111641:111776" placeholder="select id,na..${DB_PREFIX}area..." />
+            <marker date="1377051256000" expanded="true" signature="112399:112478" placeholder="select * fro..${DB_PREFIX}delivery_region..." />
+            <marker date="1377051256000" expanded="true" signature="113466:113497" placeholder="select * fro..${DB_PREFIX}conf..." />
+            <marker date="1377051256000" expanded="true" signature="113984:114027" placeholder="select * fro..${DB_PREFIX}deal..." />
+            <marker date="1377051256000" expanded="true" signature="114487:114667" placeholder="select dn.no..${DB_PREFIX}delivery_notice..." />
+            <marker date="1377051256000" expanded="true" signature="116492:116548" placeholder="select * fro..${DB_PREFIX}supplier_location..." />
+            <marker date="1377051256000" expanded="true" signature="116620:116817" placeholder="select id,na..${DB_PREFIX}point_group..." />
+            <marker date="1377051256000" expanded="true" signature="116938:117065" placeholder="select avg_p..${DB_PREFIX}supplier_location_point_result..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8333333">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Tpl/fanwe/inc/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.433333">
+          <caret line="62" column="76" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Lib/ShopApp.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.483334">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Lib/shop_init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/system_init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42990655">
+          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

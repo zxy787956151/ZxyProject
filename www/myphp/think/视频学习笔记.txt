@@ -1,0 +1,24 @@
+<?PHP
+	//框架
+	//
+	//由大量的类,方法与函数按一定的逻辑组织起来的一个集合
+	//骨架
+	//组装台式电脑(框架)
+	//安装操作系统(安装框架)
+	//安装网络游戏的客户端软件(开发我们的网站编写自己的逻辑代码)
+	//连接上网(把我们的网站项目放到服务器上面)
+	//注册游戏账号(注册我们的网站域名)
+	//
+	//熟悉PHP
+	//※OOP开发思想(Object Oriented Programming) 面向对象编程
+	//MVC设计模式(Model View Controller)设计模式
+	//Model -> 数据库操作模型(操作类)
+	//View -> 视图页面
+	//Controller -> 控制器(关系在上两者之间)[就是PHP代码]
+	//
+	//LAMP	Linux(+	Apache	+	MuSQL	+	PHP)
+	//
+	//WAMP 	Windows(+	Apache	+	MuSQL	+	PHP)
+	//
+	//Wampserver
+?>

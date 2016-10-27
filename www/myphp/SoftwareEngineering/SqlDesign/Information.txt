@@ -1,0 +1,2 @@
+※每个表都要加字符集
+create table zxy_information(id int unsigned not null primary key auto_increment,name char(50),sex char(20),date char(50),num int(30),department char(50),class char(50),photo char(50),place char(50),comeDate char(50));

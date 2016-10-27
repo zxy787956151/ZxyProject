@@ -1,0 +1,696 @@
+[ 2015-11-23T19:31:49+08:00 ] 127.0.0.1 /jw2/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw2\JW\Modules\Index\Action\IndexAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051344s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.014343s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001408s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000915s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018511s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001199s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2015-11-23T19:32:18+08:00 ] 127.0.0.1 /jw2/index.php/Index/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.032702s ]
+INFO: [ route_check ] --END-- [ RunTime:0.032870s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026407s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000876s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001197s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001632s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004983s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000941s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2015-11-23T19:32:18+08:00 ] 127.0.0.1 /jw2/index.php/Index/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001122s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+
+[ 2015-11-23T19:32:29+08:00 ] 127.0.0.1 /jw2/index.php/Index/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001214s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `jw_user` [ RunTime:0.115243s ]
+SQL: SELECT * FROM `jw_user` WHERE ( `username` = '唐波' ) LIMIT 1   [ RunTime:0.005084s ]
+SQL: UPDATE `jw_user` SET `logintime`=1448278349,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.186422s ]
+
+[ 2015-11-23T19:32:29+08:00 ] 127.0.0.1 /jw2/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002565s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw2\JW\Modules\Index\Action\IndexAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015187s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000921s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000758s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003728s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000994s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2015-11-23T19:32:31+08:00 ] 127.0.0.1 /jw2/index.php/Index/System/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001328s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `jw_advice` [ RunTime:0.065826s ]
+SQL: SELECT * FROM `jw_advice`  [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025506s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000842s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000731s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003280s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000911s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2015-11-23T19:32:39+08:00 ] 127.0.0.1 /jw2/index.php/Index/System/advice
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001584s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014065s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000816s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000786s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003628s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001184s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2015-11-23T19:32:41+08:00 ] 127.0.0.1 /jw2/index.php/Index/System/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001689s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `jw_advice` [ RunTime:0.003047s ]
+SQL: SELECT * FROM `jw_advice`  [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016817s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001730s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000883s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004470s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000936s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2015-11-23T19:32:43+08:00 ] 127.0.0.1 /jw2/index.php/Index/System/advice
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001100s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013832s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000786s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000737s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003319s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001003s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2015-11-23T19:32:44+08:00 ] 127.0.0.1 /jw2/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001245s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw2\JW\Modules\Index\Action\IndexAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000741s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000758s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003249s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000961s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2015-11-23T19:32:45+08:00 ] 127.0.0.1 /jw2/index.php/Index/System/advice
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001363s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014006s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000876s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000798s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000627s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003595s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2015-11-23T19:32:46+08:00 ] 127.0.0.1 /jw2/index.php/Index/System/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001128s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `jw_advice` [ RunTime:0.003501s ]
+SQL: SELECT * FROM `jw_advice`  [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014910s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000847s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000752s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004628s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001244s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2015-11-23T19:32:49+08:00 ] 127.0.0.1 /jw2/index.php/Index/System/advice
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012501s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000789s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000764s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003402s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2015-11-23T19:32:52+08:00 ] 127.0.0.1 /jw2/index.php/Index/System/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `jw_advice` [ RunTime:0.003461s ]
+SQL: SELECT * FROM `jw_advice`  [ RunTime:0.000497s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016080s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000905s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000771s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003485s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001314s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2015-11-23T19:32:57+08:00 ] 127.0.0.1 /jw2/index.php/Index/System/advice
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001070s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012632s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000816s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000779s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000841s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003967s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001132s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2015-11-23T19:34:20+08:00 ] 127.0.0.1 /jw2/index.php/Index/System/advice
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002128s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014214s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000797s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000753s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003331s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000939s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2015-11-23T19:37:10+08:00 ] 127.0.0.1 /jw2/index.php/Index/System/addAdvice
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001268s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+NOTIC: [8] Undefined index: click G:\wamp\wamp\www\text\jw2\JW\Modules\Index\Action\SystemAction.class.php 第 20 行.
+NOTIC: [8] Undefined index: cid G:\wamp\wamp\www\text\jw2\JW\Modules\Index\Action\SystemAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `jw_advice` [ RunTime:0.002975s ]
+SQL: INSERT INTO `jw_advice` (`title`,`direction`,`xzname`,`content`,`time`,`click`,`cid`) VALUES ('.net学习路线','.NET','王迪','<p><span style=\"font-family: arial,&quot;courier new&quot;,courier,宋体,monospace,&quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 24px; text-align: left; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 1; word-spacing: 0px; display: inline ! important; float: none; background-color: rgb(255, 255, 255); border: medium none; color: rgb(0, 176, 80);\">c#语言是基础，主要是asp.net，mvc和winfrom，此外,javascript 、uml、xml、json、ajax，sliverlight等都要了解</span></p>',1448278630,0,0) [ RunTime:0.308235s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.084933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085086s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000952s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000880s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004111s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001130s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2015-11-23T19:37:11+08:00 ] 127.0.0.1 /jw2/index.php/Index/System/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `jw_advice` [ RunTime:0.003463s ]
+SQL: SELECT * FROM `jw_advice`  [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014995s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000847s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000771s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003531s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000896s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2015-11-23T19:39:00+08:00 ] 127.0.0.1 /jw2/index.php/Index/System/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001349s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `jw_advice` [ RunTime:0.003570s ]
+SQL: SELECT * FROM `jw_advice`  [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013904s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000843s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000806s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003496s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2015-11-23T20:05:55+08:00 ] 127.0.0.1 /jw2/index.php/Admin/Login/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001188s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022181s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000870s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000902s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000751s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003833s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001031s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2015-11-23T20:05:55+08:00 ] 127.0.0.1 /jw2/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+
+[ 2015-11-23T20:06:07+08:00 ] 127.0.0.1 /jw2/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001134s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `jw_admin` [ RunTime:0.227915s ]
+SQL: SELECT * FROM `jw_admin` WHERE ( `username` = '唐波' ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: UPDATE `jw_admin` SET `logintime`=1448280367,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.066275s ]
+
+[ 2015-11-23T20:06:07+08:00 ] 127.0.0.1 /jw2/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001307s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027436s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000851s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001090s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000693s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003910s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001040s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2015-11-23T20:06:22+08:00 ] 127.0.0.1 /jw2/index.php/Admin/Index/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001354s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+ERR: 非法操作:logout
+
+[ 2015-11-23T20:16:45+08:00 ] 127.0.0.1 /jw2/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001222s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+
+[ 2015-11-23T20:16:59+08:00 ] 127.0.0.1 /jw2/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001574s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001775s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011387s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000784s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001506s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004034s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2015-11-23T20:17:00+08:00 ] 127.0.0.1 /jw2/index.php/Admin/Index/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001230s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+
+[ 2015-11-23T20:17:00+08:00 ] 127.0.0.1 /jw2/index.php/Admin/Admin/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001081s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-11-23T20:17:07+08:00 ] 127.0.0.1 /jw2/index.php/Admin/Index/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002134s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002375s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+
+[ 2015-11-23T20:17:07+08:00 ] 127.0.0.1 /jw2/index.php/Admin/Admin/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-11-23T20:18:18+08:00 ] 127.0.0.1 /jw2/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011240s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000815s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000762s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000768s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003598s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001049s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2015-11-23T20:18:21+08:00 ] 127.0.0.1 /jw2/index.php/Admin/Index/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001097s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+
+[ 2015-11-23T20:18:21+08:00 ] 127.0.0.1 /jw2/index.php/Admin/AdminAdmin/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+ERR: 无法加载模块:AdminAdmin
+
+[ 2015-11-23T20:20:01+08:00 ] 127.0.0.1 /jw2/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001599s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001825s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012544s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000777s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000807s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000658s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003444s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000970s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2015-11-23T20:20:02+08:00 ] 127.0.0.1 /jw2/index.php/Admin/Index/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001296s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+
+[ 2015-11-23T20:22:57+08:00 ] 127.0.0.1 /jw2/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001120s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+ERR: 无法加载模块:Category
+
+[ 2015-11-23T20:23:03+08:00 ] 127.0.0.1 /jw2/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001033s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010133s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000714s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000747s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000870s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003639s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2015-11-23T20:23:06+08:00 ] 127.0.0.1 /jw2/index.php/Admin/Index/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001615s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+
+[ 2015-11-23T20:24:56+08:00 ] 127.0.0.1 /jw2/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001378s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+
+[ 2015-11-23T21:05:26+08:00 ] 127.0.0.1 /jw2/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001906s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002242s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011960s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000988s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000773s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003779s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001564s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001699s ]
+
+[ 2015-11-23T21:05:28+08:00 ] 127.0.0.1 /jw2/index.php/Admin/Index/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+
+[ 2015-11-23T21:05:28+08:00 ] 127.0.0.1 /jw2/index.php/jw2/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001028s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+ERR: 无法加载模块:jw2
+
+[ 2015-11-23T21:23:05+08:00 ] 127.0.0.1 /jw2/index.php/Index/System/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `jw_advice` [ RunTime:0.003523s ]
+SQL: SELECT * FROM `jw_advice`  [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\ac917fa67c364b691cfa3dd945c844ec.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015621s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001069s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001039s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000806s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004548s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001374s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001516s ]
+
+[ 2015-11-23T21:25:39+08:00 ] 127.0.0.1 /jw2/index.php/Index/System/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001224s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `jw_advice` [ RunTime:0.003520s ]
+SQL: SELECT * FROM `jw_advice`  [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\ac917fa67c364b691cfa3dd945c844ec.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013820s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000888s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000817s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003590s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000980s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001076s ]
+

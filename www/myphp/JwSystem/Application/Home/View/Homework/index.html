@@ -1,0 +1,206 @@
+<div class="row"  id="homework">
+            <div class="homework watchpla">
+               <h1>作业</h1>
+               <span class="hbottom"></span>
+               <p>More work to do</p>
+            </div>
+        </div>
+        <div class="container">
+               <div class="row workhead">
+                   <div class="col-md-4 col-sm-4 col-xs-4 headpiece1  watchpla"> <!-- 发布 -->
+                       <span class="decorate"></span>
+                       <div class="navhold" id="navhold">
+                           <div class="worknav">
+                               <p>发布</p>
+                           </div>
+                       </div>
+                       <div class="beginpub">   <!-- 发布窗口 -->
+                           <p>标题</p>
+                           <form action="{:U('Homework/publish')}" method="post" enctype="multipart/form-data">
+                               <input type="text" name="title" class="form-control">
+                               <p>图片上传</p>
+                               <input type="file" name="photo" class="form-control">
+                               <p>Attention</p>
+                               <textarea class="form-control" name="attention" rows="5"></textarea>
+                               <input type="submit" name="sub" class="btn btn-primary quewrite" value="发布"></input>
+                               <input type="button" class="btn btn-default quewrite" value="关闭"></input>
+                           </form>
+                         
+                       </div>
+                       <div class="publish">
+                          
+
+                          <foreach name="hw" item="hwv">
+                          <?php 
+                              $pho = M('member')->where("id=$hwv[mid]")->select(); 
+                              foreach ($pho as $phov) {
+                                 echo "
+                                    <img src='".$phov['phourl'].'/'.$phov['phoname']."' class='about-icon'>
+                                  ";
+                              }
+                             
+                           ?> 
+                           <script type='text/javascript'>
+                                              $(function(){
+                                                  $('.publishpic').css('background-image','url("{$hwv.phourl}/{$hwv.phoname}")');
+                                              })
+                            </script>
+                            <div class="publish-text">
+                                <h3>{$hwv.title}</h3>
+                                <div class="publishpic">
+                                   <div class="onload">
+                                        <a href="{:U('Homework/down',array('url'=>$hwv['phourl'],'name'=>$hwv['phoname']))}">点击下载</a>
+                                   </div>
+                                </div>
+                                <h5>Attention:</h5>
+                                <ul>
+                                   <li>{$hwv.attention}</li>
+                                   <!-- <li><span>2.</span>还原度高。</li>
+                                   <li><span>3.</span>动态效果需要写。</li> -->
+                                </ul>
+                            </div>
+                          </foreach> 
+
+                       </div>
+                   </div>
+                   <div class="col-md-4 col-sm-4 col-xs-4 headpiece2  watchpla"> <!-- 上传 -->
+                       <span class="decorate"></span>
+                       <div class="navhold">
+                          <div class="worknav">
+                              <p>上传</p>
+
+                          </div>
+                       </div>
+                        <div class="beginload">
+	                       <form action="{:U('Homework/finish')}" method="post" enctype="multipart/form-data">
+	                                <input type="file" name="file" class="form-control"/>
+	                                <input type="submit" name="sub" value="上传" class="btn btn-primary quewrite"/>
+	                                <input type="button" value="关闭" class="btn btn-default quewrite"/>
+	                       </form>
+                       </div>
+                       <div class="upload">
+                            <h3>请以下同学尽快完成</h3>
+                            <ul>
+                              <foreach name="nofin" item="nov">
+                                 <li>
+                                   <img src="{$nov.phourl}/{$nov.phoname}" class="about-icon">
+                                   <h4>{$nov.username}</h4>
+                                     <span class="glyphicon glyphicon-pencil"></span>
+                                 </li>
+                              </foreach>
+                           </ul>
+                       </div>
+                   </div>
+                   <div class="col-md-4 col-sm-4 col-xs-4 headpiece3  watchpla"> <!-- 完成 -->
+                       <span class="decorate"></span>
+                       <div class="navhold">
+                          <div class="worknav">
+                              <p>完成</p> 
+                          </div>
+                       </div>
+                       <div class="finished">
+                           <ul>
+                             <foreach name="fin" item="finv" key="k">
+                              <?php 
+                                  $where["$k"]['id'] = $finv['mid'];
+                                  $user = M('member')->where($where["$k"])->select();
+                                  foreach ($user as $v) {
+                                      echo "
+                                          <li>
+                                           <img src='".$v['phourl'].'/'.$v['phoname']."' class='about-icon'>
+                                           <h4>$v[username]</h4>
+                                             <span class='glyphicon glyphicon-ok'></span>
+                                          </li>
+                                      ";
+                                  }
+                                  
+                               ?>
+                             </foreach>
+                           </ul>
+                       </div>
+                   </div>
+               </div> 
+
+               <div class="row goodjob">
+                   <div class="jobhead watchpla">优秀作品展示</div>
+                   <div class="row mune">
+
+                      <div class="col-md-5  turn watchpla">
+                    <div class="photo">
+                       <div class="side side1">
+                         <div class="outface">
+                           <div class="button-box">
+                              <a href="#">
+                                <div class="button button1">
+                             {$title}
+                         </div>
+                              </a>
+                           </div> 
+                     <div class="button-box">
+                        <a href="#">
+                         <div class="button button2">
+                              {$name0}
+                         </div>
+                        </a>
+                     </div>
+                     <div class="button-box">
+                      <a href="{$fileurl0}/{$filename0}">
+                         <div class="button button3">
+                              代码下载
+                         </div>
+                      </a>
+                     </div>
+                       <div class="button-box">
+                          <a href="#">
+                             <div class="button button4">
+                                  展示链接
+                             </div>
+                          </a>
+                       </div>
+                         </div>
+                       </div>
+                    </div>
+                    <p class="title1">实验室学习系统</p> <p class="title2">2016.08.01</p>
+                  </div>
+
+
+                  <div class="col-md-5 col-md-offset-2 turn watchpla">
+                    <div class="photo">
+                      <div class="side side2">
+                        <div class="outface">
+                          <div class="button-box">
+                            <a href="#">
+                       <div class="button button1">
+                           {$title}
+                               </div>
+                            </a>
+                          </div>
+                      <div class="button-box">
+                        <a href="#">
+                       <div class="button button2">
+                            {$name1}
+                       </div>
+                            </a>
+                          </div>
+                    <div class="button-box">
+                      <a href="{$fileurl1}/{$filename1}">
+                         <div class="button button3">
+                             代码下载
+                         </div>
+                      </a>
+                    </div>
+                      <div class="button-box">
+                        <a href="#">
+                          <div class="button button4">
+                               展示链接
+                          </div>
+                        </a>
+                     </div>
+                       </div>
+                   </div>
+                  </div>
+                   <p class="title1">经纬实验室官网</p> <p class="title2">2016.08.01</p>
+                 </div>
+              </div>
+          </div>                 
+      </div>

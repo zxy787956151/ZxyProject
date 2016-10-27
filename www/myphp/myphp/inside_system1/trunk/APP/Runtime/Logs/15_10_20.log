@@ -1,0 +1,1519 @@
+[ 2015-10-20T17:58:12+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001440s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pd D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 109 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016741s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000892s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000749s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004038s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001098s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001219s ]
+NOTIC: [8] Undefined index: u D:\JWroom\wamp\www\myphp\inside_system\APP\Modules\Index\Action\IndexAction.class.php 第 9 行.
+
+[ 2015-10-20T17:58:12+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/index.php/Index/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001297s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+ERR: 非法操作:index.php
+
+[ 2015-10-20T17:58:17+08:00 ] 127.0.0.1 /inside_system/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pd D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 109 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001031s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000898s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000828s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005699s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002128s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002384s ]
+NOTIC: [8] Undefined index: u D:\JWroom\wamp\www\myphp\inside_system\APP\Modules\Index\Action\IndexAction.class.php 第 9 行.
+
+[ 2015-10-20T17:58:18+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001513s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+
+[ 2015-10-20T17:58:21+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/forget
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002076s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pid D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\2d3f9206ed689aeb47447af024e61ceb.php 第 64 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019980s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001214s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001279s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001274s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005857s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001020s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2015-10-20T17:58:35+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Login/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001281s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pid D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\898a685d56ed1672605d9b627b307072.php 第 151 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014282s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002859s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002177s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000940s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007921s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001272s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2015-10-20T17:58:35+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001515s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+
+[ 2015-10-20T18:39:33+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001410s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+ERR: 无法加载模块:index
+
+[ 2015-10-20T18:40:08+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002256s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002398s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+ERR: 模板不存在[./APP/Modules/Admin/Tpl/Index/index.html]
+
+[ 2015-10-20T18:40:45+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001049s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+ERR: 模板不存在[./APP/Modules/Admin/Tpl/Index/index.html]
+
+[ 2015-10-20T18:40:46+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003232s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+ERR: 模板不存在[./APP/Modules/Admin/Tpl/Index/index.html]
+
+[ 2015-10-20T18:40:46+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000967s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+ERR: 模板不存在[./APP/Modules/Admin/Tpl/Index/index.html]
+
+[ 2015-10-20T18:40:46+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001376s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+ERR: 模板不存在[./APP/Modules/Admin/Tpl/Index/index.html]
+
+[ 2015-10-20T18:40:47+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000978s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+ERR: 模板不存在[./APP/Modules/Admin/Tpl/Index/index.html]
+
+[ 2015-10-20T18:41:08+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003688s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003833s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008217s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000706s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000784s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001847s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004510s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000896s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2015-10-20T18:42:51+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014110s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000944s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001026s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000671s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003817s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000955s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2015-10-20T18:43:32+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001352s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013666s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001157s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000853s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004268s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000961s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2015-10-20T18:43:33+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010834s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000825s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000747s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003254s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000863s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2015-10-20T18:43:33+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001070s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015468s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001230s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001678s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000993s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005736s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001609s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001786s ]
+
+[ 2015-10-20T18:43:33+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001215s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011164s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000766s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000730s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003162s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000861s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2015-10-20T18:43:34+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000931s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010367s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000723s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000697s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000812s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003505s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2015-10-20T18:44:51+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001105s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050150s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002107s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003059s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008648s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001478s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001633s ]
+
+[ 2015-10-20T18:45:28+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/System/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+ERR: 无法加载模块:System
+
+[ 2015-10-20T18:45:29+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Category/addCate.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000806s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+ERR: 无法加载模块:Category
+
+[ 2015-10-20T18:45:30+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Category/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001159s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载模块:Category
+
+[ 2015-10-20T18:45:30+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Rbac/role.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000778s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Rbac
+
+[ 2015-10-20T18:45:31+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Rbac/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载模块:Rbac
+
+[ 2015-10-20T18:45:32+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009108s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001009s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000693s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000510s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003223s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000751s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2015-10-20T18:45:35+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000776s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010427s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000525s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000560s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002409s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2015-10-20T18:45:36+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/System/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:System
+
+[ 2015-10-20T18:47:35+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002107s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002313s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008303s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000803s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001035s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000772s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004132s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000870s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2015-10-20T18:47:36+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/System/verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+ERR: 无法加载模块:System
+
+[ 2015-10-20T18:47:52+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007407s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000523s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000509s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002290s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002639s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002772s ]
+
+[ 2015-10-20T18:47:53+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Yerify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+ERR: 无法加载模块:Yerify
+
+[ 2015-10-20T18:49:31+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000759s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010973s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000554s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000497s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002255s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2015-10-20T18:49:32+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000838s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:Verify
+
+[ 2015-10-20T18:49:34+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009246s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000528s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000562s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000487s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002482s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000680s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2015-10-20T18:49:35+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000872s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+ERR: 无法加载模块:Verify
+
+[ 2015-10-20T18:51:16+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001075s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+ERR: 无法加载模块:Verify
+
+[ 2015-10-20T18:51:16+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载模块:Verify
+
+[ 2015-10-20T18:51:16+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000785s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+ERR: 无法加载模块:Verify
+
+[ 2015-10-20T18:51:35+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000812s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+ERR: 无法加载模块:Verify
+
+[ 2015-10-20T18:51:37+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000837s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+ERR: 无法加载模块:Verify
+
+[ 2015-10-20T18:51:37+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002825s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003076s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+ERR: 无法加载模块:Verify
+
+[ 2015-10-20T18:51:45+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+ERR: 无法加载模块:Verify
+
+[ 2015-10-20T18:52:03+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001219s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013186s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000764s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000846s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000925s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004488s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000958s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2015-10-20T18:52:05+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+ERR: 无法加载模块:Verify
+
+[ 2015-10-20T18:52:36+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000843s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+ERR: 无法加载模块:Verify
+
+[ 2015-10-20T18:52:36+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+ERR: 无法加载模块:Verify
+
+[ 2015-10-20T18:52:37+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000961s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+ERR: 无法加载模块:Verify
+
+[ 2015-10-20T18:52:37+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000940s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+ERR: 无法加载模块:Verify
+
+[ 2015-10-20T18:53:03+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+ERR: 模板不存在[./APP/Modules/Admin/Tpl/Verify/index.html]
+
+[ 2015-10-20T18:53:13+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006793s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000583s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000542s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001078s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003385s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000785s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2015-10-20T18:54:54+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010154s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000711s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000599s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002728s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000737s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2015-10-20T18:55:16+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001083s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008294s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000564s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000727s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001819s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005850s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001138s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2015-10-20T18:55:29+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/System/updateVerify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载模块:System
+
+[ 2015-10-20T18:56:17+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000758s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+
+[ 2015-10-20T18:56:28+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000750s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011915s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000526s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000521s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002331s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2015-10-20T18:56:29+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/System/updateVerify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000776s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+ERR: 无法加载模块:System
+
+[ 2015-10-20T18:57:04+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/System/updateVerify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001312s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+ERR: 无法加载模块:System
+
+[ 2015-10-20T18:57:06+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000777s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011351s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000659s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000611s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002258s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005011s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000935s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2015-10-20T18:57:06+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000755s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011213s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000832s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000494s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002663s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000636s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2015-10-20T18:57:06+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/System/updateVerify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载模块:System
+
+[ 2015-10-20T18:57:37+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/System/updateVerify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001019s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+ERR: 无法加载模块:System
+
+[ 2015-10-20T18:57:37+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001015s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014536s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000908s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000911s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001543s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006276s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2015-10-20T18:57:38+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001006s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010053s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000645s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000749s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003015s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000745s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2015-10-20T18:57:38+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011349s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000874s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000708s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000567s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003160s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000765s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2015-10-20T18:57:38+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/updateVerify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000876s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023900s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000857s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000752s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001223s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004015s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000831s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2015-10-20T18:57:40+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002120s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002382s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010025s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001162s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000946s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000602s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003743s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000773s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2015-10-20T18:58:39+08:00 ] 127.0.0.1 /inside_system/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002572s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pd D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 109 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017012s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000883s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000925s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000877s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003832s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000989s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001097s ]
+NOTIC: [8] Undefined index: u D:\JWroom\wamp\www\myphp\inside_system\APP\Modules\Index\Action\IndexAction.class.php 第 9 行.
+
+[ 2015-10-20T18:58:39+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000938s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+
+[ 2015-10-20T18:58:42+08:00 ] 127.0.0.1 /inside_system/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002311s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pd D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 109 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013161s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000869s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000788s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003548s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8] Undefined index: u D:\JWroom\wamp\www\myphp\inside_system\APP\Modules\Index\Action\IndexAction.class.php 第 9 行.
+
+[ 2015-10-20T18:58:42+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001737s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+
+[ 2015-10-20T18:58:46+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001439s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009845s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000714s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000960s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003745s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000841s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2015-10-20T18:58:48+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/updateVerify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001155s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008619s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000636s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000630s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000576s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003288s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001139s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001264s ]
+
+[ 2015-10-20T18:58:49+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000885s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013690s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001706s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001932s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005287s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000790s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2015-10-20T18:58:50+08:00 ] 127.0.0.1 /inside_system/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pd D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 109 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014719s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002330s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000886s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000540s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004935s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001085s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001193s ]
+NOTIC: [8] Undefined index: u D:\JWroom\wamp\www\myphp\inside_system\APP\Modules\Index\Action\IndexAction.class.php 第 9 行.
+
+[ 2015-10-20T18:58:50+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001580s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001778s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+
+[ 2015-10-20T18:58:51+08:00 ] 127.0.0.1 /inside_system/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pd D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 109 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016203s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001370s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000687s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000547s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003620s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000784s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000873s ]
+NOTIC: [8] Undefined index: u D:\JWroom\wamp\www\myphp\inside_system\APP\Modules\Index\Action\IndexAction.class.php 第 9 行.
+
+[ 2015-10-20T18:58:51+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001087s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+
+[ 2015-10-20T18:58:52+08:00 ] 127.0.0.1 /inside_system/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pd D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 109 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013442s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001306s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002661s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001839s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007354s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000782s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8] Undefined index: u D:\JWroom\wamp\www\myphp\inside_system\APP\Modules\Index\Action\IndexAction.class.php 第 9 行.
+
+[ 2015-10-20T18:58:52+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001296s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+
+[ 2015-10-20T18:59:02+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/updateVerify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008172s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000709s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000748s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000631s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003140s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000853s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2015-10-20T18:59:04+08:00 ] 127.0.0.1 /inside_system/index.php/Admin/Verify/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001794s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009927s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001112s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000741s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003515s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000941s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2015-10-20T19:07:09+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001474s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `zxy_user` [ RunTime:0.006150s ]
+SQL: SELECT * FROM `zxy_user` WHERE ( `username` = '' ) LIMIT 1   [ RunTime:0.000805s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008779s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000956s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001203s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001234s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004687s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001057s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2015-10-20T19:07:11+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Login/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pid D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\898a685d56ed1672605d9b627b307072.php 第 151 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014325s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001712s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000953s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000710s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004897s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001448s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2015-10-20T19:07:12+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001047s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-10-20T19:07:15+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/forget
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001214s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001992s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pid D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\2d3f9206ed689aeb47447af024e61ceb.php 第 64 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013637s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000809s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000808s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004045s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001165s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2015-10-20T20:48:19+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001273s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003226s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pd D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 109 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014797s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001195s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001084s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004145s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001105s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001222s ]
+NOTIC: [8] Undefined index: u D:\JWroom\wamp\www\myphp\inside_system\APP\Modules\Index\Action\IndexAction.class.php 第 9 行.
+
+[ 2015-10-20T20:48:19+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/index.php/Index/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+ERR: 非法操作:index.php
+
+[ 2015-10-20T20:48:24+08:00 ] 127.0.0.1 /inside_system/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pd D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 109 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.373802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.374417s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002848s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002154s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001746s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010419s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003745s ]
+NOTIC: [8] Undefined index: u D:\JWroom\wamp\www\myphp\inside_system\APP\Modules\Index\Action\IndexAction.class.php 第 9 行.
+
+[ 2015-10-20T20:48:25+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+
+[ 2015-10-20T20:48:28+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000921s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `zxy_user` [ RunTime:0.240215s ]
+SQL: SELECT * FROM `zxy_user` WHERE ( `username` = '' ) LIMIT 1   [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015269s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000931s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001016s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004765s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001397s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2015-10-20T20:50:12+08:00 ] 127.0.0.1 /inside_system/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pd D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 109 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012510s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000813s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000881s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000619s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003806s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000912s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001003s ]
+NOTIC: [8] Undefined index: u D:\JWroom\wamp\www\myphp\inside_system\APP\Modules\Index\Action\IndexAction.class.php 第 9 行.
+
+[ 2015-10-20T20:50:12+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001082s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+
+[ 2015-10-20T20:50:13+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Login/forget
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+ERR: 非法操作:forget
+
+[ 2015-10-20T20:50:25+08:00 ] 127.0.0.1 /inside_system/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pd D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 109 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020405s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001584s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001378s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001091s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006064s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001703s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001879s ]
+NOTIC: [8] Undefined index: u D:\JWroom\wamp\www\myphp\inside_system\APP\Modules\Index\Action\IndexAction.class.php 第 9 行.
+
+[ 2015-10-20T20:50:25+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001907s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002151s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+
+[ 2015-10-20T20:50:25+08:00 ] 127.0.0.1 /inside_system/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pd D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 109 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016543s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000944s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000911s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003940s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001630s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001766s ]
+NOTIC: [8] Undefined index: u D:\JWroom\wamp\www\myphp\inside_system\APP\Modules\Index\Action\IndexAction.class.php 第 9 行.
+
+[ 2015-10-20T20:50:25+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+
+[ 2015-10-20T20:50:26+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/forget
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002031s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003414s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pid D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\2d3f9206ed689aeb47447af024e61ceb.php 第 64 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009479s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000821s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000725s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003189s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000858s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2015-10-20T20:50:44+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/forget
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001103s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pid D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\2d3f9206ed689aeb47447af024e61ceb.php 第 64 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024204s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001066s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000990s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003832s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000905s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2015-10-20T20:51:02+08:00 ] 127.0.0.1 /inside_system/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: pd D:\JWroom\wamp\www\myphp\inside_system\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 109 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020109s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001426s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000974s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004791s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001222s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001361s ]
+NOTIC: [8] Undefined index: u D:\JWroom\wamp\www\myphp\inside_system\APP\Modules\Index\Action\IndexAction.class.php 第 9 行.
+
+[ 2015-10-20T20:51:02+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Index/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001325s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+
+[ 2015-10-20T20:51:03+08:00 ] 127.0.0.1 /inside_system/index.php/Index/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001131s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `zxy_user` [ RunTime:0.003166s ]
+SQL: SELECT * FROM `zxy_user` WHERE ( `username` = '' ) LIMIT 1   [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010297s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001181s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000741s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003615s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000873s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000959s ]
+

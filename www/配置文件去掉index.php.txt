@@ -1,0 +1,2 @@
+去掉地址栏里面的index.php需要配置apache，打开httped.php,找到mod_rewrite.so,去掉前面的#,
+然后把AllowOverride none改为AllowOverride ALL,最后在项目根目录下新建.htaccess文件

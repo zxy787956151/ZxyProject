@@ -1,0 +1,27 @@
+</head>
+<body>
+<div class="page_style sublanmupage page_l62_sl564">
+<div class="top_box">
+ <div class="top_box_inner">
+   <div class="topcontent">
+    <if condition="session('username') eq null">
+    <a href="{:U('Login/index')}">登陆</a>&nbsp;&nbsp;&nbsp;<a href="{:U('Login/register')}">注册</a>
+    <else/>
+    <a href="#">{$Think.session.username}在线</a>&nbsp;&nbsp;&nbsp;<a href="{:U('Login/logout')}">退出</a>
+    </if>
+   </div>
+   <div class="clear"></div>
+   <div class="logo"><a href="{:U('Index/index')}"><img src="__PUBLIC__/Images/logo.jpg" border="0"></a>
+   </div>
+   <div class="menu_box" id="Menu"><ul>
+		<li class="menu_style_homepage" id="MenuItem61" name="MenuItem"><a href="{:U('Index/index')}" class="menu">首页</a></li>
+		
+		<li class="menu_style menu_current" id="MenuItem62" name="MenuItem"><a href="{:U('/a_7')}" class="menu">酒店简介</a></li>
+        <li class="menu_style menu_current" id="MenuItem62" name="MenuItem"><a href="{:U('Room/index')}" class="menu">酒店客房</a></li>
+        <li class="menu_style menu_current" id="MenuItem62" name="MenuItem"><a href="{:U('News/index')}" class="menu">酒店新闻</a></li>
+        <li class="menu_style menu_current" id="MenuItem62" name="MenuItem"><a href="{:U('News/index')}" class="menu">酒店预订</a></li>
+        <li class="menu_style menu_current" id="MenuItem62" name="MenuItem"><a href="{:U('Hr/index')}" class="menu">人力资源</a></li>
+        <li class="menu_style menu_current" id="MenuItem62" name="MenuItem"><a href="{:U('Contact/index')}" class="menu">联系我们</a></li>
+		</ul></div>
+ </div>
+</div>

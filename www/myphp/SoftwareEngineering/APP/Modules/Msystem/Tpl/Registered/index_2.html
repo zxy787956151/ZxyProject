@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>综合测评管理/注册</title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/registered.css">
+</head>
+<body>
+	<div class="content_first">
+		<div class="information_bar">
+			<img src="__PUBLIC__/img/information_bar.png">
+		</div>
+		<div class="content_second">
+			<h1>用户注册</h1>
+			<form action="{:U(GROUP_NAME . '/Registered/submit')}" method="post">
+               <span class="User_name">用户名</span>
+               <input type="text" name="username" class="input_first"/>
+               <br/>
+               <span class="Password">密码</span>
+               <input type="password" name="password" class="input_second"/>
+               <span class="professional">身份</span>
+               <select class="input_third" name="identity">
+               <option value ="teacher">教师</option>
+               <option value ="student">学生</option>
+               </select>
+               <a href="{:U(GROUP_NAME . '/Login/index')}">返回</a>
+               <input type="submit" name="submit" value="注册" class="submit"/>
+            </form>
+		</div>
+	</div>
+</body>
+</html>

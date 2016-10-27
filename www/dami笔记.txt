@@ -1,0 +1,13 @@
+让局域网访问自己ip下的项目:
+
+	默认情况下WAMP只能够在本机访问，外部访问或用ip地址访问的时候报403错误，今
+	天教大家简单修改两个文件，两行语句，让所在的局域网机子都可以访问安装了WAMP的机器，安装了WAMP的机器相当于服
+	打开路径：X:\wamp\bin\apache\apache2.2.8\conf
+	其中X为您WAMP软件安装的磁盘路径，编辑httpd.conf文件，搜索 Allow from（在234行），
+	将默认的Allow from 127.0.0.1修改为Allow from all,保存退出。
+	也修改一下phpmyadmin让外部也可以访问，打开路径：X:\wamp\alias\ 其中X为您安装WAMP软件的磁盘路径，
+	编辑phpmyadmin.conf 配置文件，找到最后面一行的：Allow from 127.0.0.1
+	同样是修改为：Allow from all
+	完成修改后，保存退出，重新启动WAMP，或直接在软件单击左键选择重新启动所有服务
+	重新启动服务后，局域网内的机器在浏览器地址栏输入安装有WAMP软件的机器的IP 地址就可以访问了
+调试模式Core-Tpl-Core.php

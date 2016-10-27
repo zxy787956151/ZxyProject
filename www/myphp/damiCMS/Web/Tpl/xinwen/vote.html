@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>投票 "{$votetitle}"-{$config.sitetitle}</title>
+<meta name="Keywords" content="{$config.sitekeywords}" />
+<meta name="Description" content="{$config.sitedescription}" />
+<link rel="shortcut icon" href="__TMPL__/images/favicon.ico" type="image/x-icon" />
+<link href="__TMPL__/images/default.css" rel="stylesheet" type="text/css"/>
+<script src="__TMPL__/js/common.js" type="text/javascript"></script>
+<script src="__TMPL__/js/marquee.js" type="text/javascript"></script>
+<style> 
+.votesee{width:600px;margin:30px auto;overflow:hidden;border:1px solid #3A98D1;background:#D5E5F7;}
+.votesee .title {text-align:center;font:bold 16px "Microsoft Yahei",sans-serif;padding:10px 0;}
+.votesee td {height:30px;text-align:left;padding-left:5px;border-top:1px solid #3A98D1;}
+.votesee .bfb {font-weight:bold;text-align:center;border-left:1px solid #3A98D1;border-right:1px solid #3A98D1;}
+</style>
+</head>
+<body>
+<include file="$head"/>
+<div id="positionbg">
+    <div id="position"><a href="__APP__">{$config.sitetitle}</a>&nbsp;&gt;&nbsp;投票&nbsp;&gt;&nbsp;{$votetitle}</div>
+</div>
+<div id="wrapper" style="border:1px solid #ccc;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="votesee">
+<tr>
+<td colspan="3" class="title">{$votetitle}{$over}</td>
+</tr>
+<volist name="vote" id="vo">
+<tr>
+<td width="40%">{$i}.{$vo.title}</td>
+<td width="10%" class="bfb">{$vo.percent}%</td>
+<td width="50%"><img src="__TMPL__/images/vote/{:rand(1,4);}.gif" style="width:{$vo.percent}%;height:9px;margin-right:5px;" title="{$vo.percent}%">{$vo.num} 票</td>
+</tr>
+</volist>
+<tr>
+<td colspan="3" style="text-align:center;">总得票：<font style="color:#ff0000;">{$total}</font>　投票时间：{$starttime}至{$overtime}</td>
+</tr></table>
+</div><include file="$footer"/>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<include file="Common:header"/>
+<include file="Common:nav"/>
+<div id='room'>
+<foreach name="advice" item="v">
+    <table>
+    	<tr>
+    		<th width='400px' size='12px'>标题：{$v.title}</th>
+    		<th width='500px'>{$v.xzname}学长发布于：{$v.time|date='y-m-d H:i',###}</th>
+    	</tr>
+    	<tr>
+             <td colspan='2' align="left">{$v.content}</td>
+    	</tr>
+    </table>
+<hr>
+</foreach>
+</div>
+</div>
+<include file="Common:bottom"/>

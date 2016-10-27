@@ -1,0 +1,6 @@
+[ 2016-01-14T18:42:47+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+ERR: 无法加载模块:Index
+

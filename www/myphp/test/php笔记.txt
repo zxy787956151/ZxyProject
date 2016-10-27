@@ -1,0 +1,4 @@
+php加密:
+	汉字:URL编码:urlencode();解码:urldecode();
+	时间:UNIX时间戳:存:strtotime('2015-7-29 10:28:00');
+					取:date("Y-m-d,H:i:s",$a);

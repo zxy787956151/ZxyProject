@@ -1,0 +1,12 @@
+[ 2016-06-18T19:15:12+08:00 ] 127.0.0.1 /99m/zxy.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+ERR: 非法操作:zxy.php
+
+[ 2016-06-18T19:25:48+08:00 ] 127.0.0.1 /99m/zxy.php/index
+ERR: 非法操作:zxy.php
+

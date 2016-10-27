@@ -1,0 +1,51 @@
+<include file="Common:header"/>
+ <include file="Common:nav"/>
+ <div id="room">
+     <form action="{:U(GROUP_NAME.'/System/addAdvice')}" method="post">
+         <p><font color="#0066CC" size="4">标题： 
+            <input name="title" type="text" id="text" size="132">
+            </font>
+            </p>
+            <p>
+            <font color="#0066CC" size="4">针对方向：
+              <select name="direction">
+                <option>PHP</option>
+                <option>.NET</option>
+                <option>前端方面</option>
+                <option>其他</option>
+              </select>
+            </font>
+            <font color="#0066CC" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;建议属性：
+               <foreach name="attr" item="v">
+                   <lable style="">
+                    <input type="checkbox" name='bid[]' value='{$v.id}'/>&nbsp;{$v.name}
+                   </lable>
+               </foreach>
+            </font>
+            <font color="#0066CC" size="4" style="align:right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学长姓名： 
+            <input name="xzname" type="text" id="xzname">
+            </font>
+         </p>
+         <p>&nbsp;</p>
+         <p>&nbsp;</p>
+         <p> 
+         <!-- <textarea name="content" id="container">这里写你的初始化内容</textarea> -->
+		 <script id="container" name="content" type="text/plain">
+		 这里写你的初始化内容
+		 </script>
+         </p>
+         <p align="center"> 
+          <input type="submit" name="Submit" value="完 成">
+          <input name="hidd" type="hidden" id="hidd" value="">
+         </p>
+      </form>
+ </div>
+ <include file="Common:bottom"/>
+</div>
+    <script type="text/javascript" src="/jw2/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="/jw2/ueditor/ueditor.all.js"></script>
+    <script type="text/javascript">
+        var editor = UE.getEditor('container');
+    </script>
+</body>
+</html>

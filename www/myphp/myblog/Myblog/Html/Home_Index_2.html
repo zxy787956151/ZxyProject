@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>唐波的博客</title>
+<meta name="keywords" content="个人博客" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="/myblog/Public/Home/Css/index.css"/>
+<link rel="stylesheet" href="/myblog/Public/Home/Css/style.css"/>
+<script type="text/javascript" src="/myblog/Public/Home/Js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="/myblog/Public/Home/Js/jquery.SuperSlide.2.1.1.js"></script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!--header start-->
+    <div id="header">
+      <h1>唐波的博客</h1>
+      <p>青春是打开了,就合不上的书。人生是踏上了，就回不了头的路，爱情是扔出了，就收不回的赌注。</p>    
+    </div>
+     <!--header end-->
+    <!--nav-->
+     <div id="nav">
+        <ul>
+         <li><a href="/myblog">首页</a></li>
+         <li><a href="/myblog/about/1.html">关于我</a></li><li><a href="/myblog/talk/2.html">碎言碎语</a></li><li><a href="/myblog/diary/3.html">个人日记</a></li><li><a href="/myblog/picture/4.html">相册展示</a></li><li><a href="/myblog/study/5.html">学无止境</a></li><li><a href="/myblog/message/6.html">留言板</a></li>         <div class="clear"></div>
+        </ul>
+      </div>
+       <!--nav end-->
+    <!--content start-->
+    <div id="content">
+       <!--left-->
+         <div class="left" id="news">
+           <div class="weizi">
+           <div class="wz_text">当前位置：<a href="#">首页</a>><a href="#">学无止境</a>><span>文章内容</span></div>
+           </div>
+           <div class="news_content">
+                  <div class="news_top">
+                    <h1>如何修改mysql数据库的密码</h1>
+                    <p>
+                      <span class="left sj">时间:16-04-28</span><span class="left fl">分类:学无止境</span>
+                      <span class="left author">php之家</span>
+                    </p>
+                    <div class="clear"></div>
+                  </div>
+                    <div class="news_text">
+                    <p style="line-height: 1.5em;"><span style="font-family: 宋体,SimSun; font-size: 14px;">一、设置mysql<br/>1.通过wamp打开mysql控制台，提示输入密码，因为现在是空，所以直接按回车。<br/>2.输入use mysql,提示Database changed<br/>3.update user set password=PASSORD(&#39;mypassword&#39;) where user = &#39;root&#39;;<br/>3.输入flush privileges,不输入，修改密码将不保存<br/>4.输入quit退出<br/><br/>二、设置phpmyadmin<br/>在wampserver程序安装目录下的apps目录找到phpmyadmin的目录，打开config.inc.php文件，找到<br/>$cfg[&#39;Servers&#39;][$i][&#39;password&#39;] = &#39;&#39;;在单引号中输入刚才输入的密码，这里即是mypassword</span></p>                    </div>
+           </div>         </div>
+         <!--end left -->
+         <!--right-->
+         <div class="right" id="c_right">
+         <div class="s_about">
+          <h2>关于博主</h2>
+           <img src="/myblog/Public/Home/Images/my.jpg" width="230" height="230" alt="博主"/>
+           <p>博主：唐波</p>
+           <p>职业：web后端、PHP</p>
+           <p>简介：</p>
+           <p>
+           <a href="#" title="联系博主"><span class="left b_1"></span></a><a href="#" title="加入QQ群，一起学习！"><span class="left b_2"></span></a>
+           <div class="clear"></div>
+           </p>
+          </div>         <!--栏目分类-->
+           <div class="lanmubox">
+              <div class="hd">
+               <ul><li>精心推荐</li><li>最新文章</li><li class="hd_3">随机文章</li></ul>
+              </div>
+              <div class="bd">
+                <ul>
+                    <li><a href="/myblog/1.html" title="网站项目实战开发（-）">HTML和HTML5的区别（1）</a></li><li><a href="/myblog/2.html" title="网站项目实战开发（-）">如何修改mysql数据库的密码（2）</a></li>				</ul>
+                 <ul>
+                    <li><a href="/myblog/1.html" title="网站项目实战开发（-）">HTML和HTML5的区别（1）</a></li><li><a href="/myblog/2.html" title="网站项目实战开发（-）">如何修改mysql数据库的密码（2）</a></li>				</ul>
+                 <ul>
+                    <li><a href="/myblog/1.html" title="网站项目实战开发（-）">HTML和HTML5的区别（1）</a></li><li><a href="/myblog/2.html" title="网站项目实战开发（-）">如何修改mysql数据库的密码（2）</a></li>				</ul>             
+              </div>
+           </div>
+           <!--end-->         <div class="link">
+    <h2>友情链接</h2>
+    <p><a href="/myblog">唐波个人博客</a></p>
+   </div>         </div>
+         <!--right end-->
+         <div class="clear"></div>
+         
+    </div>
+    <!--content end-->
+    <!--footer start-->
+    <div id="footer">
+     <p>Design by:<a href="http://www.duanliang920.com" target="_blank">少年</a> 2016-3-30</p>
+    </div>
+<!--footer end-->
+    <script type="text/javascript">jQuery(".lanmubox").slide({easing:"easeOutBounce",delayTime:400});</script>
+    <script  type="text/javascript" src="/myblog/Public/Home/Js/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<div class="row" id="heartroad">
+          <div class="headtroad">
+               <h1>心路</h1>
+               <span class="hbottom"></span>
+               <p>Heart words to say</p>
+          </div>
+        </div>
+        <div class="container">
+               <div class="dialoglimit">           <!-- 卡位 -->
+                   <ul class="dialoghold">
+                      <foreach name="heartarr" item="hv">         
+                      <li>
+                        <div class="dialogbox">                     <!-- 主框体 -->        
+                          <p>{$hv.content}</p>
+                        </div>
+                        <div class="boxadd" ></div>                 <!-- 框体下部修饰 -->        
+                        <div class="dialogpic">                     <!-- 发布人头像 -->
+                              <img src="{$hv.phourl}/{$hv.phoname}" index="0">
+                        </div>
+                        <div class="dialogname">                    <!-- 发布人用户名 -->
+                              <b>{$hv.member}</b>
+                        </div>
+                      </li>
+                     </foreach>
+                   </ul>
+                   <div class="chagebtn">          <!-- 按钮组 -->
+                            <a></a>
+                            <a></a>
+                            <a></a>
+                   </div>
+               </div>
+        </div>

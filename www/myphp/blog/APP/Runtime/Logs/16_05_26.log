@@ -1,0 +1,284 @@
+[ 2016-05-26T20:42:54+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.039020s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.004401s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.001327s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.122087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122193s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001139s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000966s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000870s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004287s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001557s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001726s ]
+
+[ 2016-05-26T20:43:03+08:00 ] 127.0.0.1 /blog/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015344s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018098s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000581s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000554s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002377s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2016-05-26T20:43:05+08:00 ] 127.0.0.1 /blog/index.php/Admin/Index/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+
+[ 2016-05-26T20:43:05+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039767s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000704s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000602s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000508s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002610s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-05-26T20:43:05+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001398s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+
+[ 2016-05-26T20:43:08+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.7374139345377283
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000779s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+
+[ 2016-05-26T20:43:09+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.030690545220259824
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000868s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+
+[ 2016-05-26T20:43:09+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.9257108925117286
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000746s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+
+[ 2016-05-26T20:43:09+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.3253440970204655
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000899s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-05-26T20:43:09+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.2064202078509878
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000765s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-05-26T20:43:09+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.4906925634983692
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000873s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+
+[ 2016-05-26T20:43:10+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.073915991072395
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+
+[ 2016-05-26T20:43:10+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.14570285765007385
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+
+[ 2016-05-26T20:43:10+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.27254218727947654
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000782s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-05-26T20:43:10+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.0416860584079487
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000762s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+
+[ 2016-05-26T20:43:10+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.34152657303862466
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000785s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+
+[ 2016-05-26T20:43:11+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.293782465133669
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000993s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+
+[ 2016-05-26T20:43:11+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.49037497493718163
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+
+[ 2016-05-26T20:43:13+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.37303448563840036
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+
+[ 2016-05-26T20:43:13+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.19704008961569752
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001054s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+
+[ 2016-05-26T20:43:13+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.7621323093590602
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000755s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+
+[ 2016-05-26T20:43:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.6248381297353138
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001070s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-05-26T20:43:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.9310986150901855
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000785s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-05-26T20:43:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.8124536473561363
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001230s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+
+[ 2016-05-26T20:43:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.7209104996994461
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000787s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-05-26T20:43:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.7432249970667038
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001176s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+
+[ 2016-05-26T20:43:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.33913172325024254
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000741s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+
+[ 2016-05-26T20:43:16+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.37738357293732716
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000858s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+
+[ 2016-05-26T20:43:16+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.63345719175209
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000955s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-05-26T20:43:16+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.10704177545492433
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000769s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+
+[ 2016-05-26T20:43:16+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify/0.6505564124409191
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001196s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+

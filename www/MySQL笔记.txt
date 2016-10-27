@@ -1,0 +1,138 @@
+﻿/**
+ * By 赵修宇 版权所有 防盗必究
+ */
+
+
+
+GRANT SELECT, INSERT,UPDATE,DELETE ON *.* TO phpuser@"%" IDENTIFIED BY "brophp";	//phpuser用户名brophp密码
+ 
+※索引(主键)id int unsigned not null primary key auto_increment,]
+
+
+※设置数据库的字符集alter database mydb character set utf8;(大小写自己调)
+
+※设置表的字符集ALTER TABLE table_name CONVERT TO CHARACTER SET UTF8;[修改之后,重新赋中文值就会好了]
+
+※将表的主键改为1: alter table tablename auto_increment = 1;
+
+※清除某表所有数据并将[主键清零]truncate table 表名;
+
+sql语句分类：DDL定义语言	DML操纵语句	DCL控制语句
+
+localhost中自带的4个数据库： information_schema:储存数据库对象信息
+
+cluster:储存系统的集群信息
+
+mysql:储存了系统的用户权限信息
+
+test:系统自动创建的测试数据库,任何用户都可以使用
+
+创建数据库: create database databasename;
+
+选择某数据库并查询其中的所有数据表:use databasename;show tables;
+
+删除数据库 drop database databasename;(phpmyadmin中被禁用)
+
+创建表 create table 表名(字段名 字段类型,字段名,字段类型...);
+
+查看表(在数据库下输入,localhost下不好使):desc tablename;
+localhost下:use databasename;desc tablename;
+
+按创建方式查询表 show create table tablename \G(phpmyadmin\G不好使);
+
+\G: 将输出按列显示。当需要看表中各字段的值时非常有用.
+
+删除表: drop table tablename;
+
+DDL修改表:
+修改字段类型:alter table tablename modify 字段名 新字段类型;
+
+增加表字段:alter table tablename add (column) 新字段 新字段的类型;
+
+删除表字段:alter table tablename drop (column) 要删除的字段名;
+
+字段改名(修改字段名):alter table tablename change 要改名的字段名 改完后的字段名 改完后的字段类型;
+
+修改字段排序:(改在其后:)alter table tablename add 新增字段名 (字段类型) after 已有某字段名 
+
+放到最前:alter table tablename modify 已有某字段名 此字段类型(必须有) first;
+
+改表名:alter table 原表名 rename 新表名;
+
+※查某个数据库的某个表: use databasename;show columns from tablename;[vs 13]
+
+DML语句:
+
+增(插入):insert into tablename(name,age)values('','');
+插入多条:insert into tablename()values(),(),();
+
+删:1.不加where会删除整个表中所有记录!
+	delete from tablename where age='21';
+	一次删除多个数据:用别名:
+	delete a,b from tablename1 a,tablename2 b where a.age='21' and b.age='18';
+
+改(更新):update tablename set 要改的字段名='要改成的字段key' where 原字段名='原key'(写别的条件);
+
+改多个数据:update tablename1 a,tablename2 b set a.啥啥啥='任何条件(可以很复杂)',b.啥啥啥='' where 任何条件;
+
+查:全查:select * from tablename;
+
+	查此表某几个字段内容:select 字段名,字段名,...from tablename;
+
+	只查不重复的字段内容:select distinct(不同的) 字段名 from tablename;
+
+	条件查询:select * from tablename where 某字段名='啥啥啥'(各种条件) and 多条件;
+
+	排序查询:select * from tablename order by 字段名 (desc[降序]或者asc[升序],不写默认是asc); 若区分不开将无序排列;
+
+	可用多条件排序:...order by 字段名1[desc/asc],字段名2[desc/asc]; 解决区分不开问题;
+
+	对排序后的限制:select * from tablename order by 字段名[/] limit [,];
+	(1)只显示排序后前三条记录:select * from tablename order by 字段名[/] limit 3;
+	(2)显示排序后从第二条记录开始的3条记录:select * from tablename order by 字段名[/] limit 1,3; limit不通用于其他数据库.
+
+	聚合:select fun_name from tablename (where 条件) (group by 某字段名) (with rollup) (having 条件);
+
+	fun_name:聚合函数:sum求和 count(*)记录数 max min;
+	eg:select count(1) from tablename;——输出记录条数;
+
+	group by:按什么条件(字段)聚合;
+	eg:select age,count(1) from biao1 group by age;——按年龄聚合记录数;
+
+	wrong!:※用","连接两个命令;eg:select * from biao1,biao2;将俩表并肩输出;
+
+	with rollup:可选语法,对聚合后的结果再汇总(key和);
+	eg:select age,count(1) from biao1 group by age with rollup;
+
+	having:对聚合后的结果再进行条件过滤;
+	eg:select age,count(1) from biao1 group by age having count(1)>1;
+	——统计(聚合)人数大于1的;
+
+	sum:eg:select sum(age),max(age),min(age) from tablename;
+
+	表连接:
+		内连接:SELECT name1,name2 FROM biao1,biao2 WHERE biao1.age1 = biao2.age2;(如果2表字段名相同貌似不行)
+
+		外链接:
+			左连接:SELECT name1,name2 FROM biao1 left join biao2 on biao1.age1=biao2.age2;
+
+			右连接:(等价于上左连接,输出结果一模一样)SELECT name1,name2 FROM biao2 right join biao1 on biao1.age1=biao2.age2;
+
+	子查询:从biao1中查出所有跟biao2 age相同的记录:
+			select * from biao1 where age1 in(select age2 from biao2);
+
+		   如果子查询limit 1则in可用=代替:
+		   select * from biao1 where age1=(select age2 from biao2 limit 1);
+
+		子查询转化为表连接:
+		select biao1.* from biao1,biao2 where biao1.age1=biao2.age2;			
+	记录联合(合并):
+		union all:eg:select * from biao1 union all select * from biao2;
+
+		union(vs union all:把合并后的记录在distinct一次):union all→union;		
+DCL语句:关于权限
+
+MySQL的数据类型:
+create table zxy_user (id int unsigned not null primary key auto_increment, username char(20) not null default '' unique, password char(32) not null default '', logintime int(10) unsigned not null default 0, loginip char(20) not null default '');
+
+insert into zxy_user set username='admin', password = md5('admin'), logintime = unix_timestamp(now()), loginip = '127.0.0.1'; 

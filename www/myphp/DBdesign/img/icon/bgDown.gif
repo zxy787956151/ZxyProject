@@ -1,0 +1,32 @@
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<h1>404 Not Found</h1>
+/img/icon/bgDown.gif was not found on this server.
+<p /><hr />
+<small>
+Resin-3.0.27 (built Mon, 19 Jan 2009 01:26:35 PST)
+</small>
+</body></html>
+
+
+
+
+<!--
+   - Unfortunately, Microsoft has added a clever new
+   - "feature" to Internet Explorer.  If the text in
+   - an error's message is "too small", specifically
+   - less than 512 bytes, Internet Explorer returns
+   - its own error message.  Yes, you can turn that
+   - off, but *surprise* it's pretty tricky to find
+   - buried as a switch called "smart error
+   - messages"  That means, of course, that many of
+   - Resin's error messages are censored by default.
+   - And, of course, you'll be shocked to learn that
+   - IIS always returns error messages that are long
+   - enough to make Internet Explorer happy.  The
+   - workaround is pretty simple: pad the error
+   - message with a big comment to push it over the
+   - five hundred and twelve byte minimum.  Of course,
+   - that's exactly what you're reading right now.
+   -->

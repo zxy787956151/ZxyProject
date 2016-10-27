@@ -1,0 +1,563 @@
+[ 2016-03-26T18:09:20+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009340s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000739s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000629s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000534s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002781s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000729s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-03-26T18:09:28+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008335s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000562s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000525s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000518s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002470s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000644s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-03-26T18:09:32+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000802s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036390s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000557s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000557s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002355s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000663s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2016-03-26T18:09:32+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000678s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+ERR: 非法操作:js
+
+[ 2016-03-26T18:09:37+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000683s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-03-26T18:09:37+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000687s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005654s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000537s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000547s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000461s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002443s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2016-03-26T18:09:37+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/js/prefixfree.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000624s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+ERR: 非法操作:js
+
+[ 2016-03-26T18:09:41+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000665s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.004052s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: UPDATE `think_user` SET `logintime`=1458986981,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.065816s ]
+
+[ 2016-03-26T18:09:41+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000675s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006778s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000463s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000504s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002054s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000549s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-03-26T18:17:34+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000985s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005813s ]
+SQL: SELECT * FROM `think_user` WHERE ( `username` = 'zxy' ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: UPDATE `think_user` SET `logintime`=1458987454,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.062660s ]
+
+[ 2016-03-26T18:17:34+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000692s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007435s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000999s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000637s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003084s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000735s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-03-26T18:22:31+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000931s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008222s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000740s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000738s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000634s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002969s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000720s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2016-03-26T18:22:38+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000997s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006963s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000609s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000609s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002589s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2016-03-26T18:22:38+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001289s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006427s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000534s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000523s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002205s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000604s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-03-26T18:22:42+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006109s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000502s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000493s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002101s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000585s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-03-26T18:23:01+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001377s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008072s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000660s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000608s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002649s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000709s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-03-26T18:23:14+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006297s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000488s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000494s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000406s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002159s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000589s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2016-03-26T18:23:18+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000648s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006327s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000688s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000876s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003166s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000645s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-03-26T18:23:26+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008041s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000707s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000714s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003136s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000789s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-03-26T18:23:27+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001141s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006360s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000656s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000502s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002301s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000602s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-03-26T18:23:44+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000691s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006957s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000481s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000526s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002378s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000607s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2016-03-26T18:23:49+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000665s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007079s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001128s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000532s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000429s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002877s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000611s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-03-26T18:24:08+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000649s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006252s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000786s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000828s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002845s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000571s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-03-26T18:24:33+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000782s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007034s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001512s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000732s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004162s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000813s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-03-26T18:51:03+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000653s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000641s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000565s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002766s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000997s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2016-03-26T18:51:25+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007294s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000687s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000618s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002663s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000776s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2016-03-26T18:51:34+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007844s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000613s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000599s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002479s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2016-03-26T18:51:35+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000691s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006734s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000575s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000556s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000383s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002195s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000567s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-03-26T18:51:36+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000651s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007704s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000503s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000523s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002196s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000605s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2016-03-26T18:51:39+08:00 ] 127.0.0.1 /MyThink/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010269s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000766s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000561s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000432s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002537s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-03-26T18:51:41+08:00 ] 127.0.0.1 /MyThink/index.php/Admin/Menu/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000692s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: blog E:\wamp\www\myphp\MyThink\APP\Runtime\Cache\Admin\01e6cf7a6dd6eccefe92e6e3443298b8.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025019s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000636s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000528s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002391s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000624s ]
+

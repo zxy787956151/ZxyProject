@@ -1,0 +1,98 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<base target="iframe"/>
+<LINK href="__PUBLIC__/Css/globle_v1.css" type=text/css rel=stylesheet>
+<link href="__PUBLIC__/Css/skin_blue.css" rel="stylesheet" type="text/css" id="lnkSkin">
+</HEAD>
+<BODY>
+<DIV class=SidebarWp>
+<DIV class=SidebarThemeWp>
+<DIV class=SidebarWpInner>
+<TABLE class=tbSB height="100%" cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+  <TBODY>
+  <TR>
+    <TD class=tbSbTop><!-- 收写信大按钮 -->
+      <H1 class=BigBtnWp></H1></TD></TR>
+  <TR>
+    <TD class=tbSbMid><!-- 主体列表 开始 -->
+      <DIV class=Sb_ConWp>
+      <DIV class=Sb_ConWpIn><!-- 文件夹 开始 -->
+      <DIV class="PanelWp Panel_Fld"><!-- 内容部分（折叠时隐藏） -->
+      <DIV class=PanelCon id=dvSysFolder>
+      <UL id=ulSysFolder>
+        
+        <LI class="Fld_Inbox New"><B class=icoFld></B><A class=fileItem id=lnk1><SPAN class=JQ>分类管理(one)</SPAN></A>&nbsp;</LI>
+        
+        <LI class=Fld_Drafts><B class=icoFld></B><A class=fileItem id=lnk2 
+        title=分类列表 
+        href="{:U('Category/index')}" target="mainFrame"><SPAN class=JQ>分类列表</SPAN></A>&nbsp;
+        
+        </LI>
+        <LI class=Fld_Send><B class=icoFld></B><A class=fileItem id=lnk3 
+        title=添加分类 
+        href="{:U('Category/addCate')}" target="mainFrame"
+        ><SPAN class=JQ>添加分类</SPAN></A>&nbsp;
+        
+        </LI>
+       </UL></DIV></DIV><!-- 文件夹 结束 --><!-- 分隔线 -->
+
+      <DIV class=Sb_Line></DIV><!-- 邮箱功能 开始 -->
+      <DIV class="PanelWp Panel_Ftr"><!-- 内容部分 --> 
+	  <DIV class=PanelCon>
+      <UL>
+	    <LI class="Fld_Inbox New"><B class=icoFld></B><A class=fileItem id=lnk1><SPAN class=JQ>博文管理(two)</SPAN></A>&nbsp;</LI>
+        <LI class=Fld_Addr><B class=icoFld></B><A class=fileItem id=lnkAddress 
+        title=博文列表 
+        href="{:U('Blog/index')}" target="mainFrame"><SPAN class=JQ>博文列表</SPAN></A></LI>
+        <LI class=Fld_NetDisk><B class=icoFld></B><A class=fileItem 
+        id=lnkNetFolder title=添加博文 
+        href="{:U('Blog/addBlog')}" target="mainFrame"><SPAN class=JQ>添加博文</SPAN></A></LI>
+        <LI class=Fld_NetDisk><B class=icoFld></B><A class=fileItem 
+        id=lnkNetFolder title=回收站 
+        href="{:U('Blog/trach')}" target="mainFrame"><SPAN class=JQ>回收站</SPAN></A></LI>
+        </UL></DIV></DIV><!-- 邮箱功能 结束 --><!-- 分隔线 -->
+		<!-- 分隔线 -->
+
+      <DIV class=Sb_Line></DIV><!-- 邮箱功能 开始 -->  
+	  <DIV class="PanelWp Panel_Ftr"><!-- 内容部分 -->
+      <DIV class=PanelCon>
+      <UL>
+	    <LI class="Fld_Inbox New"><B class=icoFld></B><A class=fileItem id=lnk1><SPAN class=JQ>发布管理(three)</SPAN></A>&nbsp;</LI>
+        <LI class=Fld_Addr><B class=icoFld></B><A class=fileItem id=lnkAddress 
+        title=发布列表 
+        href="{:U('Diary/index')}" target="mainFrame"><SPAN class=JQ>发布列表</SPAN></A></LI>
+        <LI class=Fld_NetDisk><B class=icoFld></B><A class=fileItem 
+        id=lnkNetFolder title=添加发表 
+        href="{:U('Diary/addDiary')}" target="mainFrame"><SPAN class=JQ>添加发表</SPAN></A>      
+        </LI></UL></DIV></DIV><!-- 邮箱功能 结束 --><!-- 分隔线 -->
+
+		<DIV class=Sb_Line></DIV><!-- 邮箱功能 开始 -->  
+	  <DIV class="PanelWp Panel_Ftr"><!-- 内容部分 -->
+      <DIV class=PanelCon>
+      <UL>
+	    <LI class="Fld_Inbox New"><B class=icoFld></B><A class=fileItem id=lnk1><SPAN class=JQ>相册管理(four)</SPAN></A>&nbsp;</LI>
+        <LI class=Fld_NetDisk><B class=icoFld></B><A class=fileItem 
+        id=lnkNetFolder title=添加相册 
+        href="{:U('Photo/addPhoto')}" target="mainFrame"><SPAN class=JQ>添加相册</SPAN></A>      
+        </LI></UL></DIV></DIV><!-- 邮箱功能 结束 --><!-- 分隔线 -->
+
+    <DIV class=Sb_Line></DIV><!-- 邮箱功能 开始 -->  
+    <DIV class="PanelWp Panel_Ftr"><!-- 内容部分 -->
+      <DIV class=PanelCon>
+      <UL>
+      <LI class="Fld_Inbox New"><B class=icoFld></B><A class=fileItem id=lnk1><SPAN class=JQ>留言管理(five)</SPAN></A>&nbsp;</LI>
+        <LI class=Fld_Addr><B class=icoFld></B><A class=fileItem id=lnkAddress 
+        title=留言列表 
+        href="{:U('List/index')}" target="mainFrame"><SPAN class=JQ>留言列表</SPAN></A></LI>
+        <LI class=Fld_NetDisk><B class=icoFld></B><A class=fileItem 
+        id=lnkNetFolder title=回复留言 
+        href="{:U('List/addList')}" target="mainFrame"><SPAN class=JQ>回复留言</SPAN></A>      
+        </LI></UL></DIV></DIV><!-- 邮箱功能 结束 --><!-- 分隔线 -->
+
+      <DIV class=Sb_Line>
+      </DIV>     
+	  </DIV></DIV><!-- 主体列表 结束 -->
+	  </TD></TR></TBODY></TABLE></DIV></DIV></DIV>
+</BODY></HTML>

@@ -1,0 +1,270 @@
+  <div class="row" id="answer"><!-- 标题 -->
+    		  <div class="module watchpla">  
+    			  <h1>问答</h1>
+    			  <span class="hbottom"></span>
+    			  <p>Answer to all questions</p>
+    		  </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <!-- 问答模块 -->
+            <div class="col-md-8 about-left watchpla">  
+                  <!-- 动态区域头部 -->
+                  <div class="activepla">
+	                  <div class="iconplace">
+	                  	  <span class="person-icon"></span> 
+	                  </div>
+	                  <div class="report">
+	                  	   <span class="rpfront"></span>
+	                  	   <ul>
+	                  	   	   <li><span class="glyphicon glyphicon-edit"></span>提问</li>
+	                  	   	   <li><a href="#"><span class="glyphicon glyphicon-check"></span>技术</a></li>
+	                  	   	   <li><a href="#"><span class="glyphicon glyphicon-share"></span>学习库</a></li>
+	                  	   </ul>
+	                  </div>
+	                  <!-- 提问框 -->
+	                  <div class="question">
+                        <form action="{:U('Qanda/que')}" method="post">
+                            <p>标题</p>
+                           <input type="text" name="title" class="form-control">
+                           <p>问题内容</p>
+                           <textarea class="form-control" rows="5" name="content"></textarea>
+                           <input type="submit" name="sub" class="btn btn-primary quewrite" value="发表"></input>
+                           <input type="button" class="btn btn-default quewrite" value="关闭"></input>
+                        </form>
+	                       	
+	                  </div>
+	                  <div class="clearfix"></div>
+                  </div>
+                  <!-- 最新讨论 -->
+                  <div class="newtalk">
+                      <span class="glyphicon glyphicon-list"></span>
+                      <h4>New Talk</h4>
+                  	  <span class="newline"></span>
+                  </div>
+                  <!-- 动态部分 -->
+                <foreach name="que" item="v" key="k">
+                  <div class="about-grid">
+                      <!-- 头像 -->
+                      <div class="about-icon">
+                          <a href="#" class="#">
+                              <span class="learn" id="<?php echo 'png'.$k?>"></span> 
+                          </a>
+                      </div>
+                      <!-- 文章 -->
+                      <div class="about-text">    
+                          <h5>{$v.title}？</h5>
+                          <div class="title">
+                              <img src="__PUBLIC__/images/into-img1.jpg">
+
+                              <?php 
+
+                                    $where['username'] = $v['user'];
+                                    $pho = M('member')->where($where)->select();
+                                    foreach ($pho as $p) { 
+                                        echo "
+                                              <script type='text/javascript'>
+                                                    $(function(){
+                                                        $('#png".$k."').css('background','url(".$p['phourl'].'/'.$p['phoname'].")');
+                                                    })
+                                              </script>
+                                            ";
+                                    }
+
+
+                                     echo "
+                                      <p><span style='color:#a79267'>".mb_substr($v['qcontent'], 0, 100, 'utf-8')."</span>… <span class='showbtn' index='".$ind."'>显示全部</span>
+                                      </p>
+                                                  
+                                      <div class='behidden'>
+                                        <p>".mb_substr($v['qcontent'], 100, strlen($v['qcontent']), 'utf-8')."</p>
+                                      </div>
+
+                                    ";
+                                  
+                                  // if (isset($_SESSION['user'])) {
+                                          // echo "
+                                          //   <script type='text/javascript'>
+                                          //         $(function(){
+                                          //             $('.userpic').css('background-image','url(".$p['phourl'].'/'.$p['phoname'].")');
+                                          //         })
+                                        
+                                          //         $('span.learn').css('background','url(".$p['phourl'].'/'.$p['phoname'].")');
+                                          //    </script>
+                                          // ";
+                                      
+                                  // }
+                               ?>
+
+                              <foreach name="head" item="p">
+                                  
+                              
+                              <br>
+                          </div>
+                          <div class="relevant"><!--问答相关的转载，评论收藏-->
+                               <ul>
+	                                 <li>
+	                                     <a><span class="glyphicon glyphicon-pencil"></span><span class="answerbtn" index="<?php echo $ind; ?>">回答</span></a>
+		                               </li>
+	                                 <li>
+	                                     <a href="{:U('Index/collect',array('qid'=>$v['id']))}"><span class="glyphicon glyphicon-heart-empty"></span>收藏</a>
+                                   </li>
+                                   <li class="hidebtn" index="<?php echo $ind; ?>">
+	                                     <a><span class="glyphicon glyphicon-chevron-up"></span>隐藏以上</a>
+                                   </li>
+                               </ul>
+                          </div>
+                          <div class="answerwhole">
+
+                              <div class="answerhold"><!-- 回答区域 -->
+	                          	  <?php 
+                                    foreach ($ans as $v2) { 
+                                        if ($v['id']==$v2['qid']) {
+
+                                          $where['username'] = $v2['user'];
+                                          $pho = M('member')->where($where)->select();
+                                          foreach ($pho as $a) {
+                                              echo "
+                                               <div class='everyper'>
+                                                  <img src='".$a['phourl'].'/'.$a['phoname']."'>
+                                                  <h5>".$v2['user']."</h5>
+                                                  <p>".$v2['acontent']."</p>
+                                                  <p class='agree'>".$v['praise']."<a href='".U('Index/praise',array('id'=>$v2['id']))."'><span class='glyphicon glyphicon-thumbs-up'>(".$v2['praise'].")</span></a></p>
+                                                </div>
+                                              ";
+                                          }
+
+                                          
+                                        }
+                                    }
+                                ?>  
+	                            </div>                 
+                          </foreach>      
+
+                              <!-- 回答区域翻页 -->
+                              <div class="answerpage">
+	                          	      <ul class="pagination">
+                  									    <li>
+                    									      <a href="#" aria-label="Previous">
+                    									      <span aria-hidden="true">&laquo;</span>
+                    									      </a>
+                  									    </li>
+                                                      
+                								        <li><a href="#">1</a></li>
+                								        <li><a href="#">2</a></li>
+                								        <li><a href="#">3</a></li>
+								                       <li>
+                								            <a href="#" aria-label="Next">
+                								            <span aria-hidden="true">&raquo;</span>
+                								            </a>
+                								       </li>
+								                    </ul>
+	                                  <a class="hideanswer" index="<?php echo $ind; $ind++;?>"><span class="glyphicon glyphicon-chevron-up"></span>收起回答</a>	   	
+                              </div>
+                              <form action="{:U('Qanda/ans')}" method="post">
+                                <div class="wrtanswer">
+                                   <input type="hidden" class="id" name="qid" value="0" />
+                            	     <input type="text" name="acontent" class="form-control" placeholder="写下你的回答..">
+                            	     <input type="submit" name="sub" class="btn btn-primary" value="回答"></input>	
+                                </div>
+                              </form>
+                          </div>
+                      </div>
+                      <!-- 清除浮动层,以后研究 -->
+                      <div class="clearfix"></div>
+                  </div>
+                </foreach>
+                  <!-- 翻页 -->
+                  <div class="gridturn">
+                      <ul class="pagination">
+            							<li>
+            							   <a href="#" aria-label="Previous">
+            							      <span aria-hidden="true">&laquo;</span>
+            								</a>
+            							</li>
+                          <?php 
+                              for ($i=0; $i <$pageNum; $i++) { 
+                                // echo "<li><a href='".U('Index/Index',array('num'=>$i+1))."'>".($i+1)."</a></li>";
+                                echo "
+                                  <input type='submit' name='start' class='ajax' value='".($i+1)."' />
+                                ";
+                                
+                              }
+                           ?>
+            							<li>
+            								<a href="#" aria-label="Next">
+            									<span aria-hidden="true">&raquo;</span>
+            								</a>
+            							</li>
+        				      </ul>
+        				  </div>
+            </div>
+            <!-- 侧边栏 -->
+            <div class="col-md-4 about-right">
+                  <div class="rollhold watchpla"> <!-- 侧边栏上层 -->
+		         	       <ul class="rolllist">  
+  		                 <ul class="rollheader">
+  		                     <li>热议</li>
+  		                     <li>Hot roll</li>
+  		                 </ul>
+		                   <ul class="hotroll">
+                          <foreach name="hot" item="vh" key="k">
+                                <if condition="$k eq 0 ">
+                                  <li>
+                                    <a href=''><span class='glyphicon glyphicon-king'></span>{$vh.qcontent}？</a> 
+                                  </li>   
+                                    <else /> 
+                                      <li>
+                                        <a href=''><span>{$k+1}.</span>{$vh.qcontent}?</a>
+                                      </li>
+                                </if>
+    			                    
+    			                    
+                          </foreach>
+		         	         </ul>
+		                 </ul>
+		              </div>
+		              <div class="newshold watchpla"> <!-- 侧边栏下层 -->
+    		         	    <ul class="newslist">  <!-- 大列表 -->
+    		                 <ul class="newsheader">
+    		                     <li><div class="newspic"></div></li>
+    		                     <li>Letters</li>
+    		                 </ul>
+    		                 <li>
+    		         	  	      <ul class="ablock">  <!-- 3个小列表 -->
+    		         	  	       	  <li><span class="glyphicon glyphicon-heart "></span></li>
+    		      		         	    <li>推荐</li>
+    			         	  	    </ul>
+    			         	  	    <ul class="all-in-there">    <!-- 小列表的内容 -->
+      				                  <li><a href="#"><span>1.</span>有哪些有创意的旧物改造？</a></li>
+      				                  <li><a href="#"><span>2.</span>程序员的自我修养！</a></li>
+      				                  <li><a href="#"><span>3.</span>关于html5游戏的相关看法。</a></li>
+      				              </ul>
+    		         	  	   </li>   
+    		                 <li>
+    		                    <ul class="ablock">
+    		  		                  <li><span class="glyphicon glyphicon-tags "></span></li>
+    		  		                  <li>收藏</li>
+    		  		              </ul>
+    		  		              <ul class="all-in-there">    <!-- 小列表的内容 -->
+                              <foreach name="collect" item="v" key="k">
+    		  		                  <li><a href="#"><span>{$k+1}.</span>{$v.qcontent}</a></li>
+                              </foreach>
+    		  		              </ul>
+    		                 </li>
+    		         	       <li>
+    		         	          <ul class="ablock">
+    		         	              <li><span class="glyphicon glyphicon-envelope"></span></li>
+    			         	  	      <li>消息</li>
+    		      		          </ul>
+        				         	  <ul class="all-in-there">    <!-- 小列表的内容 -->
+        				                  <li><a href="#"><span>1.</span>欢迎来到经纬学习系统！</a></li>
+        				                  <li><a href="#"><span>2.</span>纳新正在进行。</a></li>
+        				                  <li><a href="#"><span>3.</span>学习库已经开放。</a></li>
+        				              </ul>
+    		         	      </li>
+    		              </ul>
+		              </div>
+            </div>
+          </div>
+        </div>

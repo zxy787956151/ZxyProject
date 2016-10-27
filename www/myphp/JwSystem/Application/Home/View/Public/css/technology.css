@@ -1,0 +1,319 @@
+body{overflow-x:hidden;}
+
+@font-face {font-family:myfont;src:url("../fonts/RakerDisplay-HeavyItalic.ttf")}
+
+.technology{text-align:center;
+	        }
+
+.technology h1{font-size:4em;
+               color:#614e3c;
+               margin:1.5em 0 0.2em 0;
+               }
+
+.technology p{color:#929292;
+              font-size:1em}
+
+.hbottom{background: #807D7D;
+         width:120px;
+         height: 1px;
+         display: block;
+         margin: 0.7em auto 0.7em;}
+
+.technologynav{margin:2em 0em 0em -4.5em}
+
+.technologynav li{float:left;
+                  list-style:none;
+                  font-size:1.5em;
+                  display:block;
+                  line-height:2.2em;
+                  text-align:center;
+                  border:2px solid #614e3c;
+                  border-radius:10px 0 10px 0;
+                  transition: background 0.5s,color 0.5s;
+                  cursor:pointer;
+                  font-family:myfont;
+                  }
+
+@media screen and (max-width:992px) {
+       .technologynav{margin:2em 0em 0em 0em} /*768px下导航栏*/
+}
+.techange{background:#614e3c;
+          color:white;
+          }
+
+.technologychild{display:none;}
+
+.watchpla{visibility:hidden;}
+
+/*动画效果*/
+                   /*标题动画*/
+@keyframes shiftdown
+{
+	from   {transform: translateY(-50px);opacity:0.1}
+	to    {transform: translateX(0px);opacity:1}
+}
+
+@keyframes shiftdoudown
+{
+  from   {transform: translateY(-200px);opacity:0.1}
+  to  {transform: translateX(0px);opacity:1}
+}
+@keyframes shiftup
+{
+  from   {transform: translateY(200px);opacity:0.1}
+  to  {transform: translateX(0px);opacity:1}
+}
+                   /*导航动画*/
+@keyframes shiftright
+{
+	from   {transform: translateX(-400px);opacity:0.1}
+	to  {transform: translateX(0px);opacity:1}
+}
+@keyframes shiftleft
+{
+	from  {transform: translateX(100px);opacity:0}
+	to  {transform: translateX(0px);opacity:1}
+}
+@keyframes shiftdoubl
+{
+	0% {transform: translateX(100px);opacity:0}
+	50% {transform: translateX(100px);opacity:0}
+	100%  {transform: translateX(0px);opacity:1}
+}
+@keyframes shiftthirl
+{
+	0% {transform: translateX(100px);opacity:0}
+	75% {transform: translateX(100px);opacity:0}
+	100%  {transform: translateX(0px);opacity:1}
+}
+                  /*内容动画*/
+@keyframes arshiftr
+{
+	from{transform: translateY(100px);opacity:0;transform:scale(0.5,0.5)}
+	to{transform: translateY(0px);opacity:1;transform:scale(1,1)}
+}
+@keyframes douarshiftr
+{
+	0%{transform: translateY(100px);opacity:0;transform:scale(0.5,0.5)}
+	25%{transform: translateY(100px);opacity:0;transform:scale(0.5,0.5)}
+	100%{transform: translateY(0px);opacity:1;transform:scale(1,1)}
+}
+@keyframes thiarshiftr
+{
+	0%{transform: translateY(100px);opacity:0;transform:scale(0.5,0.5)}
+	50%{transform: translateY(100px);opacity:0;transform:scale(0.5,0.5)}
+	100%{transform: translateY(0px);opacity:1;transform:scale(1,1)}
+}
+@keyframes fouarshiftr
+{
+	0%{transform: translateY(100px);opacity:0;transform:scale(0.5,0.5)}
+	75%{transform: translateY(100px);opacity:0;transform:scale(0.5,0.5)}
+	100%{transform: translateY(0px);opacity:1;transform:scale(1,1)}
+}
+
+/*翻页*/
+.turnpage{display:inline-block;
+          line-height:40px;
+          border:2px solid #614e3c;
+          text-align:center;
+          border-radius:20px;
+          cursor:pointer;
+          font-family:myfont;
+          position:absolute;
+          
+         }
+
+        
+.pagenum{margin-top:3em;}
+
+.nummark{position:absolute;
+            left:50%;
+            margin-left:-70px;}
+
+.nummark li{float:left;
+            display:block;
+            height:8px;
+            width:60px;
+            margin-left:5px;
+            border:2px solid #614e3c;
+            border-radius:3px;
+            transition:background 0.3s;
+            
+
+           }
+
+.numchange{background:#614e3c;
+           }
+
+
+
+.lookfor{margin-top:2em}
+
+.turnpage:nth-child(1){left:50%;margin-left:-90px;width:80px;}
+.turnpage:nth-child(2){right:50%;margin-right:-75px;width:60px;}
+
+.turnpage:hover{background:#614e3c;
+                color:white;
+               }
+
+/*文字*/
+.techfont{position:absolute;
+          left:20px;
+          right:20px;
+          background:rgba(0,0,0,0.8);
+          color:white;
+          height:100%;
+          top:0em;
+          padding:30px 30px 10px 40px;
+          cursor:default;
+          transition:transform 1s,opacity 1s;
+          transform:rotate(180deg) scale(0.1,0.1);
+          opacity:0;
+          }
+
+@media screen and (max-width:1200px) {
+       .techfont{padding:10px 10px 10px 10px;
+                 }
+       
+}
+
+.frontendnew>div:hover  .techfont{transform:rotate(0deg) scale(1,1);
+                                  opacity:1;}
+
+.frontendnew>div:hover  .techfont ul{transform:translateY(0px);opacity:1;}
+
+.techfont ul{list-style:none;
+             transition:transform 1s,opacity 1s;
+             transition-delay:1s;
+             transform:translateY(60px);
+             opacity:0;
+             }
+
+.techfont li{line-height:30px;
+             font-size:15px}
+
+.techfont li span{font-size:18px;
+                  padding-right:10px;
+                  }
+
+.techfont h3{text-align:center;
+             font-weight:700;
+             font-size: 32px;
+             transform:scale(0.3,0.3);
+             opacity:0;
+             transition:transform 1s,opacity 1s;
+             transition-delay:1s;
+             font-family:myfont;
+            }  
+
+.frontendnew>div:hover .techfont h3{transform:scale(1,1);
+                                    opacity:1;}
+
+.techfont>.hbottom{height:1px;
+                   width:13em;
+                   color:white} 
+
+.pencil:hover{transform:translateX(6em);}
+
+.pencil{display:inline-block;
+        width:30%;
+        line-height:30px;
+        transition:transform 0.5s;
+        cursor:pointer;
+        padding-left:1em;}
+
+.pencil a{margin-left:-7.9em;
+          text-decoration:none;
+          line-height:30px;
+          display:inline-block;
+          opacity:0;
+          color:white;
+          padding-right:1em;
+          transition:opacity 0.5s;
+          font-family:myfont; }
+
+.pencil a:hover{color:#EA548E }
+
+.pencil:hover a{opacity:1}
+/*前端*/
+.frontendnew{margin-top:4em;}
+
+.technologychild img{vertical-align: middle;
+                     width:100%;
+                     position:relative;
+                     box-shadow:0 1px 3px rgba(97, 92, 92, 0.75);
+                     border:5px solid #fff;
+                   }
+                 /*不能全体加上这个动画,因为第一个row必须预加载。在需要时加上额外的nth-child即可*/
+.frontendnew:nth-child(2)>div:nth-child(1){  
+        animation: arshiftr 1s;
+}
+.frontendnew:nth-child(2)>div:nth-child(2){
+        animation: douarshiftr 1s;
+}
+.frontendnew:nth-child(2)>div:nth-child(3){
+      animation: thiarshiftr 1s;
+}
+
+
+/*php*/
+.phpnew{margin-top:4em;}
+
+.phpnew>div:nth-child(1){
+        animation: shiftright 1s;
+}
+.phpnew>div:nth-child(2){
+        animation: shiftleft 1s;
+}
+.phpnew>div:nth-child(3){
+        animation: shiftdoubl 1s;
+}
+
+.phpnew>div:hover  .techfont{transform:rotate(0deg) scale(1,1);
+                                  opacity:1;}
+
+.phpnew>div:hover  .techfont ul{transform:translateY(0px);opacity:1;}
+
+.phpnew>div:hover  .techfont h3{transform:scale(1,1);
+                                    opacity:1;}
+/*.net*/
+.netnew{margin-top:4em;} 
+
+.netnew>div:nth-child(1){
+        animation: arshiftr 1s;
+}
+.netnew>div:nth-child(2){
+        animation: douarshiftr 1s;
+}
+.netnew>div:nth-child(3){
+	    animation: thiarshiftr 1s;
+}
+.netnew>div:hover  .techfont{transform:rotate(0deg) scale(1,1);
+                                  opacity:1;}
+
+.netnew>div:hover  .techfont ul{transform:translateY(0px);opacity:1;}
+
+.netnew>div:hover .techfont h3{transform:scale(1,1);
+                                    opacity:1;}                                   
+/*future*/
+.futurenew{margin-top:4em;}
+
+.futurenew>div:nth-child(1){
+        animation: shiftright 1s;
+}
+.futurenew>div:nth-child(2){
+        animation: shiftleft 1s;
+}
+.futurenew>div:nth-child(3){
+        animation: shiftdoubl 1s;
+}
+.futurenew>div:hover  .techfont{transform:rotate(0deg) scale(1,1);
+                                  opacity:1;}
+
+.futurenew>div:hover  .techfont ul{transform:translateY(0px);opacity:1;}
+
+.futurenew>div:hover .techfont h3{transform:scale(1,1);
+                                    opacity:1;}
+
+
+

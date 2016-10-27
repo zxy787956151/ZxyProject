@@ -1,0 +1,1576 @@
+[ 2016-04-22T18:29:17+08:00 ] 127.0.0.1 /SoftwareEngineering/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007077s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000672s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000671s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000589s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002834s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000743s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2016-04-22T18:29:21+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Index/submit
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `zxy_user` [ RunTime:0.003968s ]
+SQL: SELECT * FROM `zxy_user`  [ RunTime:0.000329s ]
+NOTIC: [8] Undefined index: username E:\wamp\www\myphp\SoftwareEngineering\APP\Modules\Msystem\Action\IndexAction.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006594s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000676s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000663s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002961s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000760s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2016-04-22T18:29:22+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000744s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 262 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 263 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 264 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 265 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 282 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 283 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 284 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 285 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000610s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000541s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000435s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002356s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000612s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-04-22T18:29:35+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.006929s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( num=1 )  [ RunTime:0.000336s ]
+
+[ 2016-04-22T18:35:19+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 262 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 263 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 264 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 265 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 282 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 283 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 284 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 285 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020875s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000924s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000673s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003523s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000838s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2016-04-22T19:14:29+08:00 ] 127.0.0.1 /SoftwareEngineering/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006297s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000671s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000657s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002821s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000768s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2016-04-22T19:14:36+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Index/submit
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `zxy_user` [ RunTime:0.009139s ]
+SQL: SELECT * FROM `zxy_user`  [ RunTime:0.000473s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006544s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000818s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000752s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003130s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000848s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-04-22T19:14:41+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Index/submit
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000702s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `zxy_user` [ RunTime:0.016548s ]
+SQL: SELECT * FROM `zxy_user`  [ RunTime:0.000329s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005659s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000486s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000536s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002260s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000687s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2016-04-22T19:14:48+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Index/submit
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001296s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `zxy_user` [ RunTime:0.023048s ]
+SQL: SELECT * FROM `zxy_user`  [ RunTime:0.000781s ]
+NOTIC: [8] Undefined index: username E:\wamp\www\myphp\SoftwareEngineering\APP\Modules\Msystem\Action\IndexAction.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008296s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000654s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000635s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000544s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002715s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000694s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-04-22T19:14:49+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000753s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 262 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 263 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 264 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 265 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 282 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 283 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 284 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\myphp\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 285 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016975s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000548s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000448s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002057s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000608s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-04-22T19:56:57+08:00 ] 127.0.0.1 /SoftwareEngineering/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010866s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008664s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000330s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000339s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001485s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000427s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-04-22T19:57:01+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Index/submit
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000627s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `zxy_user` [ RunTime:0.017983s ]
+SQL: SELECT * FROM `zxy_user`  [ RunTime:0.000230s ]
+NOTIC: [8] Undefined index: username E:\wamp\www\php\SoftwareEngineering\APP\Modules\Msystem\Action\IndexAction.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005504s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000275s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000280s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001261s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000367s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-04-22T19:57:02+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000800s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 262 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 263 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 264 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 265 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 282 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 283 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 284 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 285 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034663s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000414s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000326s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000212s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001547s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000408s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-04-22T20:13:03+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000932s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 262 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 263 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 264 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 265 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 282 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 283 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 284 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 285 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036581s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000444s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000316s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000222s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001575s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-04-22T20:46:56+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001270s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 262 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 263 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 264 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 265 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 282 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 283 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 284 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 285 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032837s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000506s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000416s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000510s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2016-04-22T20:47:02+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000452s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.024472s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( num=1 )  [ RunTime:0.000296s ]
+
+[ 2016-04-22T20:48:44+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000557s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+ERR: 非法操作:index
+
+[ 2016-04-22T20:48:48+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000504s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008858s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000264s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000282s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001251s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000415s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-04-22T20:48:52+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Index/submit
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000654s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `zxy_user` [ RunTime:0.011817s ]
+SQL: SELECT * FROM `zxy_user`  [ RunTime:0.000218s ]
+NOTIC: [8] Undefined index: username E:\wamp\www\php\SoftwareEngineering\APP\Modules\Msystem\Action\IndexAction.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004802s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000242s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000287s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001236s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000371s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-04-22T20:48:53+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 262 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 263 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 264 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 265 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 282 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 283 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 284 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 285 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038884s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000395s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000312s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000199s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001483s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000418s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-04-22T20:48:56+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.015222s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( num=1 )  [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005462s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000281s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000281s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000190s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001266s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000408s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2016-04-22T20:48:57+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000522s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 262 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 263 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 264 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 265 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 282 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 283 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 284 行.
+NOTIC: [8] Undefined variable: v E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 285 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028020s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000657s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002365s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000570s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-04-22T20:52:52+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001101s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: information E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: information E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038269s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000478s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000333s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001628s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-04-22T20:52:55+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.007879s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( num=1 )  [ RunTime:0.000262s ]
+
+[ 2016-04-22T20:53:01+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001014s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: information E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: information E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040741s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000379s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000300s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000176s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001385s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000382s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-04-22T20:53:44+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000901s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.007374s ]
+NOTIC: [8] Undefined index: num E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 262 行.
+SQL: SELECT * FROM `zxy_information` WHERE ( num= )  [ RunTime:0.000110s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `zxy_information` WHERE ( num= ) 
+NOTIC: [8] Undefined variable: information E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 263 行.
+NOTIC: [8] Undefined variable: information E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 281 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056700s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000454s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000276s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001422s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000376s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-04-22T20:53:55+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000828s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.007070s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( num=1 )  [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: information E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 263 行.
+NOTIC: [8] Undefined variable: information E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 281 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066345s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000456s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000275s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000176s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001478s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-04-22T20:54:06+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000463s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.007125s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( num=1 )  [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: information E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 263 行.
+NOTIC: [8] Undefined variable: information E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 281 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051322s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000438s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000297s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000195s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001644s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000658s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-04-22T20:55:00+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001254s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.007745s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( num=1 )  [ RunTime:0.000232s ]
+NOTIC: [8] Undefined variable: information E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 281 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.073840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073945s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000748s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000663s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002765s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000530s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-04-22T20:55:27+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000799s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047697s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000424s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000334s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000216s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001575s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000444s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-04-22T20:55:35+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000453s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.008804s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( num=1 )  [ RunTime:0.000259s ]
+
+[ 2016-04-22T20:55:43+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/select
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000455s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.006848s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( num=1 )  [ RunTime:0.000217s ]
+
+[ 2016-04-22T21:11:26+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035454s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000470s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000339s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000230s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001621s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-04-22T21:11:49+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-04-22T21:11:55+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000562s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-04-22T21:12:55+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000456s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-04-22T21:12:56+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000410s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034627s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000431s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000317s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000225s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001611s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000478s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-04-22T21:12:58+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-04-22T21:13:27+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.009677s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012478s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000335s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000297s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000197s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001382s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000348s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-04-22T21:14:16+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000557s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.009203s ]
+SQL: INSERT INTO `zxy_information` (`name`,`sex`,`date`,`num`,`department`,`class`,`photo`,`place`,`comeDate`) VALUES ('AA','女','1232141421','22','软件工程','1班','WeChat.exe','123','12') [ RunTime:0.082561s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005020s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000341s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000339s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000244s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001543s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000432s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-04-22T21:14:17+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000722s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038176s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000417s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000275s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001355s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-04-22T21:14:36+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.009503s ]
+SQL: INSERT INTO `zxy_information` (`name`,`sex`,`date`,`num`,`department`,`class`,`photo`,`place`,`comeDate`) VALUES ('123','男','213','123','软件工程','2班','WeChat.exe','123','123') [ RunTime:0.058345s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004688s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000266s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000276s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000188s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001239s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000407s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-04-22T21:14:37+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000622s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031634s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000347s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000268s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000175s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001298s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000393s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-04-22T21:14:49+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.008883s ]
+SQL: INSERT INTO `zxy_information` (`name`,`sex`,`date`,`num`,`department`,`class`,`photo`,`place`,`comeDate`) VALUES ('12321','男','32112','3123','网络工程','1班','WeChat.exe','123','123') [ RunTime:0.064843s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004929s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000262s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000318s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000192s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-04-22T21:14:50+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037227s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000701s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000448s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002208s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000634s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-04-22T21:14:50+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031399s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000591s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000484s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000287s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002381s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000741s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-04-22T21:14:59+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000452s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.007536s ]
+SQL: INSERT INTO `zxy_information` (`name`,`sex`,`date`,`num`,`department`,`class`,`photo`,`place`,`comeDate`) VALUES ('123','男','123','123','网络工程','2班','WeChat.exe','123','1313') [ RunTime:0.065033s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004658s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000262s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000278s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001235s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000401s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-04-22T21:15:00+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029354s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000384s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000299s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000176s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001355s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2016-04-22T21:15:00+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000714s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036757s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000626s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000348s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002217s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000469s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-04-22T21:15:06+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.008173s ]
+SQL: INSERT INTO `zxy_information` (`name`,`sex`,`date`,`num`,`department`,`class`,`photo`,`place`,`comeDate`) VALUES ('123','男','123','123','计算机科学与技术','1班','WeChat.exe','123','13') [ RunTime:0.064277s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004597s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000259s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000278s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001234s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000409s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-04-22T21:15:07+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000415s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033783s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000622s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000457s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002175s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000576s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-04-22T21:15:16+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/insert
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.009024s ]
+SQL: INSERT INTO `zxy_information` (`name`,`sex`,`date`,`num`,`department`,`class`,`photo`,`place`,`comeDate`) VALUES ('123123','男','312','1231','计算机科学与技术','2班','WeChat.exe','123','12312') [ RunTime:0.056870s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004752s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000267s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000283s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001243s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2016-04-22T21:15:17+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000506s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043720s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000387s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000293s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001344s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-04-22T21:15:17+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034136s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000374s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000267s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000196s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001540s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-04-22T21:22:23+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000670s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033318s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000449s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000308s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001583s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-04-22T21:22:25+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000416s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.007153s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( department=软件工程 and class=1 )  [ RunTime:0.000153s ]
+ERR: 1054:Unknown column '软件工程' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `zxy_information` WHERE ( department=软件工程 and class=1 ) 
+
+[ 2016-04-22T21:22:50+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035531s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000428s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000295s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000227s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001551s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-04-22T21:22:52+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000445s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+
+[ 2016-04-22T21:23:18+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000449s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-04-22T21:23:20+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-04-22T21:23:22+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031182s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000366s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000364s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000246s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001515s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2016-04-22T21:23:24+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000453s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+
+[ 2016-04-22T21:23:36+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001337s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041520s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000413s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000318s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000209s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001529s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000475s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-04-22T21:23:38+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000445s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.008353s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( department=软件工程 and class=1班 )  [ RunTime:0.000165s ]
+ERR: 1054:Unknown column '软件工程' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `zxy_information` WHERE ( department=软件工程 and class=1班 ) 
+
+[ 2016-04-22T21:23:48+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000463s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-04-22T21:23:49+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000445s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030370s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000385s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000288s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001382s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-04-22T21:23:50+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000453s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-04-22T21:25:51+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000630s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032777s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000445s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000341s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000224s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001617s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000385s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-04-22T21:25:51+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032692s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000543s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000321s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000196s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001583s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000419s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-04-22T21:25:51+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031165s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000420s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000364s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000373s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001998s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001113s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2016-04-22T21:25:52+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001005s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038426s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000439s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000359s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000224s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001618s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-04-22T21:25:53+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.009463s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( `department` = '软件工程' ) AND ( `class` = '1班' )  [ RunTime:0.000300s ]
+
+[ 2016-04-22T21:26:44+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000458s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032158s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000952s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000791s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000201s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002496s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-04-22T21:26:44+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029709s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000362s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000283s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000181s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001453s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000396s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-04-22T21:26:44+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000546s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032254s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000410s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000280s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001862s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000613s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2016-04-22T21:26:50+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000457s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.009200s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( `department` = '计算机科学与技术' ) AND ( `class` = '2班' )  [ RunTime:0.000396s ]
+
+[ 2016-04-22T21:38:45+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001494s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 261 行.
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 279 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035259s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000436s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000341s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000228s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001547s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000416s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-04-22T21:39:53+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.007475s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( `department` = '软件工程' ) AND ( `class` = '1班' )  [ RunTime:0.000272s ]
+
+[ 2016-04-22T21:47:28+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000555s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 260 行.
+NOTIC: [8] Undefined index: department E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 322 行.
+NOTIC: [8] Undefined index: class E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 322 行.
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.014167s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( `department` = null ) AND ( `class` = null )  [ RunTime:0.000467s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074877s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000919s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000684s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000521s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003309s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000827s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2016-04-22T21:49:07+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000450s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 260 行.
+NOTIC: [8] Undefined index: department E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 313 行.
+NOTIC: [8] Undefined index: class E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 313 行.
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.008095s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( `department` = null ) AND ( `class` = null )  [ RunTime:0.000261s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056722s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000273s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001402s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000396s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-04-22T21:49:25+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Msystem/Information/selClass
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000450s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.008043s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( `department` = '软件工程' ) AND ( `class` = '1班' )  [ RunTime:0.000253s ]
+
+[ 2016-04-22T21:51:29+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Main/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000634s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: select E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 260 行.
+NOTIC: [8] Undefined index: department E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 313 行.
+NOTIC: [8] Undefined index: class E:\wamp\www\php\SoftwareEngineering\APP\Runtime\Cache\Msystem\ae3a8f3e40f647483b97ea4a2eaf0a20.php 第 313 行.
+SQL: SHOW COLUMNS FROM `zxy_information` [ RunTime:0.008462s ]
+SQL: SELECT * FROM `zxy_information` WHERE ( `department` = null ) AND ( `class` = null )  [ RunTime:0.000240s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060006s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000495s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000363s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000238s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001685s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000391s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000452s ]
+

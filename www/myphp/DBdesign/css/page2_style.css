@@ -1,0 +1,199 @@
+*{padding: 0;margin: 0;}
+@font-face 
+{
+      font-family: 'WebSymbolsRegular';
+      src:url('../font/websymbols.woff');
+      src:url('../font/websymbols.woff') format('woff'),
+      url('../font/websymbols.ttf') format('truetype');
+}
+@font-face 
+{
+      font-family: '腾祥嘉丽纤圆简';
+      src:url('../font/腾祥嘉丽纤圆简.woff');
+      src:url('../font/腾祥嘉丽纤圆简.woff') format('woff'),
+      url('../font/腾祥嘉丽纤圆简.ttf') format('truetype');
+}
+body{
+	background-color: #fff;
+	overflow-x:hidden; 
+}
+.menu{
+	width:100%;
+	height:40%;
+	background-color: #fff;
+	position: absolute;
+	top:0;
+}
+.menu1{
+	width:100%;
+	height:5%;
+	line-height: 40px;	
+	background-color: #3B5169;
+	position: absolute;
+	top: 0;
+}
+.menu2{
+	width:100%;
+	height:20%;
+	background-color: #fff;
+	position: absolute;
+	top:5%;
+}
+.content1{
+	list-style: none;
+	text-align: center;
+	height:50%;
+	margin-left: 0%;
+}
+.menu2 li{
+	width:11%;
+	height:100%;
+	float:left;
+}
+.menu2 li a{
+	font-size: 12px;
+	text-decoration: none;
+	height:100%;
+	display: block;
+	padding:10% 15px;
+	color: #333333;
+}
+.menu2 li a:hover{
+	background-color:#3B5169;	
+	transition:background-color 1.0s;
+    -moz-transition:background-color 1.0s; 
+    -webkit-animation: background-color 1.0s;
+    -o-animation: background-color 1.0s;
+    animation: background-color 1.0s;
+	color: #fff;
+}
+.menu2 ul ul{
+	display: none;
+	background-color: rgba(52,73,94,0.3);
+}
+.menu2 ul li li{
+	float: none;
+}
+.menu2 ul li:hover > ul{
+	display: block;
+}
+.menu_img{
+	width:100%;
+	height:70%;
+	border-top:2px solid #3B5169; 
+	border-bottom:5px solid #3B5169; 
+	background: url(../img/banner2.png);
+	background-size: 100%;
+	position: absolute;
+	bottom: 0;
+}
+.menu_imgm{
+	width:100%;
+	height:40%;
+	background-color: rgba(59,81,105,0.7);
+	position: absolute;
+	top:20%;
+}
+.menu_imgm p{
+	font-size: 2.0em;
+	color: #fff;
+	margin-top:1%;
+	text-align: center;
+}
+.main_content{
+	width:100%;
+	height:1300px;
+	position: absolute;
+	top:45%;
+}
+.content_first{
+	width:60%;
+	height:90%;
+	background-color: #fff;
+	position: absolute;
+	top:2%;
+	left:5%;
+}
+.content_first h1{
+	font-weight:500;
+	font-size:30px;
+	font-family: '腾祥嘉丽纤圆简';
+	margin-left:4%;
+	margin-top:-3%;
+	margin-bottom:30px;
+	color:#3B5169;
+}
+.content_first p{
+    text-indent:2em;
+}
+.content_h1{
+	width:15%;
+	height:30px;
+	font-family: '腾祥嘉丽纤圆简';
+	border-bottom:2px solid #3B5169;
+	position: absolute;
+	top:1%;
+	right:10%;
+}
+.content_second{
+	width:15%;
+	height:350px;
+	background-color: #fff;
+	position: absolute;
+	top:4%;
+	right:10%;
+}
+.content_second div{
+      color:#000;
+      width:100%;
+      height:50px;
+      transition:background-color 0.8s;
+      -moz-transition:background-color 0.8s; 
+      -webkit-animation: background-color 0.8s;
+      -o-animation: background-color 0.8s;
+      animation: background-color 0.8s;
+  }
+.content_second a{
+	text-decoration: none;
+	font-family: '宋体';
+	margin-top: 5px;
+    left:2%;
+    position:absolute;
+    font-size:13px;
+    color:#141414;
+}
+.content_second div.t{
+	height:20%;
+	float: left;
+}
+.content_second div:hover {
+    font-family: 'Verdana';
+    color:#ff6600;
+    font-size:15px;
+    background-color:#3B5169;
+}
+.content_second div:hover a{
+    color:#d7d7d7;
+    font-size:13px;
+}
+.footer{
+    width:100%;
+    height:5%;
+    background-color: #333;
+    position:absolute;
+    bottom:0%;
+    color:#fff;
+}
+.footer p{
+	font-size:10px;
+	position: relative;
+	top:20%;
+	left:15%;
+}
+.footer a{
+	color: #A0A0A0;
+	text-decoration: none;
+}
+.footer a:hover{
+	color: #FF6A00;
+}

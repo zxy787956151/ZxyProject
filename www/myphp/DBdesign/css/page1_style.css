@@ -1,0 +1,229 @@
+*{padding: 0;margin: 0;}
+@font-face 
+{
+      font-family: 'WebSymbolsRegular';
+      src:url('../font/websymbols.woff');
+      src:url('../font/websymbols.woff') format('woff'),
+      url('../font/websymbols.ttf') format('truetype');
+}
+@font-face 
+{
+      font-family: '腾祥嘉丽纤圆简';
+      src:url('../font/腾祥嘉丽纤圆简.woff');
+      src:url('../font/腾祥嘉丽纤圆简.woff') format('woff'),
+      url('../font/腾祥嘉丽纤圆简.ttf') format('truetype');
+}
+body{
+	background-color: #fff;
+	overflow-x:hidden; 
+}
+.menu{
+	width:100%;
+	height:36%;
+	background-color: #fff;
+	position: absolute;
+	top:0;
+}
+.menu1{
+	width:100%;
+	height:5%;
+	line-height: 40px;	
+	background-color: #3B5169;
+	position: absolute;
+	top: 0;
+}
+.menu2{
+	width:100%;
+	height:20%;
+	background-color: #fff;
+	position: absolute;
+	top:5%;
+}
+.content1{
+	list-style: none;
+	text-align: center;
+	height:50%;
+	margin-left: 0%;
+}
+.menu2 li{
+	width:12.5%;
+	height:100%;
+	float:left;
+}
+.menu2 li a{
+	text-decoration: none;
+	height:100%;
+	display: block;
+	padding:10% 15px;
+	color: #333333;
+}
+.menu2 li a:hover{
+	background-color:#3B5169;	
+	transition:background-color 1.0s;
+    -moz-transition:background-color 1.0s; 
+    -webkit-animation: background-color 1.0s;
+    -o-animation: background-color 1.0s;
+    animation: background-color 1.0s;
+	color: #fff;
+}
+.menu2 ul ul{
+	display: none;
+	background-color: rgba(52,73,94,0.3);
+}
+.menu2 ul li li{
+	float: none;
+}
+.menu2 ul li:hover > ul{
+	display: block;
+}
+.menu_img{
+	width:100%;
+	height:65%;
+	border-top:2px solid #3B5169; 
+	border-bottom:5px solid #3B5169; 
+	background: url(../img/banner1.png);
+	background-size: 100%;
+	position: absolute;
+	bottom: 0;
+}
+.menu_imgm{
+	width:100%;
+	height:30%;
+	background-color: rgba(59,81,105,0.5);
+	position: absolute;
+	top:30%;
+}
+.menu_imgm p{
+	font-size: 2.0em;
+	color: #fff;
+	text-align: center;
+}
+.main_content{
+	width:100%;
+	height:1500px;
+	position: absolute;
+	top:45%;
+}
+.content_first{
+	width:60%;
+	height:auto;
+	background-color: #fff;
+	position: absolute;
+	top:2%;
+	left:5%;
+}
+.content_first img{
+	float:left;
+    width:200px;
+    height:120px;
+    clear:left;
+    margin:0px 5px 5px 0;
+}
+.content_first h1{
+	font-weight:500;
+	font-size:30px;
+	font-family: '腾祥嘉丽纤圆简';
+	margin-left:4%;
+	margin-top:3%;
+	margin-bottom:30px;
+	color:#3B5169;
+}
+.content_first li{
+	display: block;
+	margin-top: 10px;
+}
+.content_first a{
+	font-size:15px;
+	color:#333;
+	margin-top:55px;
+	text-decoration: none;
+}
+.content_first span{
+	float: right;
+	font-size: 15px;
+	font-weight:900;	
+}
+.content_first p{
+    text-indent:2em;
+}
+.content_second{
+	width:18%;
+	height:300px;
+	background-color: #fff;
+	border-left:1px solid #3B5169;
+	position: absolute;
+	top:5%;
+	right:10%;
+}
+.content_second div{
+      color:#000;
+      width:100%;
+      height:50px;
+      transition:background-color 0.8s;
+      -moz-transition:background-color 0.8s; 
+      -webkit-animation: background-color 0.8s;
+      -o-animation: background-color 0.8s;
+      animation: background-color 0.8s;
+  }
+.content_second p{
+    left:27%; 
+    margin-top:25px;
+    position:absolute;
+  }
+.content_second a{
+	text-decoration: none;
+	font-family: '腾祥嘉丽纤圆简';
+	margin-top: 5px;
+    left:26%;
+    position:absolute;
+    font-size:15px;
+    color:#141414;
+}
+.content_second div.t{
+	height:20%;
+	float: left;
+}
+.content_second div:hover {
+    font-family: 'Verdana';
+    color:#ff6600;
+    font-size:15px;
+    background-color:#3B5169;
+}
+.content_second div:hover a{
+	margin-top: 10px;
+    color:#d7d7d7;
+    font-size:10px;
+}
+.content_second div:hover a{
+      animation:shake 1s;
+      -moz-animation:shake 1s;
+}
+.content_second div:hover p{
+      animation:shake 1s;
+      -moz-animation:shake 1s;
+}
+@keyframes shake{
+      0%,100%{left:27%;}
+      20%,60%{left:24%;}
+      40%,80%{left:30%;}
+}
+.footer{
+    width:100%;
+    height:5%;
+    background-color: #333;
+    position:absolute;
+    bottom:0%;
+    color:#fff;
+}
+.footer p{
+	font-size:11px;
+	position: relative;
+    left: 15%;
+}
+.footer a{
+	color: #A0A0A0;
+	text-decoration: none;
+}
+.footer a:hover{
+	color: #FF6A00;
+}

@@ -1,0 +1,60 @@
+<html>
+<head>
+	<meta charset="utf8"/>
+	<title></title>
+	<script type="text/javascript">
+		
+		// var xmlhttp;
+		// if (window.XMLHttpRequest)
+		//   {// code for IE7+, Firefox, Chrome, Opera, Safari
+		//   xmlhttp=new XMLHttpRequest();
+		//   }
+		// else
+		//   {// code for IE6, IE5
+		//   xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		//   }
+
+		//   xmlhttp.open("GET","http://my.php.com/php_luxian.txt",true);
+		//   /*
+		//   	※※※js 不解析本地文件 解析服务器文件 把这个文件托管到Apache里,就相当		
+		//   */
+		//   xmlhttp.send();
+
+
+		function loadXMLDoc()
+		{
+			var xmlhttp;
+			if (window.XMLHttpRequest)
+			  {// code for IE7+, Firefox, Chrome, Opera, Safari
+			  xmlhttp=new XMLHttpRequest();
+			  }
+			else
+			  {// code for IE6, IE5
+			  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			  }
+			xmlhttp.onreadystatechange=function()
+			  {
+			  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+			  	 /*
+			  	 	0：请求未初始化（还没有调用 open()）。
+			     	1：请求已经建立，但是还没有发送（还没有调用 send()）。
+			     	2：请求已发送，正在处理中（通常现在可以从响应中获取内容头）。
+			    	3：请求在处理中；通常响应中已有部分数据可用了，但是服务器还没有完成响应的生成4：响应已完成；您可以获取并使用服务器的响应了。
+			     */ 
+			    {
+			    document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+			    }
+			  }
+			xmlhttp.open("GET","php_luxian.txt",true);	//false
+			xmlhttp.send();
+		}
+		</script>
+
+		<div id="myDiv"><h2>Let AJAX change this text</h2></div>
+		<button type="button" onclick="loadXMLDoc()">通过 AJAX 改变内容</button>
+
+</head>
+<body>
+
+</body>
+</html>

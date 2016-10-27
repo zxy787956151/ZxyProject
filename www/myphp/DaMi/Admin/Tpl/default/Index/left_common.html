@@ -1,0 +1,149 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css"> 
+<!--
+body,td,th,div,a,h3,textarea,input{
+	font-family: "宋体", "Times New Roman", "Courier New";
+	font-size: 12px;
+	color: #333333;
+}
+html{
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+.menuHtml{
+	overflow-y:auto;
+}
+body {
+	background-color: ##E6F4FA;
+	margin: 0px;
+}
+img{
+	border: none;
+}
+form{
+	margin: 0px;
+	padding: 0px;
+}
+input{
+	color: #000000;
+	height: 22px;
+	vertical-align: middle;
+}
+textarea{
+	width: 80%;
+	font-weight: normal;
+	color: #000000;
+}
+a{
+	text-decoration: none;
+	color: #666666;
+}
+a:hover{
+	text-decoration: none;
+}
+.menuDiv,.menuDiv1{
+	background-color: #FFFFFF;
+}
+.menuDiv1{
+	postion:relative;bottom:0px;top:50;
+}
+.menuDiv h3,.menuDiv1 h3{
+	font:bold 12px "Microsoft Yahei",sans-serif;color:#000;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	background:url(__PUBLIC__/Admin/images/tab_05.gif);
+	margin: 0px;cursor:pointer;
+}
+.menuDiv1 h3 {color:#ff0000;}
+.menuDiv ul,.menuDiv1 ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.menuDiv ul li,.menuDiv1 ul li{
+	color: #666666;
+	background:url(__PUBLIC__/Admin/images/arrow_082.gif) 14px 6px no-repeat;background-color:#bce2fc;
+	padding: 5px 5px 5px 30px;
+	font-size: 12px;
+	height: 16px;border-bottom:1px solid #fff;
+}
+.menuDiv ul li a,.menuDiv1 ul li a{
+	color: #666666;
+	text-decoration: none;
+}
+.menuDiv ul li a:hover,.menuDiv1 ul li a:hover{	
+	color: #ff0000;text-decoration: underline;
+}
+.red{
+	color:#FF0000;
+}
+-->
+</style>
+<import file= "Admin.js.menuswitch"/> 
+</head>
+
+<body>
+<table width="180" height="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed">
+      <tr>
+        <td height="28"><img src="__PUBLIC__/Admin/images/main_21.gif" border="0" usemap="#Map" /></td>
+      </tr>
+      <tr>
+        <td style="background:url(__PUBLIC__/Admin/images/main_23.gif) left top repeat-x;height:80px"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="45"><div align="center"><a href="__APP__/Config/index" target="main"><img src="__PUBLIC__/Admin/images/main_26.gif" name="Image1" width="40" height="40" border="0" /></a></div></td>
+            <td><div align="center"><a href="__APP__/Admin/index" target="main"><img src="__PUBLIC__/Admin/images/main_28.gif" name="Image2" width="40" height="40" border="0" id="Image2" /></a></div></td>
+            <td><div align="center"><a href="__APP__/Guestbook/index" target="main"><img src="__PUBLIC__/Admin/images/main_31.gif" name="Image3" width="40" height="40" border="0" id="Image3" /></a></div></td>
+          </tr>
+          <tr>
+            <td height="25"><div align="center" class="STYLE2"><a href="__APP__/Config/index" target="main">网站配置</a></div></td>
+            <td><div align="center" class="STYLE2"><a href="__APP__/Admin/index" target="main">管理员</a></div></td>
+            <td><div align="center" class="STYLE2"><a href="__APP__/Guestbook/index" target="main">留言管理</a></div></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td >
+        <volist name="admin_menu" id="item">
+	<div class="menuDiv"> 
+	  <h3>{$item.title}</h3> 
+	  <ul> 	    
+      <volist name="item.submenu" id="subitem">
+	    <li><a href="{$subitem.url}" target="main">{$subitem.title}</a> </li>
+       </volist>
+       <eq name="item['id']" value="1">
+       <php>$where = "enable=1 and typeid in(".$_SESSION[C('USER_CONTENT_KEY')].")";</php>
+        <arclist model="extend_menu" where="$where">        
+        <gt name='vo.typeid' value='0'>
+        <li><a href="__APP__/Article/index/typeid/{$vo.typeid}" target="main">{$vo.menu_name}</a> </li>        
+        <else/>
+        <li><a href="__APP__/{$vo.action_name}/index" target="main">{$vo.menu_name}</a> </li>
+        </gt>
+        </arclist>
+        </eq>
+	  </ul>
+	</div>
+    </volist>
+          </td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+<map name="Map" id="Map">
+<area shape="rect" coords="26,5,91,22" href="__URL__/main" target="main" alt="后台首页" />
+<area shape="rect" coords="94,5,157,24" href="__APP__/Public/loginout" target="_top" alt="安全退出" />
+</map><script language="javascript">
+	var mSwitch = new MenuSwitch("menuDiv");
+	mSwitch.setDefault(0);
+	mSwitch.setPrevious(false);
+	mSwitch.init();
+</script></body>
+</html>

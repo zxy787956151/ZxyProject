@@ -1,0 +1,305 @@
+[ 2016-04-18T18:22:05+08:00 ] 127.0.0.1 /jw2/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw2\JW\Modules\Index\Action\IndexAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 13 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066801s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001155s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001096s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000831s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004825s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2016-04-18T18:22:08+08:00 ] 127.0.0.1 /jw2/Index/System/advice
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.045322s ]
+INFO: [ route_check ] --END-- [ RunTime:0.045494s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `jw_attr` [ RunTime:0.073192s ]
+SQL: SELECT * FROM `jw_attr`  [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\392bd32d1d331278642d2896397a0ee9.php 第 13 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\392bd32d1d331278642d2896397a0ee9.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025675s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000856s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000723s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000589s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005157s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001076s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2016-04-18T18:22:10+08:00 ] 127.0.0.1 /jw2/Index/System/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `jw_advice` [ RunTime:0.060016s ]
+SQL: SELECT * FROM `jw_advice`  [ RunTime:0.000546s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\ac917fa67c364b691cfa3dd945c844ec.php 第 13 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\ac917fa67c364b691cfa3dd945c844ec.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015586s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000807s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000684s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003264s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000956s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-04-18T18:22:14+08:00 ] 127.0.0.1 /jw2/Index/Forum/forum
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001413s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.043495s ]
+SQL: SELECT * FROM `jw_forum`  [ RunTime:0.000433s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jw_forum` LIMIT 1   [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7cb71b68c154dc0d61802663b70af762.php 第 13 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7cb71b68c154dc0d61802663b70af762.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044492s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000824s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000646s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003389s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001011s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2016-04-18T18:22:17+08:00 ] 127.0.0.1 /jw2/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001098s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `jw_user` [ RunTime:0.031814s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.004230s ]
+SQL: SELECT user.username AS username,user.img AS img,forum.id AS id,forum.content AS content,forum.time AS time FROM jw_user user LEFT JOIN jw_forum forum ON user.id=forum.user_id WHERE ( forum.id = 1 )  [ RunTime:0.008582s ]
+SQL: SHOW COLUMNS FROM `jw_answer` [ RunTime:0.009323s ]
+SQL: SELECT answer.sort AS sort,answer.content AS content,answer.time AS time,user.username AS username,user.img AS img FROM jw_answer answer LEFT JOIN jw_forum forum ON forum.id=answer.forum_id  JOIN jw_user user ON user.id=answer.user_id WHERE ( `forum_id` = 1 )  [ RunTime:0.011260s ]
+INFO: [ view_parse ] --START--
+
+[ 2016-04-18T18:22:31+08:00 ] 127.0.0.1 /jw2/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001555s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `jw_user` [ RunTime:0.004209s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.007112s ]
+SQL: SELECT user.username AS username,user.img AS img,forum.id AS id,forum.content AS content,forum.time AS time FROM jw_user user LEFT JOIN jw_forum forum ON user.id=forum.user_id WHERE ( forum.id = 1 )  [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `jw_answer` [ RunTime:0.004062s ]
+SQL: SELECT answer.sort AS sort,answer.content AS content,answer.time AS time,user.username AS username,user.img AS img FROM jw_answer answer LEFT JOIN jw_forum forum ON forum.id=answer.forum_id  JOIN jw_user user ON user.id=answer.user_id WHERE ( `forum_id` = 1 )  [ RunTime:0.000440s ]
+INFO: [ view_parse ] --START--
+
+[ 2016-04-18T18:23:57+08:00 ] 127.0.0.1 /jw2/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `jw_user` [ RunTime:0.004942s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.004012s ]
+SQL: SELECT user.username AS username,user.img AS img,forum.id AS id,forum.content AS content,forum.time AS time FROM jw_user user LEFT JOIN jw_forum forum ON user.id=forum.user_id WHERE ( forum.id = 1 )  [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `jw_answer` [ RunTime:0.003839s ]
+SQL: SELECT answer.sort AS sort,answer.content AS content,answer.time AS time,user.username AS username,user.img AS img FROM jw_answer answer LEFT JOIN jw_forum forum ON forum.id=answer.forum_id  JOIN jw_user user ON user.id=answer.user_id WHERE ( `forum_id` = 1 )  [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+
+[ 2016-04-18T18:26:37+08:00 ] 127.0.0.1 /jw2/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001263s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `jw_user` [ RunTime:0.004030s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.003705s ]
+SQL: SELECT user.username AS username,user.img AS img,forum.id AS id,forum.content AS content,forum.time AS time FROM jw_user user LEFT JOIN jw_forum forum ON user.id=forum.user_id WHERE ( forum.id = 1 )  [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `jw_answer` [ RunTime:0.003912s ]
+SQL: SELECT answer.sort AS sort,answer.content AS content,answer.time AS time,user.username AS username,user.img AS img FROM jw_answer answer LEFT JOIN jw_forum forum ON forum.id=answer.forum_id  JOIN jw_user user ON user.id=answer.user_id WHERE ( `forum_id` = 1 )  [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 13 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 28 行.
+NOTIC: [8] Undefined variable: page G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 85 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021699s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000818s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000622s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000543s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000863s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-04-18T18:27:08+08:00 ] 127.0.0.1 /jw2/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001442s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `jw_user` [ RunTime:0.003495s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.005087s ]
+SQL: SELECT user.username AS username,user.img AS img,forum.id AS id,forum.content AS content,forum.time AS time FROM jw_user user LEFT JOIN jw_forum forum ON user.id=forum.user_id WHERE ( forum.id = 1 )  [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `jw_answer` [ RunTime:0.003940s ]
+SQL: SELECT answer.sort AS sort,answer.content AS content,answer.time AS time,user.username AS username,user.img AS img FROM jw_answer answer LEFT JOIN jw_forum forum ON forum.id=answer.forum_id  JOIN jw_user user ON user.id=answer.user_id WHERE ( `forum_id` = 1 )  [ RunTime:0.000574s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 13 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 28 行.
+NOTIC: [8] Undefined variable: page G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 85 行.
+NOTIC: [8] Undefined index: id G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 138 行.
+NOTIC: [8] Undefined index: id G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 138 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020915s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000814s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000969s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000562s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003603s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000843s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2016-04-18T18:27:50+08:00 ] 127.0.0.1 /jw2/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001164s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `jw_user` [ RunTime:0.003917s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.003553s ]
+SQL: SELECT user.username AS username,user.img AS img,forum.id AS id,forum.content AS content,forum.time AS time FROM jw_user user LEFT JOIN jw_forum forum ON user.id=forum.user_id WHERE ( forum.id = 1 )  [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `jw_answer` [ RunTime:0.003950s ]
+SQL: SELECT answer.sort AS sort,answer.content AS content,answer.time AS time,user.username AS username,user.img AS img FROM jw_answer answer LEFT JOIN jw_forum forum ON forum.id=answer.forum_id  JOIN jw_user user ON user.id=answer.user_id WHERE ( `forum_id` = 1 )  [ RunTime:0.000475s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 13 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 28 行.
+NOTIC: [8] Undefined variable: page G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 85 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019375s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000616s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000597s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000385s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002535s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000727s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-04-18T19:54:23+08:00 ] 127.0.0.1 /jw2/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002256s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002461s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `jw_user` [ RunTime:0.003605s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.004037s ]
+SQL: SELECT user.username AS username,user.img AS img,forum.id AS id,forum.content AS content,forum.time AS time FROM jw_user user LEFT JOIN jw_forum forum ON user.id=forum.user_id WHERE ( forum.id = 1 )  [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `jw_answer` [ RunTime:0.004615s ]
+SQL: SELECT answer.sort AS sort,answer.content AS content,answer.time AS time,user.username AS username,user.img AS img FROM jw_answer answer LEFT JOIN jw_forum forum ON forum.id=answer.forum_id  JOIN jw_user user ON user.id=answer.user_id WHERE ( `forum_id` = 1 )  [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 13 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 28 行.
+NOTIC: [8] Undefined variable: page G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 85 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.085138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085271s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001263s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001307s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001074s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005295s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001858s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002019s ]
+
+[ 2016-04-18T20:03:36+08:00 ] 127.0.0.1 /jw2/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002049s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002289s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+SQL: SHOW COLUMNS FROM `jw_user` [ RunTime:0.004201s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.003447s ]
+SQL: SELECT user.username AS username,user.img AS img,forum.id AS id,forum.content AS content,forum.time AS time FROM jw_user user LEFT JOIN jw_forum forum ON user.id=forum.user_id WHERE ( forum.id = 1 )  [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `jw_answer` [ RunTime:0.003709s ]
+SQL: SELECT answer.sort AS sort,answer.content AS content,answer.time AS time,user.username AS username,user.img AS img FROM jw_answer answer LEFT JOIN jw_forum forum ON forum.id=answer.forum_id  JOIN jw_user user ON user.id=answer.user_id WHERE ( `forum_id` = 1 )  [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 13 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 28 行.
+NOTIC: [8] Undefined variable: page G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 85 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023915s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001479s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001204s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004969s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001135s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2016-04-18T20:03:40+08:00 ] 127.0.0.1 /jw2/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001917s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002076s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003245s ]
+SQL: SHOW COLUMNS FROM `jw_user` [ RunTime:0.004309s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.004169s ]
+SQL: SELECT user.username AS username,user.img AS img,forum.id AS id,forum.content AS content,forum.time AS time FROM jw_user user LEFT JOIN jw_forum forum ON user.id=forum.user_id WHERE ( forum.id = 1 )  [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `jw_answer` [ RunTime:0.003788s ]
+SQL: SELECT answer.sort AS sort,answer.content AS content,answer.time AS time,user.username AS username,user.img AS img FROM jw_answer answer LEFT JOIN jw_forum forum ON forum.id=answer.forum_id  JOIN jw_user user ON user.id=answer.user_id WHERE ( `forum_id` = 1 )  [ RunTime:0.000490s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 13 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 28 行.
+NOTIC: [8] Undefined variable: page G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 85 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001046s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000882s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000781s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004087s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001093s ]
+

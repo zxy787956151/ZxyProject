@@ -1,0 +1,100 @@
+<?php if (!defined('THINK_PATH')) exit();?><html>
+<head>
+  <meta charset="UTF-8">
+
+   <link href="__PUBLIC__/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/main_style.css">
+   <script src="__PUBLIC__/js/jquery-1.10.2.min.js"></script>
+   <script src="__PUBLIC__/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div  id="activity_enter">
+      <h1>活动奖惩录入</h1>
+
+      <div class="detail-table">
+        <table class="table table-striped">
+   <thead>
+      <tr>
+         <td>竞赛级别</td>
+         <td>一等奖</td>
+         <td>二等奖</td>
+         <td>三等奖</td>
+         <td>优秀奖</td>
+         <td>无名次</td>
+         <td>组织者</td>
+         <td>演员/主持人</td>
+         <td>志愿者</td>
+         <td>特殊贡献</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>全国级活动</td>
+         <td>5学分</td>
+         <td>4学分</td>
+         <td>3学分</td>
+         <td>2学分</td>
+         <td>1学分</td>
+         <td>---</td>
+         <td>---</td>
+         <td>---</td>
+         <td>---</td>
+      </tr>
+      <tr>
+         <td>省市级活动</td>
+         <td>4学分</td>
+         <td>3学分</td>
+         <td>2学分</td>
+         <td>1学分</td>
+         <td>0.5学分</td>
+         <td>---</td>
+         <td>---</td>
+         <td>---</td>
+         <td>---</td>
+      </tr>
+      <tr>
+         <td>学校级活动</td>
+         <td>2学分</td>
+         <td>1学分</td>
+         <td>0.5学分</td>
+         <td>0.5学分</td>
+         <td>0.5学分</td>
+         <td>2学分</td>
+         <td>0.5学分</td>
+         <td>1学分</td>
+         <td>1学分</td>
+      </tr>
+      <tr>
+         <td>学院级活动</td>
+         <td>1学分</td>
+         <td>1学分</td>
+         <td>0.5学分</td>
+         <td>0.2学分</td>
+         <td>0.1学分</td>
+         <td>1学分</td>
+         <td>0.2学分</td>
+         <td>0.5学分</td>
+         <td>0.5学分</td>
+      </tr>
+   </tbody>
+    </table>
+    <form action="<?php echo U(GROUP_NAME . '/RandP/insert');?>" method="post">
+      <span>请输入学生学号</span>
+          <input type="text" class="form-control" id="input" 
+          placeholder="请输入学号" name="num">
+        </div>
+        <span>请输入加分分数</span>
+          <input type="text" class="form-control" id="input" 
+          placeholder="请输入分数" name="addGrade">
+          <input type="text" class="form-control" id="input" 
+          placeholder="请输入原因" name='addReason'>
+          <span>请输入减分分数</span>
+          <input type="text" class="form-control" id="input" 
+          placeholder="请输入分数" name="subGrade">
+          <input type="text" class="form-control" id="input" 
+          placeholder="请输入原因" name="subReason">
+          <input type="submit" class="btn btn-default" style="margin-top:10px;" value="录入" name="submit"/>
+    </form>
+   </div><!-- 活动奖惩录入结束 -->
+</body>
+</html>

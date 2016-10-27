@@ -1,0 +1,51 @@
+{include file="biz/biz_header.html"} 
+
+{include file="biz/biz_nav.html"}
+<div class="blank"></div>
+<div class="wrap">
+{include file="biz/biz_info_header.html"}
+<div class="biz_index_box clearfix" style="border:none;">
+	<div class="short f_l" style="width:172px;">
+		<div style="padding:10px 5px 10px 0;">
+			<div class="sidenav">
+				<ul class="verify_type">
+					<li><a href="{url x="biz" r="verify"}"><i></i>验证消费券</a></li>
+					<li><a href="{url x="biz" r="verify#youhui"}" class="cur"><i></i>验证优惠券</a></li>
+					<li><a href="{url x="biz" r="verify#batch"}"><i></i>批量验证消费券</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="long f_r">
+		<div class="blank"></div>
+		<table cellspacing="0" cellpadding="0" border="0" class="data-table">
+			<tr>
+				<th colspan="2"><strong>请输入优惠券序列号进行验证消费</strong></th>
+			</tr>
+			<tr>
+				<td class="dleft">序列号：</td>
+				<td>
+					<input type="text" value="" class="f-input" id="youhui_sn" name="youhui_sn" size="30" tabindex="1">
+				</td>
+			</tr>
+			<tr>
+				<td class="dleft">消费金额：</td>
+				<td>
+					<input type="text" value="" class="f-input" id="youhui_fee" name="youhui_fee" size="30" tabindex="1">
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>
+					<input type="button" value="{$LANG.YOUHUI_SEARCH}" class="biz_pub_btn" onclick="use_youhui();">
+				</td>
+			</tr>
+		</table>		
+		
+	</div>
+	<div class="blank"></div>
+</div>
+
+</div>
+<div class="blank"></div>
+{include file="biz/biz_footer.html"} 

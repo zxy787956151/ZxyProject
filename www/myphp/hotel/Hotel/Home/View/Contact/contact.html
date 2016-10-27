@@ -1,0 +1,58 @@
+<include file="Common:top"/>
+<js file='__ROOT__/ueditor/ueditor.config.js'/>
+<js file='__ROOT__/ueditor/ueditor.all.min.js'/>
+<script type="text/javascript">
+	window.UEDITOR_HOME_URL='__ROOT__/Ueditor/';
+	window.onload=function(){
+    //调整编辑器的高度和宽度
+	window.UEDITOR_CONFIG.initialFrameHeight=200;
+	window.UEDITOR_CONFIG.initialFrameWidth=730;
+	UE.getEditor('content');
+	window.UEDITOR_CONFIG.imageUrl=URL+"{:U(GROUP_NAME.'/Blog/upload')}";
+	//window.UEDITOR_CONFIG.imagePath=URL+"php/";
+}
+</script>
+<include file="Common:header"/>
+<script type="text/javascript">var IsPageHome="";var Lanmu_Id="65";var Sublanmu_Id="534";ShowSubMenu(Lanmu_Id);</script>
+<div class="banner"><p style="padding:0px 0 0px 0;width:960px;border:0px solid #bddbf5;background:url(__PUBLIC__/Images/banner/banner1.jpg) no-repeat 0px 0px;">
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" height="219" width="960">
+    <param name="movie" value="__PUBLIC__/Images/banner/swf3.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<embed src="__PUBLIC__/Images/banner/swf3.swf" quality="high" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="960" height="219" />
+  </object>
+</p></div>
+<div class="main_box main_box_style1">
+ <div class="main_box_inner">
+   <div class="main_box_inner_left">
+
+<div id="nav_108"  class="nav_box nav_box_menu">
+
+<div  class="nav_title"><span  class="nav_sign">联系我们</span><span  class="nav_more"></span></div>
+<div id="nav_menu_108"  class="nav_menu">
+<ul id="rootul_108">
+<li id="sl534"><a href="{:U('Contact/index')}" class="sla534">联系方式</a></li>
+<li id="sl535"><a href="{:U('Contact/contact')}" class="sla535">在线留言</a></li>
+<li id="sl534"><a href="{:U('Contact/board')}" class="sla534">留言板</a></li>
+</ul>
+</div></div>
+<script type="text/javascript">
+shut_allsubnav("rootul_108");
+expand_subnav("sl534","0");
+</script>
+</div>
+   <div class="main_box_inner_right">
+<div class="current_location current_location_534"><ul><li class="current_location_1">当前位置：<a href=/>首页</a> &gt; <a href="../contact/">联系我们</a> &gt; <a href="../contact/contact">在线留言</a></li><li class="current_location_2">在线留言</li></ul></div>
+<div class="sublanmu_box sublanmu_box_534">
+<form action="{:U('Contact/runContact')}" method="post">
+    <table>
+     <tr><td>
+    <textarea name="content" id="content"></textarea></td></tr>
+    <tr><td align="center"><input type="submit" value="提交留言"/></td></tr>
+    </table>
+<form>
+</div></div>
+ </div>
+ <div class="clear main_box_inner_bottom"></div>
+</div>
+<include file="Common:bottom"/>

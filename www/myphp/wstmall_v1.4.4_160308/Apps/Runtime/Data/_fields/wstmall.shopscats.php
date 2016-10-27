@@ -1,0 +1,1 @@
+a:9:{i:0;s:5:"catId";i:1;s:6:"shopId";i:2;s:8:"parentId";i:3;s:6:"isShow";i:4;s:7:"catName";i:5;s:7:"catSort";i:6;s:7:"catFlag";s:3:"_pk";s:5:"catId";s:5:"_type";a:7:{s:5:"catId";s:7:"int(11)";s:6:"shopId";s:7:"int(11)";s:8:"parentId";s:7:"int(11)";s:6:"isShow";s:10:"tinyint(4)";s:7:"catName";s:12:"varchar(100)";s:7:"catSort";s:7:"int(11)";s:7:"catFlag";s:10:"tinyint(4)";}}

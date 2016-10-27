@@ -1,0 +1,1017 @@
+[ 2016-03-27T13:19:22+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.007827s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000611s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000532s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.136440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136605s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002978s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002731s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002451s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011452s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002909s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003078s ]
+
+[ 2016-03-27T13:19:27+08:00 ] 127.0.0.1 /blog/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001309s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+
+[ 2016-03-27T13:19:27+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025234s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001932s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002029s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001845s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008323s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002425s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002586s ]
+
+[ 2016-03-27T13:19:28+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001357s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+
+[ 2016-03-27T13:19:32+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.115207s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: UPDATE `hd_user` SET `logintime`=1459055972,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.050141s ]
+
+[ 2016-03-27T13:19:32+08:00 ] 127.0.0.1 /blog/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001082s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020973s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000876s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000882s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000797s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003680s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001018s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-03-27T13:19:34+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001104s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.003459s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid` FROM `hd_blog` WHERE ( `del` = 0 )  [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `hd_attr` [ RunTime:0.002983s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_table E:\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 191 行.
+SQL: SELECT b.* FROM hd_blog_attr AS a, hd_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003010s ]
+SQL: SELECT `name` FROM `hd_cate` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.000175s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009999s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000888s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000901s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000800s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003712s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2016-03-27T13:19:37+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.003224s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid` FROM `hd_blog` WHERE ( `del` = 0 )  [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `hd_attr` [ RunTime:0.002783s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_table E:\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 191 行.
+SQL: SELECT b.* FROM hd_blog_attr AS a, hd_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003987s ]
+SQL: SELECT `name` FROM `hd_cate` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009666s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000791s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000822s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000776s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003742s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001452s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2016-03-27T13:25:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003426s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000358s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028727s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000895s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000880s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000801s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003729s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001033s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-03-27T13:26:24+08:00 ] 127.0.0.1 /blog/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003204s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000257s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000277s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035292s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000902s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000981s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003899s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2016-03-27T13:33:26+08:00 ] 127.0.0.1 /blog/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001262s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004356s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000308s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038020s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000908s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000910s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000861s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003849s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000965s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-03-27T13:33:36+08:00 ] 127.0.0.1 /blog/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001538s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: cate E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 56 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012222s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000872s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000828s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001032s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003846s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000915s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-27T13:36:54+08:00 ] 127.0.0.1 /blog/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001778s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001901s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+INFO: [ view_parse ] --START--
+
+[ 2016-03-27T13:37:01+08:00 ] 127.0.0.1 /blog/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002628s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002835s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002699s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003889s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000320s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000262s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049582s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001113s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001094s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004626s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001222s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2016-03-27T13:37:05+08:00 ] 127.0.0.1 /blog/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000945s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+INFO: [ view_parse ] --START--
+
+[ 2016-03-27T13:37:10+08:00 ] 127.0.0.1 /blog/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001883s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002029s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001857s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003150s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000253s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000196s ]
+
+[ 2016-03-27T13:37:17+08:00 ] 127.0.0.1 /blog/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002240s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002417s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002270s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004298s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000332s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000267s ]
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046341s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001366s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001254s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001156s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005410s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2016-03-27T13:37:28+08:00 ] 127.0.0.1 /blog/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002331s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002545s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002317s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.006644s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000504s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000457s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062764s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002092s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002018s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001806s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008475s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002153s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002303s ]
+
+[ 2016-03-27T13:38:47+08:00 ] 127.0.0.1 /blog/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001445s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+INFO: [ view_parse ] --START--
+
+[ 2016-03-27T13:38:51+08:00 ] 127.0.0.1 /blog/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001945s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+INFO: [ view_parse ] --START--
+
+[ 2016-03-27T13:38:59+08:00 ] 127.0.0.1 /blog/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001044s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003296s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000255s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000196s ]
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031868s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000965s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000892s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000800s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003753s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000968s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2016-03-27T13:39:05+08:00 ] 127.0.0.1 /blog/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002166s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002316s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.002909s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000216s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\myphp\blog\APP\Runtime\Cache\Index\dff44c8e9ebea4949049842757e96f1a.php 第 59 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025434s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000971s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000988s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000824s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003847s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000888s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2016-03-27T13:39:33+08:00 ] 127.0.0.1 /blog/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001959s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004318s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000250s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000290s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045997s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001355s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000922s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000798s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004176s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000946s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2016-03-27T15:18:07+08:00 ] 127.0.0.1 /blog/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001139s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010218s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000832s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000813s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000796s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003550s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000931s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-03-27T15:18:09+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001292s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003708s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010037s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000904s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000903s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000797s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003766s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001225s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2016-03-27T15:18:12+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001088s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003276s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010010s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000921s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000952s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000746s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003678s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000907s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2016-03-27T15:18:15+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001111s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003148s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010146s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000859s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000863s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000772s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003621s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001175s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2016-03-27T15:18:16+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001057s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003404s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009827s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001120s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000912s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000819s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003928s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001187s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2016-03-27T15:18:16+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001081s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003055s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000236s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009818s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000877s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001082s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000803s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003934s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000973s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-03-27T15:18:16+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001118s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001209s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003272s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010823s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000914s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000958s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000853s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003895s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-03-27T15:18:17+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001068s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003370s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010172s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000950s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000905s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003867s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000983s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2016-03-27T15:18:17+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001110s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003151s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000209s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010473s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000851s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000816s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000724s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003442s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000912s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-03-27T15:18:17+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001075s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003112s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000230s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010523s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000934s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000905s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003916s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-03-27T15:18:20+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001077s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003125s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000230s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009880s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000843s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001006s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000917s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003936s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001214s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2016-03-27T15:18:21+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001084s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003154s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009968s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000876s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000875s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000837s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003896s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001232s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2016-03-27T15:18:21+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003153s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000245s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010496s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001116s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001231s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000818s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004381s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-03-27T15:18:22+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001206s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003774s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011276s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001282s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000981s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000792s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004245s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001013s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-03-27T15:18:22+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003226s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000252s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009852s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000872s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001244s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000906s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004135s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000919s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-03-27T15:18:22+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003320s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010183s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000928s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000870s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000796s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003736s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000925s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2016-03-27T15:18:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003779s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010558s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000951s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000962s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000965s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004088s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001050s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2016-03-27T15:18:25+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/addCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001113s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020014s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000942s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000940s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003905s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001064s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2016-03-27T15:18:27+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001133s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.015210s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('1',100,0) [ RunTime:0.088078s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013663s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000842s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000837s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000951s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004209s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000936s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-03-27T15:18:28+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001038s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002473s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003414s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010032s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000989s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000916s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000825s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003993s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001004s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2016-03-27T15:18:28+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003113s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010207s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000936s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000894s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000762s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003683s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000935s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2016-03-27T15:18:29+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001084s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003036s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000836s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000790s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000749s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003448s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000897s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2016-03-27T15:18:32+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001122s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003209s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010551s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000954s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000959s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000862s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003959s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001047s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2016-03-27T15:18:35+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001106s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003292s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010326s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000887s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000848s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000744s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003594s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001194s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2016-03-27T15:25:52+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/addCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008128s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000879s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000892s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000811s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003734s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001017s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001083s ]
+

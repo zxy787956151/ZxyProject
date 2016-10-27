@@ -1,0 +1,83 @@
+[ 2016-03-06T13:03:05+08:00 ] 127.0.0.1 /jw2/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+NOTIC: [2048] Declaration of IndexAction::show() should be compatible with that of Action::show() G:\wamp\wamp\www\text\jw2\JW\Modules\Index\Action\IndexAction.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 13 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\c02fb85234c57081a27580e176266a3d.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048167s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010142s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001172s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000930s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013731s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001545s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001652s ]
+
+[ 2016-03-06T13:03:08+08:00 ] 127.0.0.1 /jw2/Index/System/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.023654s ]
+INFO: [ route_check ] --END-- [ RunTime:0.023803s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `jw_advice` [ RunTime:0.088915s ]
+SQL: SELECT * FROM `jw_advice`  [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\ac917fa67c364b691cfa3dd945c844ec.php 第 13 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\ac917fa67c364b691cfa3dd945c844ec.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031792s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001163s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000901s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000707s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004123s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001637s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001803s ]
+
+[ 2016-03-06T13:03:11+08:00 ] 127.0.0.1 /jw2/Index/Forum/forum
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.070632s ]
+SQL: SELECT * FROM `jw_forum`  [ RunTime:0.000382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jw_forum` LIMIT 1   [ RunTime:0.023763s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7cb71b68c154dc0d61802663b70af762.php 第 13 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7cb71b68c154dc0d61802663b70af762.php 第 28 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043643s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000972s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000964s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000735s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003998s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2016-03-06T13:03:13+08:00 ] 127.0.0.1 /jw2/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002232s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002474s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `jw_user` [ RunTime:0.042405s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.003944s ]
+SQL: SELECT user.username AS username,user.img AS img,forum.id AS id,forum.content AS content,forum.time AS time FROM jw_user user LEFT JOIN jw_forum forum ON user.id=forum.user_id WHERE ( forum.id = 1 )  [ RunTime:0.052029s ]
+SQL: SHOW COLUMNS FROM `jw_answer` [ RunTime:0.038787s ]
+SQL: SELECT answer.sort AS sort,answer.content AS content,answer.time AS time,user.username AS username,user.img AS img FROM jw_answer answer LEFT JOIN jw_forum forum ON forum.id=answer.forum_id  JOIN jw_user user ON user.id=answer.user_id WHERE ( `forum_id` = 1 )  [ RunTime:0.005307s ]
+INFO: [ view_parse ] --START--
+

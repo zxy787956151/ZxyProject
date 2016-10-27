@@ -1,0 +1,678 @@
+[ 2015-11-20T18:00:32+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018689s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018967s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003856s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066221s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002024s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001276s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007733s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001359s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2015-11-20T18:00:33+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001511s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001727s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+
+[ 2015-11-20T18:00:37+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002266s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002524s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.042943s ]
+SQL: SELECT * FROM `hd_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000788s ]
+SQL: UPDATE `hd_user` SET `logintime`=1448013637,`loginip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.123192s ]
+
+[ 2015-11-20T18:00:37+08:00 ] 127.0.0.1 /blog/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031470s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001106s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000714s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000556s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003498s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000894s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2015-11-20T18:00:41+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/blog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003912s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.005260s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `hd_attr` [ RunTime:0.003273s ]
+SQL: SELECT * FROM `hd_attr`  [ RunTime:0.000404s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011706s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002434s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002598s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001064s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007742s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000919s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2015-11-20T18:00:44+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/blog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001719s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001921s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.008603s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `hd_attr` [ RunTime:0.006089s ]
+SQL: SELECT * FROM `hd_attr`  [ RunTime:0.000339s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014071s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000871s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001525s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002113s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007584s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002487s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002647s ]
+
+[ 2015-11-20T18:29:01+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/blog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001293s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003894s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `hd_attr` [ RunTime:0.005048s ]
+SQL: SELECT * FROM `hd_attr`  [ RunTime:0.000431s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026268s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000831s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001135s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004330s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003244s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003561s ]
+
+[ 2015-11-20T18:30:04+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/blog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003291s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003907s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.001893s ]
+SQL: SHOW COLUMNS FROM `hd_attr` [ RunTime:0.004994s ]
+SQL: SELECT * FROM `hd_attr`  [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014048s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000802s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000744s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000718s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003990s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001226s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2015-11-20T18:30:07+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/blog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001568s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.045034s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `hd_attr` [ RunTime:0.003581s ]
+SQL: SELECT * FROM `hd_attr`  [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019493s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000847s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000800s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003450s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000951s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2015-11-20T18:32:43+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001357s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003538s ]
+
+[ 2015-11-20T18:33:36+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+
+[ 2015-11-20T18:34:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+
+[ 2015-11-20T18:34:41+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002472s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+
+[ 2015-11-20T18:48:58+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003338s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004987s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `hd_blog_relation` [ RunTime:0.003037s ]
+ERR: 1146:Table 'blog.hd_blog_relation' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `hd_blog_relation`
+
+[ 2015-11-20T18:59:48+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001705s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001845s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+
+[ 2015-11-20T19:08:29+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001703s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001874s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006139s ]
+
+[ 2015-11-20T19:18:51+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/addBlog
+ERR: Model:relation您所请求的方法不存在！
+
+[ 2015-11-20T20:17:27+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001081s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.188853s ]
+SQL: INSERT INTO `hd_blog` (`title`,`content`,`time`,`click`,`cid`) VALUES ('asdasd','<p>收看更多精品原创视频教程请登录<a title=\"百度\" target=\"_blank\" href=\"http://www.baidu.com\">后盾网论坛</a>下载高清版<br/></p>',1448021846,100,0) [ RunTime:0.123611s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026515s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000839s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000786s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000725s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003801s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000973s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2015-11-20T20:17:28+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001436s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+
+[ 2015-11-20T20:19:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001581s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001829s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.003453s ]
+SQL: INSERT INTO `hd_blog` (`title`,`content`,`time`,`click`,`cid`) VALUES ('欢迎收看后盾网视频教程','<p>收看更多精品原创视频教程请登录<a title=\"百度\" target=\"_blank\" href=\"http://www.baidu.com\">后盾网论坛</a>下载高清版<br/></p>',1448021964,100,7) [ RunTime:0.232254s ]
+SQL: SHOW COLUMNS FROM `hd_blog_attr` [ RunTime:0.007023s ]
+SQL: INSERT INTO `hd_blog_attr`(bid,aid) VALUES(5,1) [ RunTime:0.124871s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given D:\JWroom\wamp\www\myphp\blog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014818s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000875s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000803s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003372s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000920s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-11-20T20:19:25+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000993s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+
+[ 2015-11-20T20:19:58+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003043s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003170s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.004137s ]
+SQL: INSERT INTO `hd_blog` (`title`,`content`,`time`,`click`,`cid`) VALUES ('欢迎收看后盾网视频教程','<p>收看更多精品原创视频教程请登录<a title=\"百度\" target=\"_blank\" href=\"http://www.baidu.com\">后盾网论坛</a>下载高清版<br/></p>',1448021997,100,7) [ RunTime:0.165105s ]
+SQL: SHOW COLUMNS FROM `hd_blog_attr` [ RunTime:0.005237s ]
+SQL: INSERT INTO `hd_blog_attr`(bid,aid) VALUES(6,1) [ RunTime:0.082175s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given D:\JWroom\wamp\www\myphp\blog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020204s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001127s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001012s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004057s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000930s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2015-11-20T20:19:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001145s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+
+[ 2015-11-20T20:20:25+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.272435s ]
+SQL: INSERT INTO `hd_blog` (`title`,`content`,`time`,`click`,`cid`) VALUES ('欢迎收看后盾网视频教程','<p>收看更多精品原创视频教程请登录<a title=\"百度\" target=\"_blank\" href=\"http://www.baidu.com\">后盾网论坛</a>下载高清版<br/></p>',1448022025,100,7) [ RunTime:0.152525s ]
+SQL: SHOW COLUMNS FROM `hd_blog_attr` [ RunTime:0.007991s ]
+SQL: INSERT INTO `hd_blog_attr`(bid,aid) VALUES(7,1) [ RunTime:0.091218s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given D:\JWroom\wamp\www\myphp\blog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016220s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001323s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001129s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000994s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005166s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001958s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002137s ]
+
+[ 2015-11-20T20:20:26+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+
+[ 2015-11-20T20:21:09+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002014s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.059381s ]
+SQL: INSERT INTO `hd_blog` (`title`,`content`,`time`,`click`,`cid`) VALUES ('欢迎收看后盾网视频教程2','<p>收看更多精品原创视频教程请登录<a title=\"百度\" target=\"_blank\" href=\"http://www.baidu.com\">后盾网论坛</a>下载高清版2<br/></p>',1448022069,100,7) [ RunTime:0.133055s ]
+SQL: SHOW COLUMNS FROM `hd_blog_attr` [ RunTime:0.004202s ]
+SQL: INSERT INTO `hd_blog_attr`(bid,aid) VALUES(8,1),(8,2),(8,3) [ RunTime:0.083586s ]
+NOTIC: [2] mysql_num_rows() expects parameter 1 to be resource, boolean given D:\JWroom\wamp\www\myphp\blog\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013707s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000730s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000801s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000627s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003247s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000839s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2015-11-20T20:21:10+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004499s ]
+
+[ 2015-11-20T20:21:49+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001087s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.097309s ]
+SQL: INSERT INTO `hd_blog` (`title`,`content`,`time`,`click`,`cid`) VALUES ('欢迎收看后盾网视频教程3','<p>收看更多精品原创视频教程请登录<a title=\"百度\" target=\"_blank\" href=\"http://www.baidu.com\">后盾网论坛</a>下载高清版3<br/></p>',1448022108,100,7) [ RunTime:0.188755s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014572s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000692s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000729s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000648s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003188s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000939s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2015-11-20T20:21:50+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001067s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+
+[ 2015-11-20T20:31:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/blog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012268s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003623s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `hd_attr` [ RunTime:0.003223s ]
+SQL: SELECT * FROM `hd_attr`  [ RunTime:0.000663s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012985s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000983s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001426s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001294s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005254s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000970s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2015-11-20T20:32:06+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/blog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001257s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.050313s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `hd_attr` [ RunTime:0.004906s ]
+SQL: SELECT * FROM `hd_attr`  [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011627s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001737s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000784s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004297s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000834s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2015-11-20T21:10:43+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/blog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001247s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004569s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `hd_attr` [ RunTime:0.004380s ]
+SQL: SELECT * FROM `hd_attr`  [ RunTime:0.000373s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022097s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000751s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000810s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000778s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003713s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001292s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001526s ]
+
+[ 2015-11-20T21:13:07+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/addBlog
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001083s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.103502s ]
+SQL: INSERT INTO `hd_blog` (`title`,`content`,`time`,`click`,`cid`) VALUES ('PHP怎么来定义一个对象','<pre class=\"brush:php;toolbar:false\">&lt;?php\r\nclass&nbsp;Image{\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;function&nbsp;water&nbsp;($img,&nbsp;$water)&nbsp;{\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;111;\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;\r\n&nbsp;}\r\n?&gt;</pre><p><br/></p>',1448025186,100,12) [ RunTime:0.314517s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017152s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000813s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000760s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000689s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003391s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000885s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2015-11-20T21:13:08+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000993s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+
+[ 2015-11-20T21:13:12+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001065s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+
+[ 2015-11-20T21:13:12+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+
+[ 2015-11-20T21:13:12+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003408s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003807s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002684s ]
+
+[ 2015-11-20T21:13:12+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001562s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001726s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+
+[ 2015-11-20T21:13:12+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+
+[ 2015-11-20T21:19:58+08:00 ] 127.0.0.1 /blog/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001130s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033317s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000762s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000848s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000729s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003530s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001259s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2015-11-20T21:19:58+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002586s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002844s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010747s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000770s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000657s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000584s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003047s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000910s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2015-11-20T21:19:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002588s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012758s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000896s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002957s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001557s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010069s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003339s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003531s ]
+
+[ 2015-11-20T21:20:27+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001098s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016507s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001035s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002652s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006070s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001135s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2015-11-20T21:21:34+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.004238s ]
+SQL: SELECT * FROM `hd_blog`  [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `hd_attr` [ RunTime:0.004596s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM hd_blog_attr AS a, hd_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.000996s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM hd_blog_attr AS a, hd_attr AS b WHERE a.aid = b.id AND a. bid='8' [ RunTime:0.000470s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM hd_blog_attr AS a, hd_attr AS b WHERE a.aid = b.id AND a. bid='9' [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: mapping_order D:\JWroom\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\JWroom\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM hd_blog_attr AS a, hd_attr AS b WHERE a.aid = b.id AND a. bid='10' [ RunTime:0.000303s ]
+

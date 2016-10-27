@@ -1,0 +1,1 @@
+a:7:{i:0;s:6:"roleId";i:1;s:8:"roleName";i:2;s:5:"grant";i:3;s:10:"createTime";i:4;s:8:"roleFlag";s:3:"_pk";s:6:"roleId";s:5:"_type";a:5:{s:6:"roleId";s:7:"int(11)";s:8:"roleName";s:11:"varchar(30)";s:5:"grant";s:4:"text";s:10:"createTime";s:8:"datetime";s:8:"roleFlag";s:10:"tinyint(4)";}}

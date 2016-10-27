@@ -1,0 +1,2330 @@
+[ 2015-10-20T19:33:00+08:00 ] 127.0.0.1 /blog/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004215s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004592s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002290s ]
+
+[ 2015-10-20T19:33:00+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024242s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001016s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001527s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001063s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005218s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001430s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2015-10-20T19:33:00+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001027s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+
+[ 2015-10-20T19:33:13+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T19:33:22+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001248s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.005742s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.017285s ]
+
+[ 2015-10-20T19:34:50+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001107s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.006044s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000998s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027947s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001019s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000806s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000793s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005289s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001056s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2015-10-20T19:47:02+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002763s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003202s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002191s ]
+
+[ 2015-10-20T19:47:30+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001133s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003448s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000664s ]
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+
+[ 2015-10-20T19:50:23+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001592s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001758s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003764s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000530s ]
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+
+[ 2015-10-20T19:50:32+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000947s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003850s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000678s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015478s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000851s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000862s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003376s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001126s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2015-10-20T19:52:37+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001006s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003815s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012229s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000702s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000738s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000536s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002976s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000826s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2015-10-20T19:52:38+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000938s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003027s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012019s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000772s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000804s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000681s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003376s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000834s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2015-10-20T19:52:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001251s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003541s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013508s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000858s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000722s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000559s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003188s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000822s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2015-10-20T19:53:23+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001609s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001747s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003582s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000590s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012626s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000720s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000736s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000579s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003047s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002918s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003178s ]
+
+[ 2015-10-20T19:54:18+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000974s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003077s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000514s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013520s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000775s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000748s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003226s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001831s ]
+
+[ 2015-10-20T19:54:25+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001473s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003767s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000494s ]
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 15 行.
+
+[ 2015-10-20T19:55:04+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003372s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003450s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000477s ]
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+
+[ 2015-10-20T19:55:05+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000934s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003282s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000496s ]
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+
+[ 2015-10-20T19:55:05+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001061s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003713s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000458s ]
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+NOTIC: [2] str_replace() expects at least 3 parameters, 2 given D:\JWroom\wamp\www\myphp\blog\APP\Class\Category.class.php 第 14 行.
+
+[ 2015-10-20T19:56:18+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001699s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003072s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000523s ]
+
+[ 2015-10-20T19:56:22+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000960s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003720s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000909s ]
+
+[ 2015-10-20T19:56:41+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.005618s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000910s ]
+
+[ 2015-10-20T19:56:41+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001927s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002122s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003242s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004864s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000712s ]
+
+[ 2015-10-20T19:56:41+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000922s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003586s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000503s ]
+
+[ 2015-10-20T19:56:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001767s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001974s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003563s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000536s ]
+
+[ 2015-10-20T19:56:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001065s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003255s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000723s ]
+
+[ 2015-10-20T19:56:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001633s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001819s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003318s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000659s ]
+
+[ 2015-10-20T19:56:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003337s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000482s ]
+
+[ 2015-10-20T19:56:52+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001121s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003248s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000451s ]
+
+[ 2015-10-20T20:06:52+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001101s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003340s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000491s ]
+
+[ 2015-10-20T20:06:52+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002275s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002511s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003234s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000448s ]
+
+[ 2015-10-20T20:06:53+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003577s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000591s ]
+
+[ 2015-10-20T20:06:53+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004860s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000492s ]
+
+[ 2015-10-20T20:06:53+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002848s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003152s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003273s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000438s ]
+
+[ 2015-10-20T20:06:53+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003006s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000479s ]
+
+[ 2015-10-20T20:06:58+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001456s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.010984s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000496s ]
+
+[ 2015-10-20T20:06:58+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001054s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003254s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000450s ]
+
+[ 2015-10-20T20:07:23+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003274s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000538s ]
+
+[ 2015-10-20T20:08:12+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001232s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004164s ]
+SQL: SELECT * FROM `hd_cate`  [ RunTime:0.000494s ]
+
+[ 2015-10-20T20:09:06+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001145s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003241s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000550s ]
+
+[ 2015-10-20T20:13:29+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001060s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003088s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000509s ]
+
+[ 2015-10-20T20:13:37+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001017s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003419s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000520s ]
+
+[ 2015-10-20T20:13:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003283s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000521s ]
+
+[ 2015-10-20T20:14:00+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001610s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001813s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004468s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000546s ]
+
+[ 2015-10-20T20:14:13+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003161s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000466s ]
+
+[ 2015-10-20T20:14:13+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001693s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001909s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003167s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000513s ]
+
+[ 2015-10-20T20:14:13+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001529s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001677s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003262s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000466s ]
+
+[ 2015-10-20T20:14:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001165s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003275s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000538s ]
+
+[ 2015-10-20T20:15:43+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001182s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004532s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000552s ]
+
+[ 2015-10-20T20:15:46+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001051s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003340s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000554s ]
+
+[ 2015-10-20T20:15:50+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001011s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003784s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000554s ]
+
+[ 2015-10-20T20:15:58+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000945s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003280s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000558s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012388s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000681s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000758s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000495s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002879s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000770s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2015-10-20T20:16:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/sortCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002847s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004066s ]
+SQL: UPDATE `hd_cate` SET `sort`=1 WHERE ( `id` = 1 ) [ RunTime:0.306103s ]
+SQL: UPDATE `hd_cate` SET `sort`=17 WHERE ( `id` = 17 ) [ RunTime:0.187391s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 16 ) [ RunTime:0.314355s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 15 ) [ RunTime:0.197940s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 14 ) [ RunTime:0.088356s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 13 ) [ RunTime:0.086850s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 12 ) [ RunTime:0.087566s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 11 ) [ RunTime:0.087570s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 10 ) [ RunTime:0.177272s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 9 ) [ RunTime:0.102203s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 8 ) [ RunTime:0.097847s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 7 ) [ RunTime:0.242887s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 6 ) [ RunTime:0.098591s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 5 ) [ RunTime:0.098489s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 4 ) [ RunTime:0.099340s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 3 ) [ RunTime:0.098190s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 2 ) [ RunTime:0.098723s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 18 ) [ RunTime:0.098992s ]
+
+[ 2015-10-20T20:16:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002920s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003324s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.008088s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.003186s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020306s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000871s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002944s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003333s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011856s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001096s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2015-10-20T20:16:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/sortCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001256s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003936s ]
+SQL: UPDATE `hd_cate` SET `sort`=1 WHERE ( `id` = 1 ) [ RunTime:0.302096s ]
+SQL: UPDATE `hd_cate` SET `sort`=17 WHERE ( `id` = 17 ) [ RunTime:0.104797s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 16 ) [ RunTime:0.099145s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 15 ) [ RunTime:0.088002s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 14 ) [ RunTime:0.099695s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 13 ) [ RunTime:0.097970s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 12 ) [ RunTime:0.086731s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 11 ) [ RunTime:0.098405s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 10 ) [ RunTime:0.088286s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 9 ) [ RunTime:0.087542s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 8 ) [ RunTime:0.109123s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 7 ) [ RunTime:0.087648s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 6 ) [ RunTime:0.098288s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 5 ) [ RunTime:0.131776s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 4 ) [ RunTime:0.087359s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 3 ) [ RunTime:0.098651s ]
+SQL: UPDATE `hd_cate` SET `sort`=2 WHERE ( `id` = 2 ) [ RunTime:0.098559s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 18 ) [ RunTime:0.087674s ]
+
+[ 2015-10-20T20:16:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004927s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005404s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002700s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.010595s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.001222s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024677s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001376s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001334s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001087s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005640s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001529s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001704s ]
+
+[ 2015-10-20T20:16:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/sortCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001253s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003335s ]
+SQL: UPDATE `hd_cate` SET `sort`=1 WHERE ( `id` = 1 ) [ RunTime:0.297720s ]
+SQL: UPDATE `hd_cate` SET `sort`=2 WHERE ( `id` = 2 ) [ RunTime:0.087973s ]
+SQL: UPDATE `hd_cate` SET `sort`=17 WHERE ( `id` = 17 ) [ RunTime:0.220624s ]
+SQL: UPDATE `hd_cate` SET `sort`=16 WHERE ( `id` = 16 ) [ RunTime:0.088781s ]
+SQL: UPDATE `hd_cate` SET `sort`=15 WHERE ( `id` = 15 ) [ RunTime:0.097859s ]
+SQL: UPDATE `hd_cate` SET `sort`=14 WHERE ( `id` = 14 ) [ RunTime:0.087545s ]
+SQL: UPDATE `hd_cate` SET `sort`=13 WHERE ( `id` = 13 ) [ RunTime:0.114813s ]
+SQL: UPDATE `hd_cate` SET `sort`=12 WHERE ( `id` = 12 ) [ RunTime:0.098539s ]
+SQL: UPDATE `hd_cate` SET `sort`=11 WHERE ( `id` = 11 ) [ RunTime:0.098753s ]
+SQL: UPDATE `hd_cate` SET `sort`=10 WHERE ( `id` = 10 ) [ RunTime:0.098682s ]
+SQL: UPDATE `hd_cate` SET `sort`=9 WHERE ( `id` = 9 ) [ RunTime:0.115805s ]
+SQL: UPDATE `hd_cate` SET `sort`=8 WHERE ( `id` = 8 ) [ RunTime:0.087360s ]
+SQL: UPDATE `hd_cate` SET `sort`=7 WHERE ( `id` = 7 ) [ RunTime:0.087729s ]
+SQL: UPDATE `hd_cate` SET `sort`=6 WHERE ( `id` = 6 ) [ RunTime:0.087584s ]
+SQL: UPDATE `hd_cate` SET `sort`=5 WHERE ( `id` = 5 ) [ RunTime:0.087376s ]
+SQL: UPDATE `hd_cate` SET `sort`=4 WHERE ( `id` = 4 ) [ RunTime:0.098670s ]
+SQL: UPDATE `hd_cate` SET `sort`=3 WHERE ( `id` = 3 ) [ RunTime:0.087674s ]
+SQL: UPDATE `hd_cate` SET `sort`=18 WHERE ( `id` = 18 ) [ RunTime:0.087565s ]
+
+[ 2015-10-20T20:16:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002534s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003209s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000437s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011456s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000876s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000670s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000578s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003155s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000840s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2015-10-20T20:17:16+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000941s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003307s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000509s ]
+
+[ 2015-10-20T20:18:20+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001268s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.005025s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000544s ]
+
+[ 2015-10-20T20:19:27+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001245s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003683s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013316s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000980s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000719s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000647s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003341s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001235s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2015-10-20T20:21:47+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001131s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004906s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014510s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000854s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001217s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000679s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003944s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001588s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001750s ]
+
+[ 2015-10-20T20:21:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/addCate/0/pid
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001125s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066315s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000948s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000919s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004397s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001310s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2015-10-20T20:22:05+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001028s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.002945s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('HTML',1,0) [ RunTime:0.260764s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033458s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002081s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002191s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001807s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009867s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003560s ]
+
+[ 2015-10-20T20:22:06+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003026s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009765s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001027s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000786s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000609s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003649s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000970s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2015-10-20T20:22:10+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001368s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001512s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:22:11+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001063s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+
+[ 2015-10-20T20:22:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002433s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002733s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:22:16+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001300s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:22:17+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000987s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:22:54+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:23:08+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001117s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003374s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('DIV+CSS',2,0) [ RunTime:0.217863s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008873s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000666s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000701s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003073s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000877s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2015-10-20T20:23:09+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006642s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006837s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003099s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000442s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010009s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000937s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000794s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003423s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000898s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2015-10-20T20:23:23+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003578s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000528s ]
+
+[ 2015-10-20T20:23:49+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001013s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003421s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('JavaScript',3,0) [ RunTime:0.319343s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008400s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000713s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000732s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000568s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003051s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000810s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2015-10-20T20:23:50+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001738s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001940s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.005068s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000649s ]
+
+[ 2015-10-20T20:23:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003225s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('PHP',4,0) [ RunTime:0.291133s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012506s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003014s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002160s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001680s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010047s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002514s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002820s ]
+
+[ 2015-10-20T20:24:00+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001585s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001768s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004435s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000633s ]
+
+[ 2015-10-20T20:24:08+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003302s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('MySQL',5,0) [ RunTime:0.215330s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008365s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000705s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000634s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000578s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002917s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000804s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2015-10-20T20:24:09+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002346s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.006930s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000726s ]
+
+[ 2015-10-20T20:24:19+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000934s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.024294s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('Linux',6,0) [ RunTime:0.250801s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029956s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002712s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003098s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001852s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011019s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002143s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002415s ]
+
+[ 2015-10-20T20:24:21+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003285s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003683s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.005930s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000672s ]
+
+[ 2015-10-20T20:24:35+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001229s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003077s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('其他',7,0) [ RunTime:0.211491s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008454s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000656s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000641s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000516s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002793s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000817s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2015-10-20T20:24:36+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001003s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003255s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000412s ]
+
+[ 2015-10-20T20:24:44+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001286s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004355s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('jQuery',8,0) [ RunTime:0.283502s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026259s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003369s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002152s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000938s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008671s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001410s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001557s ]
+
+[ 2015-10-20T20:24:45+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001514s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003170s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000433s ]
+
+[ 2015-10-20T20:24:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001419s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003265s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('Ajax',9,0) [ RunTime:0.334001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027129s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001979s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002006s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001650s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008711s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002719s ]
+
+[ 2015-10-20T20:24:56+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001873s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002083s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.006814s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.001175s ]
+
+[ 2015-10-20T20:25:05+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000986s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003380s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('字符串',10,0) [ RunTime:0.275380s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009397s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000663s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000689s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000589s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002943s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000813s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2015-10-20T20:25:06+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001562s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002578s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003336s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000462s ]
+
+[ 2015-10-20T20:25:13+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000954s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003211s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('数组',11,0) [ RunTime:0.288673s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008182s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000811s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000694s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003161s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000870s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2015-10-20T20:25:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001572s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001747s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003712s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000416s ]
+
+[ 2015-10-20T20:25:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003433s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('对象',12,0) [ RunTime:0.303792s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024147s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002232s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002072s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001655s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008433s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001414s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2015-10-20T20:25:25+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001688s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.028370s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000651s ]
+
+[ 2015-10-20T20:25:35+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000948s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002003s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.006669s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('存储引擎',13,0) [ RunTime:0.279402s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025473s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001274s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001135s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001254s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005556s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001362s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2015-10-20T20:25:36+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000948s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003218s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000644s ]
+
+[ 2015-10-20T20:25:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000984s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003294s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('事物',14,0) [ RunTime:0.296245s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026188s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002074s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001999s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001674s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008782s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002444s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002820s ]
+
+[ 2015-10-20T20:26:00+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001149s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003112s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000481s ]
+
+[ 2015-10-20T20:26:06+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003924s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('视图',15,0) [ RunTime:0.320661s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009391s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000782s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000729s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003209s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000891s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2015-10-20T20:26:14+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001029s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004735s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.002258s ]
+
+[ 2015-10-20T20:26:33+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001070s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003219s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('存储过程',16,0) [ RunTime:0.322888s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009523s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000750s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000707s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003055s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000853s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2015-10-20T20:26:34+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001396s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003093s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000479s ]
+
+[ 2015-10-20T20:26:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001065s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003093s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('基本命令',17,0) [ RunTime:0.289920s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018592s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001911s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001211s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001058s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005970s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001447s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001606s ]
+
+[ 2015-10-20T20:26:52+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/runAddCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001045s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003196s ]
+SQL: INSERT INTO `hd_cate` (`name`,`sort`,`pid`) VALUES ('网络配置',18,0) [ RunTime:0.231793s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009122s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000697s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000678s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000642s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003069s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000846s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2015-10-20T20:26:53+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001078s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003212s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000484s ]
+
+[ 2015-10-20T20:27:20+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003742s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000529s ]
+
+[ 2015-10-20T20:28:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004151s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003717s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014455s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000915s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000766s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003428s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001223s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2015-10-20T20:28:45+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/sortCate
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003451s ]
+SQL: UPDATE `hd_cate` SET `sort`=1 WHERE ( `id` = 1 ) [ RunTime:0.210265s ]
+SQL: UPDATE `hd_cate` SET `sort`=2 WHERE ( `id` = 2 ) [ RunTime:0.097722s ]
+SQL: UPDATE `hd_cate` SET `sort`=3 WHERE ( `id` = 3 ) [ RunTime:0.098769s ]
+SQL: UPDATE `hd_cate` SET `sort`=4 WHERE ( `id` = 4 ) [ RunTime:0.098205s ]
+SQL: UPDATE `hd_cate` SET `sort`=5 WHERE ( `id` = 5 ) [ RunTime:0.098559s ]
+SQL: UPDATE `hd_cate` SET `sort`=6 WHERE ( `id` = 6 ) [ RunTime:0.098560s ]
+SQL: UPDATE `hd_cate` SET `sort`=7 WHERE ( `id` = 7 ) [ RunTime:0.131969s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 8 ) [ RunTime:0.098437s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 9 ) [ RunTime:0.098697s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 10 ) [ RunTime:0.097361s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 11 ) [ RunTime:0.099137s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 12 ) [ RunTime:0.099116s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 13 ) [ RunTime:0.098749s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 14 ) [ RunTime:0.098859s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 15 ) [ RunTime:0.098248s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 16 ) [ RunTime:0.098616s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 17 ) [ RunTime:0.129657s ]
+SQL: UPDATE `hd_cate` SET `sort`=100 WHERE ( `id` = 18 ) [ RunTime:0.100861s ]
+
+[ 2015-10-20T20:28:45+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001579s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001771s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003388s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003304s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000582s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014601s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000800s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000747s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003781s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2015-10-20T20:28:51+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001597s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003402s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000463s ]
+
+[ 2015-10-20T20:28:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003886s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000581s ]
+
+[ 2015-10-20T20:28:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001787s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001983s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.006953s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.001148s ]
+
+[ 2015-10-20T20:28:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003459s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000512s ]
+
+[ 2015-10-20T20:29:35+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001349s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004956s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000492s ]
+
+[ 2015-10-20T20:29:35+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003486s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000556s ]
+
+[ 2015-10-20T20:45:41+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001674s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002189s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002398s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.005067s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.001098s ]
+
+[ 2015-10-20T20:45:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001410s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.004794s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000547s ]
+
+[ 2015-10-20T20:45:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004575s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003648s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000491s ]
+
+[ 2015-10-20T20:45:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001234s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003379s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000488s ]
+
+[ 2015-10-20T20:45:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001035s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003245s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000521s ]
+
+[ 2015-10-20T20:45:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002833s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.008153s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000509s ]
+
+[ 2015-10-20T20:45:43+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002083s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003554s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000507s ]
+
+[ 2015-10-20T20:45:43+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001130s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003521s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000551s ]
+
+[ 2015-10-20T20:45:46+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001404s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001545s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003354s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000583s ]
+
+[ 2015-10-20T20:45:46+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002144s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003256s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000549s ]
+
+[ 2015-10-20T20:45:46+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001428s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.006317s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort ASC  [ RunTime:0.000700s ]
+
+[ 2015-10-20T20:45:54+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001427s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+NOTIC: [8] Undefined variable: cate D:\JWroom\wamp\www\myphp\blog\APP\Modules\Admin\Action\CategoryAction.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008249s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001368s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001143s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000862s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004759s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002997s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003221s ]
+
+[ 2015-10-20T20:52:00+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002148s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002367s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002776s ]
+NOTIC: [8] Undefined variable: cate D:\JWroom\wamp\www\myphp\blog\APP\Modules\Admin\Action\CategoryAction.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009151s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000811s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001390s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000718s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004089s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000952s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2015-10-20T20:52:21+08:00 ] 127.0.0.1 /blog/index.php/Admin/Category/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001024s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+NOTIC: [8] Undefined variable: cate D:\JWroom\wamp\www\myphp\blog\APP\Modules\Admin\Action\CategoryAction.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009702s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000763s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000762s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000857s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003616s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2015-10-20T20:53:42+08:00 ] 127.0.0.1 /blog/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001020s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+
+[ 2015-10-20T20:53:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001114s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009430s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000844s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000798s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000660s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003378s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001245s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2015-10-20T20:53:42+08:00 ] 127.0.0.1 /blog/index.php/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001101s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-10-20T20:53:47+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002591s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:53:53+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:53:54+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002311s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:53:54+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002272s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002490s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003444s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:53:54+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001010s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:53:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001700s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:53:55+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001013s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:53:57+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001848s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002046s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004816s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:53:57+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001018s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:53:57+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001015s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:53:57+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002984s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003505s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:53:57+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001695s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001882s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:54:07+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002650s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003150s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:54:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001108s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:54:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001696s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001886s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:54:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001870s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002068s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:54:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001028s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:54:24+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001996s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002211s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:54:25+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:54:36+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001908s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002078s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:54:36+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001736s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:54:36+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001004s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:54:36+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001147s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002260s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:54:37+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001892s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002148s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:54:37+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001506s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:55:01+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001736s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001917s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:55:17+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001429s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:55:48+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001241s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:56:02+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001025s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:56:02+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001050s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:56:02+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001849s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002056s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:56:02+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001622s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:56:03+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002515s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002721s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:56:03+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001847s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002046s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002943s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:56:03+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:56:03+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002511s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:56:04+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001016s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:56:04+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001090s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:56:04+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001826s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002382s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:56:15+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+ERR: 无法加载模块:Caregory
+
+[ 2015-10-20T20:56:57+08:00 ] 127.0.0.1 /blog/index.php/Admin/Caregory/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001019s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+ERR: 无法加载模块:Caregory
+

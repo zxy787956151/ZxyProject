@@ -1,0 +1,15 @@
+[ 2016-06-06T20:16:17+08:00 ] 127.0.0.1 /SoftwareEngineering/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+ERR: 无法加载模块:Index
+
+[ 2016-06-06T20:16:38+08:00 ] 127.0.0.1 /SoftwareEngineering/index.php/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000826s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+ERR: 无法加载模块:Login
+

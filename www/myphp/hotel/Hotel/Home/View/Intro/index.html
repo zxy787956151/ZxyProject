@@ -1,0 +1,40 @@
+<include file="Common:top"/>
+<include file="Common:header"/>
+<script type="text/javascript">var IsPageHome="";var Lanmu_Id="62";var Sublanmu_Id="564";ShowSubMenu(Lanmu_Id);</script>
+<div class="banner"><p style="padding:0px 0 0px 0;width:960px;border:0px solid #bddbf5;background:url(__PUBLIC__/Images/banner/banner1.jpg) no-repeat 0px 0px;">
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" height="219" width="960">
+		<param name="movie" value="__PUBLIC__/Images/banner/swf3.swf" />
+<param name="quality" value="high" />
+<param name="wmode" value="transparent" />
+<embed src="__PUBLIC__/Images/banner/swf3.swf" quality="high" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="960" height="219" />
+	</object>
+</p></div>
+
+<div class="main_box main_box_style1">
+ <div class="main_box_inner">
+   <div class="main_box_inner_left">
+<div id="nav_104"  class="nav_box nav_box_menu">
+
+<div  class="nav_title"><span  class="nav_sign">酒店简介</span><span  class="nav_more"></span></div>
+<div id="nav_menu_104"  class="nav_menu">
+<ul id="rootul_104">
+<foreach name="cate" item='v'>
+<li id="sl564"><a href="{:U('/a_'.$v['id'])}" class="sla564">{$v.name}</a></li>
+</foreach>
+</ul>
+</div></div>
+
+<include file="Common:left"/>
+
+   <div class="main_box_inner_right">
+<div class="current_location current_location_564"><ul><li class="current_location_1">当前位置：<a href=/>首页</a> &gt; <a href="../about/">酒店简介</a> &gt; <a href="../about/gsjj">宾馆简介</a></li><li class="current_location_2">宾馆简介</li></ul></div>
+<div class="sublanmu_box sublanmu_box_564">
+	<foreach name="intro" item='v'>
+	<div class="sublanmu_content sublanmu_content_introduct"><span style="font-size:12px;">&nbsp;</span><a target="_blank" href="http://www.pageadmin.net../e/upload/s1/fck/image/2011-05/v3.jpg"><span style="font-size:12px;"></span></a>{$v.content}
+	</div>
+    </foreach>
+</div></div>
+ </div>
+ <div class="clear main_box_inner_bottom"></div>
+</div>
+<include file="Common:bottom"/>

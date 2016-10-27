@@ -1,0 +1,28 @@
+[ 2016-01-14T16:43:20+08:00 ] 127.0.0.1 /jw2/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.031243s ]
+INFO: [ route_check ] --END-- [ RunTime:0.057719s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+SQL: SHOW COLUMNS FROM `jw_user` [ RunTime:0.071484s ]
+SQL: SHOW COLUMNS FROM `jw_forum` [ RunTime:0.003463s ]
+SQL: SELECT user.username AS username,user.img AS img,forum.id AS id,forum.content AS content,forum.time AS time FROM jw_user user LEFT JOIN jw_forum forum ON user.id=forum.user_id WHERE ( forum.id = 1 )  [ RunTime:0.027266s ]
+SQL: SHOW COLUMNS FROM `jw_answer` [ RunTime:0.003118s ]
+SQL: SELECT answer.sort AS sort,answer.content AS content,answer.time AS time,user.username AS username,user.img AS img FROM jw_answer answer LEFT JOIN jw_forum forum ON forum.id=answer.forum_id  JOIN jw_user user ON user.id=answer.user_id WHERE ( `forum_id` = 1 )  [ RunTime:0.015165s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 13 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 28 行.
+NOTIC: [8] Undefined variable: page G:\wamp\wamp\www\text\jw2\JW\Runtime\Cache\Index\7fd7366e44b72c25fe3fd6f21ff98f22.php 第 85 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.150263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150384s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.018285s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004110s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006813s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030750s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001264s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001366s ]
+

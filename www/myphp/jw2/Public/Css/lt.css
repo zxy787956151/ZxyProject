@@ -1,0 +1,118 @@
+﻿
+#room
+{
+    margin-bottom:50px; 
+}
+
+#footer{
+    float:left;
+    width:730px;
+    margin-top:20px;
+    padding-top:30px;
+    padding-left:250px;
+    font-size: 13pt;
+    font-family:Times New Roman, Times, serif;
+    line-height: 20pt;
+}
+#footer li{
+    list-style: none;
+    float: left;    
+}
+.pic{ padding:20px 30px; background-color:#f5f7fa}
+.pic img{ float:left; vertical-align:middle;}
+.pic h3{ height:53px; line-height:53px; float:left; margin-left:20px;}
+.pic i{ font-style:normal; color:#666; margin-left:10px;}
+.pic span{ color:#F00; height:53px; line-height:53px;}
+.nav{ background-color:#eceff2; float:left; width:100%; border-top:1px solid #ccc; border-bottom:1px solid #CCC;}
+.nav li{ float:left; list-style-type:none;}
+.nav li a{ text-decoration:none; color:#333; font-size:16px; font-weight:bold; display:block; padding:15px 30px;}
+.nav li a:hover{ background-color:#CCC;}
+.tip{ height:50px; line-height:50px; background-color:#f5f7fa; float:left; width:100%;}
+.tip i{ font-style:normal; color:#666; margin-left:30px;}
+.tip i span{color:#F00; }
+.tip_right{ float:left; margin-right:20px;}
+.tip_right a{ color:#2d64ca}
+.main{ border:1px solid red; width:978px; height:280px; float:left;}
+.main_left{ width:740px; float:left}
+.main_left_top{ height:60px; line-height:60px;}
+.main_left_top_left{ float:left;}
+.main_left_top_right{ float:right; margin-right:10px;}
+.btn{ cursor:pointer;}
+.main_left_top_left span{ font-size:14px; font-weight:bold; margin-left:30px;}
+.main_left_bottom{width:740px;float:left;border:1px solid #CCC;}
+#answer{height:230px;border-bottom: 1px solid #ccc;}
+.main_left_bottom_left{ padding:20px 20px; width:90px; float:left; background-color:#fbfbfd; }
+#username{color:red;font-size:13px;font-weight:bold;line-height: 30px;}
+.house{background:url(../images/house.png) no-repeat 93px 0px; background-color:#fbfbfd;}
+.main_left_bottom_right{float:left;}
+.main_left_bottom_right p{ margin-top:60px;}
+.lhand{ margin-top:120px; margin-left:220px; color:#666;}
+.lhand img{ vertical-align:middle;}
+.lhand a{ color:#03C;}
+.lhands{ position:relative; cursor:pointer;} 
+.myhide{ position:absolute; border:1px solid #666; padding:5px;}
+.myhide li a{ color:#666;}
+.myshow{ float:left;}
+.myshow ul{ margin-top:5px;}
+.myshow li{ list-style-type:none; height:25px; line-height:25px;}
+.main_right{ width:237px; float:right; border-left:1px solid #CCC; height:280px;}
+.main_right_top{ height:40px; border-bottom:1px solid #999; line-height:40px; 
+           background:url(../images/baidu.jpg) no-repeat 10px center;background-color:#f5f7fa; padding-left:50px; color:#666;}
+.main_right_top span{ font-size:14px; font-weight:bold;}
+.txt{ margin-top:25px; margin-left:20px; width:195px; height:25px; padding-left:5px;}
+.txtt{ margin-top:10px; margin-left:20px; width:195px; height:25px;padding-left:5px;}
+.check{margin-top:20px; margin-left:20px;float:left;}
+.main_right_bottom a{ margin-left:40px; margin-top:20px;float:left; color:#06F; font-weight:bold;}
+.main_right_bottom span{margin-top:20px; margin-left:5px;float:left}
+.login{ width:200px; height:30px; float:left; margin-left:20px; margin-top:20px; cursor:pointer; background-color:#03F; border:0;
+        border-radius:5px; color:#FFF; font-weight:bold;}
+.main_right_bottom .last{ margin-left:159px; margin-top:10px; color:#06F; font-weight:bold;}
+
+.add{ border:1px solid #ccc; width:740px; height:220px; float:left; border-top:0;}
+
+
+/*评论*/
+.comment{ width:980px; float:left; height:330px; background-color:#f9f9f9; padding-top:20px;}
+.comment_left{ float:left; margin-left:30px; font-weight:bold;}
+.comment_right{ float:right; margin-right:250px; color:#666; }
+.comment_right a{ text-decoration:underline; margin-right:20px; color:#666;}
+.tip_btm{ border-top:1px solid #CCC;border-bottom:1px solid #CCC; margin-top:3px;}
+.say{ width:980px; float:left; }
+.text{ float:left; margin-top:5px; margin-left:30px; }
+textarea{ width:700px; height:230px;}
+.text1{float:left; margin-top:5px; margin-left:0px;}
+#area{ width:800px;height:50px;font-size:12px;}
+.btn2{ float:left; width:980px; margin-top:10px;}
+.btn_left{ margin-left:60px;}
+.btn_right{ margin-left:490px;}
+#item{width:100%;height:50px; line-height:50px;}
+#answer1{width:780px;border:1px solid #ccc;text-align: center;padding:5px;margin-top: 180px;font-size:14px}
+#answer1 a{text-decoration:none; color:#2d64ca; font-size:15px; font-weight:bold;}
+#answer1 a:hover{text-decoration: underline;}
+.staticmenu{position: fixed ;_position:absolute;_top:expression(eval(document.documentElement.scrollTop)); margin-top:150px; z-index: 100; width: 200px; height: 200px;visibility: visible; top:375px; left:600px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

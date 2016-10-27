@@ -1,0 +1,804 @@
+[ 2016-06-13T18:38:07+08:00 ] 127.0.0.1 /hotel/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `ht_news` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `ht_news` LIMIT 5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001533s ]
+
+[ 2016-06-13T18:38:07+08:00 ] 127.0.0.1 /hotel/webuploader/server/upload/tpic_t_18143513.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+
+[ 2016-06-13T18:38:08+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:11+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/lanmu_site.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-06-13T18:38:11+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/menu_style.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002630s ]
+
+[ 2016-06-13T18:38:11+08:00 ] 127.0.0.1 /hotel/webuploader/server/upload/tpic_t_18143513.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+
+[ 2016-06-13T18:38:11+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/cbg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:11+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bottom.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:13+08:00 ] 127.0.0.1 /hotel/a_7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `ht_cate` [ RunTime:0.0471s ]
+SQL: SELECT * FROM `ht_cate` WHERE `pid` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ht_intro` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `ht_intro` WHERE `cid` = 7  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000571s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001019s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2016-06-13T18:38:13+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:14+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/nav_menu_list.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:14+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/rgithbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+
+[ 2016-06-13T18:38:14+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/cbg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:14+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/menu_style.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+
+[ 2016-06-13T18:38:14+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/lanmu_site.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-06-13T18:38:14+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bottom.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:15+08:00 ] 127.0.0.1 /hotel/Room/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.516606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.516790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2016-06-13T18:38:15+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:15+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/menu_style.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+
+[ 2016-06-13T18:38:15+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/rgithbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002220s ]
+
+[ 2016-06-13T18:38:15+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/cbg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:15+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/lanmu_site.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-06-13T18:38:15+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bottom.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:17+08:00 ] 127.0.0.1 /hotel/a_7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `ht_cate` [ RunTime:0.0673s ]
+SQL: SELECT * FROM `ht_cate` WHERE `pid` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ht_intro` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ht_intro` WHERE `cid` = 7  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-06-13T18:38:17+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:18+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/menu_style.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-06-13T18:38:18+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/rgithbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+
+[ 2016-06-13T18:38:18+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/nav_menu_list.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:18+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/cbg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003121s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:18+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/lanmu_site.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-06-13T18:38:18+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bottom.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:19+08:00 ] 127.0.0.1 /hotel/a_8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `ht_cate` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `ht_cate` WHERE `pid` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ht_intro` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `ht_intro` WHERE `cid` = 8  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2016-06-13T18:38:20+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:20+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/menu_style.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+
+[ 2016-06-13T18:38:20+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/rgithbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+
+[ 2016-06-13T18:38:20+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/nav_menu_list.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:20+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/cbg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:20+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/lanmu_site.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-06-13T18:38:20+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bottom.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:22+08:00 ] 127.0.0.1 /hotel/Room/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001986s ]
+
+[ 2016-06-13T18:38:23+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:23+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/menu_style.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-06-13T18:38:23+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/cbg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:23+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/rgithbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-06-13T18:38:23+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/lanmu_site.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-06-13T18:38:23+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bottom.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:23+08:00 ] 127.0.0.1 /hotel/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `ht_news` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ht_news`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2016-06-13T18:38:24+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:24+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/rgithbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001504s ]
+
+
+
+[ 2016-06-13T18:38:24+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/cbg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:24+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/lanmu_site.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+
+[ 2016-06-13T18:38:24+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/article_arrow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+
+[ 2016-06-13T18:38:24+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bottom.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:25+08:00 ] 127.0.0.1 /hotel/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `ht_news` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `ht_news`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2016-06-13T18:38:25+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:26+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/menu_style.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+
+[ 2016-06-13T18:38:26+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/rgithbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-06-13T18:38:26+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/cbg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002532s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:26+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/lanmu_site.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-06-13T18:38:26+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/article_arrow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+
+[ 2016-06-13T18:38:26+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bottom.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:28+08:00 ] 127.0.0.1 /hotel/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `ht_news` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `ht_news`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-06-13T18:38:28+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:28+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/rgithbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-06-13T18:38:28+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/menu_style.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-06-13T18:38:28+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/cbg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:28+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/lanmu_site.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-06-13T18:38:28+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/article_arrow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002764s ]
+
+[ 2016-06-13T18:38:28+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bottom.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:29+08:00 ] 127.0.0.1 /hotel/News/news/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `ht_news` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `ht_news` WHERE `id` = 5  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000688s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2016-06-13T18:38:29+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:29+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/menu_style.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+
+[ 2016-06-13T18:38:29+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/rgithbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-06-13T18:38:29+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/cbg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:30+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/lanmu_site.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-06-13T18:38:30+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bottom.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:31+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:31+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/cbg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:32+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bottom.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:34+08:00 ] 127.0.0.1 /hotel/News/news/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `ht_news` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ht_news` WHERE `id` = 6  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2016-06-13T18:38:34+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:34+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/rgithbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-06-13T18:38:34+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/Images/menu_style.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+
+[ 2016-06-13T18:38:34+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/cbg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002228s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:35+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bottom.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-06-13T18:38:35+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/lanmu_site.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001482s ]
+
+[ 2016-06-13T18:39:17+08:00 ] 127.0.0.1 /hotel/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+ERR: 无法加载控制器:Top
+
+[ 2016-06-13T18:39:17+08:00 ] 127.0.0.1 /hotel/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+ERR: 无法加载控制器:Center
+
+[ 2016-06-13T18:39:17+08:00 ] 127.0.0.1 /hotel/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+ERR: 无法加载控制器:Down
+

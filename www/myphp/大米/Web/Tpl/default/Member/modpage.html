@@ -1,0 +1,124 @@
+<include file="$head"/>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<script charset="gbk" src="__PUBLIC__/Editor/kindeditor-min.js"></script>
+<script charset="utf-8" src="__PUBLIC__/Editor/lang/zh_CN.js"></script>
+<script> 
+KindEditor.options.filterMode = false;
+KindEditor.ready(function(K) {
+K.create('#Content_page',{ items : [
+						'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+						'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+						'insertunorderedlist', '|', 'emoticons', 'image', 'link'],afterBlur: function(){this.sync();}
+});
+});
+</script>
+<div id='content' style='width:1002px;height:574px;background:url(__TMPL__/images/cbg.jpg) repeat-y;margin:0px auto'>
+
+
+<!-- 产品搜索表单 -->
+
+<include file="Public:contact"/>
+
+<!-- 产品分类（列表） -->
+
+<div id='pdv_15177' class='pdv_class'  title='' style='width:224px;height:225px;top:0px;left:10px; z-index:10'>
+<div id='spdv_15177' class='pdv_content' style='overflow:visible;width:100%;'>
+<div class="pdv_border" style="border:0px;height:100%;padding:0;margin:0;">
+<div style="height:45px;border:0px;padding:0;margin:0;background:url(__TMPL__/images/border/776/images/title.jpg) 0px 0px no-repeat">
+	<div style="float:right;width:14px;height:45px;background:url(__TMPL__/images/border/776/images/title.jpg) -986px 0px no-repeat;"></div>
+</div>
+<div style="margin:0px;padding:0px;">
+
+<link href="__TMPL__/images/product/templates/css/productclass_dolphin.css" rel="stylesheet" type="text/css" />
+<div class="productclass_dolphin">
+
+<volist name='member_menu' id='vo'>
+<a href="__ROOT__{$vo.url}" target="_self" class="productclass_dolphin">{$vo.name}</a>
+</volist>
+ 
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- 当前位置提示条 -->
+
+<div id='pdv_15179' class='pdv_class'  title='会员投稿' style='width:696px;height:40px;top:0px;left:263px; z-index:11'>
+<div id='spdv_15179' class='pdv_content' style='overflow:hidden;width:100%;height:100%'>
+<div class="pdv_border" style="border:0px;height:100%;padding:0;margin:0;background:url(__TMPL__/images/border/788/images/title.jpg) 0px 0px no-repeat">
+	<div style="float:left;font:14px/40px Simsun;color:#000;padding-left:36px;">会员投稿</div><div style="float:right;height:100%;width:17px;background:url(__TMPL__/images/border/788/images/title.jpg) -983px 0px no-repeat;"></div>
+ 
+<link href="__TMPL__/images/product/templates/css/nav.css" rel="stylesheet" type="text/css" />
+<div id="nav">
+您现在的位置：{$nav} 
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- 登陆位置 -->
+
+<div id='pdv_15180' class='pdv_class'  title='' style='width:700px;height:494px;top:80px;left:266px; z-index:12'>
+<div id='spdv_15180' class='pdv_content' style='overflow:visible;width:100%;'>
+<div class="pdv_border" style="margin:0;padding:0;height:100%;border:0px  solid;background:;">
+<div style="padding:0px">
+<link href="__TMPL__/images/list/css/newsquery.css" rel="stylesheet" type="text/css" />
+
+<div>
+ 	<form class="form-horizontal" role="form" method="post" action="">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">分类</label>
+    <div class="col-sm-10">
+<select ID="Typeid" name="typeid" class="form-control">
+<option value="">请选择分类</option>{$op}
+</select>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">标题</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="title" name="title" value="{$info.title}" placeholder="投稿标题">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">缩略图</label>
+    <div class="col-sm-10">
+    <script>KindEditor.ready(function(K){var editor = K.editor({allowFileManager : true});K("#insertfile_sl").click(function() {
+	editor.loadPlugin("insertfile", function() {editor.plugin.fileDialog({fileUrl : K("#sl").val(),clickFn : function(url, title) {	
+	K("#sl").val(url);editor.hideDialog();}});});});});</script><input type="text" id="sl" name="imgurl" value="{$info.imgurl}"  /> <input type="button" id="insertfile_sl" value="选择文件" />
+</textarea>
+    </div>
+  </div>
+    <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">内容</label>
+    <div class="col-sm-10">
+     <textarea id="Content_page" name="content" style="width:580px;height:300px;">{$info.content}
+</textarea>
+    </div>
+  </div>
+   
+   
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+    <input name="aid" type="hidden" value="{$info.aid}" />
+      <button type="submit" class="btn btn-success">确定修改</button> <button type="button" class="btn btn-default" onclick="history.go(-1);">取消返回</button>
+    </div>
+  </div>
+</form>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<include file="$footer"/>

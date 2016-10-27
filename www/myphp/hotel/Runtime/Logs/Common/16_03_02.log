@@ -1,0 +1,174 @@
+[ 2016-03-02T16:20:36+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18143716.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:36+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18143658.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002358s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:36+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18143853.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:36+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18225122.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:36+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18143632.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:36+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18143835.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:36+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18143553.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:36+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18143513.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:36+08:00 ] 127.0.0.1 /hotel/e/upload/s1/fck/image/2012-11/17133202.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:37+08:00 ] 127.0.0.1 /hotel/e/css/comm.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:37+08:00 ] 127.0.0.1 /hotel/e/css/focus.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:37+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-02T16:20:38+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18143853.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:38+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18143658.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:38+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18143553.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:38+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18143632.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:38+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18143513.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:38+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18143835.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001484s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:38+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18225122.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001492s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:39+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18143716.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:39+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/cbg.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-02T16:20:39+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/lanmu_site.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-02T16:20:39+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/menu_style.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-02T16:20:39+08:00 ] 127.0.0.1 /hotel/e/upload/s1/article/image/2012-11/tpic_t_18143853.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:39+08:00 ] 127.0.0.1 /hotel/e/upload/s1/fck/image/2012-11/17133202.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+ERR: 无法加载模块:E
+
+[ 2016-03-02T16:20:39+08:00 ] 127.0.0.1 /hotel/Public/Home/Css/images/bottom.jp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-02T16:20:58+08:00 ] 127.0.0.1 /hotel/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+ERR: 无法加载模块:Top
+
+[ 2016-03-02T16:20:58+08:00 ] 127.0.0.1 /hotel/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+ERR: 无法加载模块:Center
+
+[ 2016-03-02T16:20:58+08:00 ] 127.0.0.1 /hotel/down.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+ERR: 无法加载模块:Down
+

@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>{$config.sitetitle}|{$config.sitetitle2}</title>
+<meta name="Keywords" content="{$config.sitekeywords}" />
+<meta name="Description" content="{$config.sitedescription}" />
+<link rel="shortcut icon" href="__TMPL__/images/favicon.ico" type="image/x-icon" />
+<link href="__TMPL__/images/default.css" rel="stylesheet" type="text/css"/>
+<neq name="config.ishomeimg" value="0">
+<script src="__TMPL__/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="__TMPL__/js/jquery.KinSlideshow-1.1.js" type="text/javascript"></script>
+<script src="__TMPL__/js/hd.js" type="text/javascript"></script></neq>
+<script src="__TMPL__/js/common.js" type="text/javascript"></script>
+<neq name="config.rollnum" value="0"><script src="__TMPL__/js/marquee.js" type="text/javascript"></script></neq>
+</head>
+<body>
+<include file="$head"/> 
+<div id="positionbg">
+	<div id="position"><a href="{$config.siteurl}">{$config.sitetitle}</a>&nbsp;&gt;&nbsp;首页</div>
+	<div id="sousuo"><form name="search" method="POST" action="{:U('s/search');}"><input type="text" name="k" id="kw" maxlength="60"><input type="submit" value="搜索" class="btn"></form></div>
+</div>
+<div id="wrapper" style="margin-top:-10px;">
+    <div id="IndexContent">
+         <div id="IndexFlash" <neq name="config.ishomeimg" value="0">style="visibility:hidden;"</neq>>
+		 <neq name="config.ishomeimg" value="0">
+		 <volist name="flash" id="vo">
+		 <a href="{$vo.url}" target="_blank"><img src="__ROOT__{$vo.imgurl}" alt="{$vo.title}" width="300" height="280"/></a>
+		 </volist>
+		<else/>{:Ad(27);}
+		 </neq>
+		 </div>
+         <div id="IndexHot">
+		 <volist name="top" id="vo">
+		 <p class="IndexHotTitle"><a href="{$vo.aid|url=articles,###}">{$vo.title}</a></p>
+		 <p class="IndexHotText">{$vo.note}...</p>
+		 </volist>
+			  <div id="IndexHotList"><ul>
+			  {:ShowArt(2,4,0,2);}
+			  </ul></div>
+		 </div>
+		 <neq name="config.indexpic" value="0">
+		 <eq name="config.indexpicscroll" value="1"><SCRIPT src="__TMPL__/js/ScrollPic.js" type="text/javascript"></SCRIPT></eq>
+		 <div id="IndexPhoto">
+		 <div id="IndexPhotoTitle">{$config.indexpictitle}</div>
+		 <ul id="indexpic">
+		 {$config.indexpicnum|ShowArt=0,###,0,3}
+		 </ul>
+		 <eq name="config.indexpicscroll" value="1">
+		<SCRIPT language="javascript" type="text/javascript">
+		var pic = new ScrollPic();
+		pic.scrollContId   = "indexpic"; //内容容器ID
+		pic.arrLeftId      = "LeftArr";//左箭头ID
+		pic.arrRightId     = "RightArr"; //右箭头ID
+		pic.frameWidth     = 680;//显示框宽度
+		pic.pageWidth      = 172; //翻页宽度
+		pic.speed          = 10; //移动速度(单位毫秒，越小越快)
+		pic.space          = 10; //每次移动像素(单位px，越大越快)
+		pic.autoPlay       = true; //自动播放
+		pic.autoPlayTime   = 3; //自动播放间隔时间(秒)
+		pic.initialize(); //初始化
+		</SCRIPT>
+		</eq>
+		 </div>
+		 </neq>
+		 <volist name="list" id="vo">
+		<div class="Index<eq name="vo.i" value="1">Left<else/>Rght</eq>">
+		<div class="IndexContentTitle">
+		<div class="IndexContentTitleLeft"><a href='{$vo.typeid|url=lists,###}' class="bold font14">{$vo.typename}</a></div>
+		<div class="IndexContentTitleRight"><a href='{$vo.typeid|url=lists,###}'>更多 &raquo;</a></div>
+		</div>
+		<div class="IndexContentList">
+		<ul>
+		<volist name= "vo['article']" id="sub"> 
+		<li><a href="{$sub.aid|url=articles,###}"><notempty name="sub.titlecolor"><font color="{$sub.titlecolor}"></notempty>{$sub.title}<notempty name="sub.titlecolor"></font></notempty></a></li>
+		</volist> 
+		</ul>
+		</div>
+		</div>
+		<eq name="vo.p" value="1">{:Ad(7);}</eq>
+		<eq name="vo.p" value="3">{:Ad(8);}</eq>
+		<eq name="vo.p" value="5">{:Ad(9);}</eq>
+		<eq name="vo.p" value="7">{:Ad(10);}</eq>
+		</volist>
+   </div>
+
+	<div id="IndexSide">{:Ad(1);}
+		<neq name="config.noticenum" value="0">
+	    <div class="IndexSideText">
+		      <div class="RRTitle">{$config.indexnoticetitle}</div>
+		      <div class="IndexSideList"><ul>
+			  <volist name="notice" id="vo">
+			 <li><a href="{$vo.aid|url=articles,###}">{$vo.title}</a></li>
+			  </volist>
+			  </ul></div>
+         </div>
+		 </neq>
+		 {:Ad(3);}
+		 <neq name="config.indexrec" value="0">
+		 <div class="IndexSideText">
+		      <div class="RRTitle">{$config.indexrectitle}</div>
+		      <div class="IndexSideList"><ul>
+			  {$config.indexrec|ShowArt=0,###,0,2}
+			  </ul></div>
+         </div>
+		 </neq>
+		 {:Ad(4);}
+		<neq name="config.indexhot" value="0">
+	     <div class="IndexSideText">
+		      <div class="RRTitle">{$config.indexhottitle}</div>
+		      <div class="IndexSideList"><ul>
+			  {$config.indexhot|ShowArt=0,###,0,0}
+			</ul></div>
+         </div>
+		</neq>
+		{:Ad(5);}
+		<neq name="config.indexvote" value="0">
+	     <div class="IndexSideText">
+		      <div class="RHTitle">{$config.indexvotetitle}</div>
+		      <div class="Indexvote"><ul>
+			  <h3>{$vtitle}</h3>
+			  <form action="{:U("Vote/update");}" method="post">
+			  <volist name="vdata" id="vo">
+              <li><input type="<eq name="vtype" value="0">radio<else/>checkbox</eq>"  name="vote<eq name="vtype" value="1">[]</eq>" value="{$vo.title}={$vo.num}">{$vo.title}</li>
+              </volist>
+<li><input type="submit" value="投票" class="artsubmit">  <input type="button" onclick="window.open('{$vid|url=votes,###}')" value="查看" class="artsubmit"></li>
+<input type="hidden" name="id" value="{$vid}">{__TOKEN__}
+			  </form>
+			</ul></div>
+         </div>
+		 </neq>
+		{:Ad(6);}
+</div>
+{:Ad(11);}
+<neq  name="config.indexlink" value="0">
+<div id="FriendUrl">
+    <div id="FriendUrlTitle">{$config.indexlinktitle}<neq name="config.indexdiylink" value="0">【<a href="javascript:void(0)" onClick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block';document.getElementById('fade').style.width = document.body.scrollWidth + 'px';document.getElementById('fade').style.height = document.body.scrollHeight + 'px';document.getElementById('light').style.left = (parseInt(document.body.scrollWidth) - 400) / 2 + 'px';document.getElementById('light').style.top =parseInt(document.getElementById('FriendUrl').offsetTop) - 150 +'px';">链接申请</a>】</neq></div>
+	<ul>
+	<volist name="link" id="vo">
+	<li><a href="{$vo.url}" target="_blank">{$vo.title}</a></li>
+	</volist>
+	</ul>
+	<eq name="config.indexlinkimg" value="1">
+	<div class="clear"></div><div class="linkimg">
+	<volist name="logolink" id="vo">
+	<a href="{$vo.url}" target="_blank" style="margin-right:20px;"><img src="{$vo.logo}" alt="{$vo.title}" width="88px" height="31px"/></a>
+	</volist>
+	</div>
+	</eq>
+</div>
+</neq>
+<include file="$footer" />
+<neq name="config.indexdiylink" value="0">
+<div id="clear"></div>
+<div id="light" class="white_content"> 
+	<h5><span><a href="javascript:void(1)" onClick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><img src="__TMPL__/images/close.gif" /></a></span>链接申请</h5>
+<iframe id="link" src="{:U('index/reglink');}" width="100%" height="170" SCROLLING="NO" FRAMEBORDER="0"></iframe>
+</div> 
+<div id="fade" class="black_overlay"></div>
+</neq>
+</body>
+</html>

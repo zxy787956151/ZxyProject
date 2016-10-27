@@ -1,0 +1,48 @@
+[ 2016-02-19T15:53:15+08:00 ] 127.0.0.1 /hotel/Public/Css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001576s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-19T15:53:15+08:00 ] 127.0.0.1 /hotel/Public/Css/body.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-19T15:53:17+08:00 ] 127.0.0.1 /hotel/Public/Css/body.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-19T15:53:17+08:00 ] 127.0.0.1 /hotel/Public/Css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-19T15:56:47+08:00 ] 127.0.0.1 /hotel/Public/Css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-19T15:56:47+08:00 ] 127.0.0.1 /hotel/Public/Css/body.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-19T15:57:02+08:00 ] 127.0.0.1 /hotel/Public/Css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-19T15:57:02+08:00 ] 127.0.0.1 /hotel/Public/Css/body.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+ERR: 无法加载模块:Public
+

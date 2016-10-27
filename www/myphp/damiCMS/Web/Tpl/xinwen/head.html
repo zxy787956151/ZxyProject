@@ -1,0 +1,63 @@
+<div id="minibg">
+    <div id="mini">
+	<div id="dlt">{:label(3);}</div>
+	<neq name="config.rollnum" value="0">
+         <div id="notice">
+		 <dl id="marquee">
+           <volist name="roll" id="vo">
+		   <dt><a href="{$vo.aid|url=articles,###}">{$vo.title}</a></dt>
+		   </volist>
+         </dl>
+		 </div>
+		 <script type="text/javascript">
+				<!--
+				new Marquee("marquee",0,3,300,24,50,3000,3000)
+				//-->
+			</script>
+			</neq>
+    <div id="mini2"><a href="http://www.damicms.com" target="_blank">大米CMS官网</a>&nbsp;&nbsp;
+<neq name="_SESSION['dami_username']" value=''>
+欢迎您，{$_SESSION.dami_username},&nbsp;<neq name="_SESSION['dami_usericon']" value=""><img src="{$_SESSION['dami_usericon']}" border="0" width="16" height="16"></neq><a href="{:U('Member/main')}">会员中心</a>&nbsp;<a href="{:U('Member/dologout')}">退出</a>
+<else/>
+<if condition="C('QQ_LOGIN') eq 1"><a href="{:U('Member/qqlogin')}"><img src="__TMPL__/images/qq_login.png" border="0" /></a></if>&nbsp;<a href="{:U('Member/login')}">登陆</a>&nbsp;&nbsp;<a href="{:U('Member/register')}">注册</a></neq>
+<a href="{:U('Public/rss')}" target="_blank"><img src="__TMPL__/images/rss.png" border="0" /></a></div>
+	</div>
+</div>
+
+	<div id="head">
+		<div id="logo">
+			<img src="__PUBLIC__/Uploads/logo/{$config.sitelogo}" onclick="window.location.href='{$config.siteurl}'"/>
+		</div>
+		<div id="banner">
+		{:Ad(2);}
+		</div>
+	</div>
+	<div id="menu_out">
+		<div id="menu_in">
+			<div id="menu">
+				<ul id="nav">
+					<LI><A class="nav_on" id="mynav0" onmouseover="javascript:qh(0);" href="__ROOT__/"><SPAN>首 页</SPAN></A></LI>
+					<volist name="menu" id="vo" offset="0" length='9'> 
+					<li class="menu_line"></li>
+					<li><a href="<eq name="vo.url" value="">{$vo.typeid|url=lists,###}<else/>__ROOT__{$vo.url}</eq>"  target="<eq name="vo.target" value="1">_self<else/>_blank</eq>" onmouseover="javascript:qh({$i});" id="mynav{$i}" class="nav_off"><span>{$vo.typename}</span></a></li>
+					</volist>
+				</ul>
+				<div id="menu_con">
+					<div id="qh_con0" style="DISPLAY: block">
+						<ul>
+						{:Label(2);}
+						</ul>
+					</div>
+			<volist name="menuson" id="vo" offset="0" length='9' key="k">
+					<div id="qh_con{$k}" style="DISPLAY: none">
+						<ul>
+						<volist name="vo" id="sub">  
+							<li><a href="{$sub.typeid|url=lists,###}"><span>{$sub.typename}</span></A></LI><LI class="menu_line2"></LI>
+						</volist> 
+						</ul>
+					</div>
+			</volist> 
+				</div>
+			</div>
+		</div>
+	</div> 

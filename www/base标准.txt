@@ -1,0 +1,30 @@
+<?php
+	session_start();
+	header("Content-Type:text/html;charset=utf-8");
+	$pd='0';
+	$qx='0';
+	$pdo = new PDO("mysql:host=localhost;dbname=phpmysql","root","");
+	if($pdo -> exec("insert into biao1(link)values('1');")){ 
+	echo "数据库插入成功！";
+	$pdo -> exec("delete from biao1 where link='1';"); 
+	}
+	//create table user1(name char(20),pwd int,email char(20),qx char(20));
+	//create table user1(id int,name char(20),pwd int,email char(20),qx char(20),primary key (id));
+	//ALTER TABLE `test` CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT;
+	//mysql_query("set names 'GBK' ");说是解决乱码
+	//create table user1(id int,name char(20),pwd int,qx char(20),primary key (id));
+	//create table liuyan1(id int,name char(20),qx char(20),content char(50),primary key (id));
+	//create table liuyan1(id int,name char(20),qx int,content char(50),primary key (id))charset utf8;
+
+	// ljx模板:
+	// CREATE TABLE `message` (
+	// `id`  		int(1) NOT NULL auto_increment,
+	// `user`      char(25) NOT NULL ,
+	// `title`      char(50) NOT NULL,
+	// `content`   char()  NOT NULL,
+	// `lastdate`   date   NOT NULL,
+	// PRIMARY KEY (`id`)
+	// ) ENGINE=InnoDB DEFAULT CHARSET=gbk AUTO_INCREMENT=1;
+
+	//<script>alert();location.href='xxx.php'</script>;
+?>

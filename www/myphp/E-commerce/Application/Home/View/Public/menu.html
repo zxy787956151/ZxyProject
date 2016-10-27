@@ -1,0 +1,58 @@
+<div class="header header5">
+	<div class="header-top">
+
+			<div class="header-bottom">
+			<div class="container">			
+				<div class="logo">
+					<h1><a href="index.html">Z-<span>xy</span></a></h1>
+				</div>
+		 <!---->	
+		 
+			<div class="top-nav">
+				<ul class="memenu skyblue"><li class="active"><a href="index.html">Home</a></li>
+
+				<foreach name="arr" item="v">
+					<li class="grid"><a href="{:U('Product/index(-1)')}">{$v.title}</a>	
+						<div class="mepanel">
+							<div class="row">
+								
+									<div class="col1 me-one">
+										<h4>Shop</h4>
+										<ul>											
+											<?php 
+												for ($i=0; $i <count($v['child']) ; $i++) { 
+													echo "<li><a href='".U('Product/index(-1)')."'>"
+													.$v['child'][$i]['title']."</a></li>";
+												}
+											 ?>
+										</ul>
+									</div>
+																
+							</div>
+						</div>
+					</li>
+				</foreach>
+				
+					
+				</ul>
+				<div class="clearfix"> </div>
+			</div>
+					<!---->
+					<div class="cart box_1">
+						<a href="checkout.html">
+						<h3> <div class="total">
+							<span class="simpleCart_total"> </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> </span>)</div>
+							<img src="__PUBLIC__/images/cart2-2.png" alt=""/></h3>
+						</a>
+						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+						<div class="clearfix"> </div>
+					</div>
+
+<div class="clearfix"> </div>
+					<!---->
+				</div>
+			<div class="clearfix"> </div>
+		</div>
+		</div>	
+ 				<div class="clearfix"> </div>	
+			</div>

@@ -1,0 +1,6 @@
+[ 2016-05-07T20:48:29+08:00 ] 127.0.0.1 /MyDWZ/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+ERR: 无法加载模块:Index
+

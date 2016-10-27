@@ -1,0 +1,69 @@
+[ 2016-03-26T18:53:41+08:00 ] 127.0.0.1 /blog/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.019528s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.008318s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000692s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.095126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095324s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003649s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003601s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015269s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004133s ]
+
+[ 2016-03-26T18:53:48+08:00 ] 127.0.0.1 /blog/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001337s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019681s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001157s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000935s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000805s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004200s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000979s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-03-26T18:53:50+08:00 ] 127.0.0.1 /blog/index.php/Admin/Blog/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001582s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.026209s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid` FROM `hd_blog` WHERE ( `del` = 0 )  [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `hd_attr` [ RunTime:0.010066s ]
+NOTIC: [8] Undefined index: mapping_order E:\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit E:\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: relation_table E:\wamp\www\myphp\blog\ThinkPHP\Extend\Model\RelationModel.class.php 第 191 行.
+SQL: SELECT b.* FROM hd_blog_attr AS a, hd_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.041841s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.003140s ]
+SQL: SELECT `name` FROM `hd_cate` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.000508s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040602s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000896s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000983s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000881s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003889s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001044s ]
+

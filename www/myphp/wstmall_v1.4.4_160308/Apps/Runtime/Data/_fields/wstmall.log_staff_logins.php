@@ -1,0 +1,1 @@
+a:6:{i:0;s:7:"loginId";i:1;s:7:"staffId";i:2;s:9:"loginTime";i:3;s:7:"loginIp";s:3:"_pk";s:7:"loginId";s:5:"_type";a:4:{s:7:"loginId";s:7:"int(11)";s:7:"staffId";s:7:"int(11)";s:9:"loginTime";s:8:"datetime";s:7:"loginIp";s:11:"varchar(16)";}}

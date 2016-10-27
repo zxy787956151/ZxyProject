@@ -1,0 +1,41 @@
+body{
+	background-image: url(../img/registered_bg.png);
+}
+#container-main{
+	width:70%;
+
+	border: 1px solid #C0C0C0;
+	border-radius:10px;
+	background-color:rgba(255,255,255,1);
+	position: absolute;
+	top:5%;
+	left:17%;
+}
+.alert{
+	width:90%;
+	height:10%;
+	border: 1px solid #CC9853;
+	background-color:#F8E5C3;
+	color:#CC9853;
+}
+.form1{
+	margin-top:10px;
+}
+.form1 span{
+	color:#333;
+	font-weight: bold;
+	margin-left:50px;
+}
+.form1 p{
+	margin-left:10px;
+}
+#input{
+	width:50%;
+	margin-top:5px;
+	margin-left:50px;
+}
+#button{
+	margin-top:20px;
+	margin-left:50px;
+	margin-bottom:20px;
+}

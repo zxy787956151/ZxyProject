@@ -1,0 +1,84 @@
+ <div class="row" id="technology">
+            <div class="technology watchpla">
+            	 <h1>技术</h1>
+            	 <span class="hbottom"></span>
+            	 <p>New technology to learn</p>
+            </div>
+        </div>
+        <!-- 技术导航-->
+        <div class="container">
+            <div class="row">
+                  <div class="col-md-offset-2 col-md-8 watchpla" >
+                		  <ul class="technologynav ">
+                              <foreach name="skititle" item="sv">                		  	  
+                                <li class="col-md-offset-1 col-md-2 col-xs-6" >{$sv.menutitle}</li>
+                		      </foreach>
+                          </ul>
+                  </div>
+            </div>
+        </div>
+                            <?php foreach ($skigroup as $k => $group): ?>
+                                <div class="technologychild container" >
+                                    <?php if ($k==0): ?>
+                                        <div class="row {$group[0].class}new watchpla">
+                                    <?php else: ?>
+                                        <div class="row {$group[0].class}new">
+                                    <?php endif ?>
+                                             
+                                    <?php foreach ($group as $k2 => $grov): ?>
+                                        <?php if ($k2!=3): ?>
+                                            <div class="col-md-4 col-sm-6">
+                                                 <img src="__PUBLIC__/technology/frontend/{$grov.phoname}">
+                                                 <div class="techfont">
+                                                     <h3>{$grov.menu}</h3> 
+                                                     <span class="hbottom"></span>
+                                                     <ul>
+                                                        <li><span class="glyphicon glyphicon-leaf"></span>{$grov.descr}</li>
+                                                        <li><span class="glyphicon glyphicon-search"></span>{$grov.descr2}</li>
+                                                        <li><span class="glyphicon glyphicon-flash"></span>{$grov.descr3}</li>
+                                                        <li><span class="glyphicon glyphicon-send"></span><span class="glyphicon glyphicon-pencil pencil"><a href="{$grov.link}">Learn Link</a></span></li>
+                                                     </ul>
+                                                     <span class="hbottom"></span>
+                                                 </div>
+                                            </div>
+                                            <?php if (count($group)<=3&&$k2==count($group)-1): ?>
+                                                </div>
+                                            <?php endif ?>
+                                            <?php elseif ($k2==3): ?> 
+                                            </div>  
+                                            <div class="row {$grov.class}new">   
+                                                  <div class="col-md-4 col-sm-6">
+                                                    <img src="__PUBLIC__/technology/frontend/{$grov.phoname}">
+                                                     <div class="techfont">
+                                                        <h3>{$grov.menu}</h3> 
+                                                        <span class="hbottom"></span>
+                                                        <ul>
+                                                            <li><span class="glyphicon glyphicon-leaf"></span>{$grov.descr}</li>
+                                                            <li><span class="glyphicon glyphicon-search"></span>{$grov.descr2}</li>
+                                                            <li><span class="glyphicon glyphicon-flash"></span>{$grov.descr3}</li>
+                                                            <li><span class="glyphicon glyphicon-send"></span><span class="glyphicon glyphicon-pencil pencil"><a href="{%grov.linkz}">Learn Link</a></span></li>
+                                                        </ul> 
+                                                        <span class="hbottom"></span>
+                                                     </div>
+                                                </div>
+                                            </div>
+                                        <?php endif ?>
+                                    <?php endforeach ?>
+                                    <!-- 翻页 -->
+                                            <div class="row pagenum">
+                                                <ul class="nummark {$grov.class2}num">
+                                                    <li></li>
+                                                    <li></li>
+                                                </ul>
+                                            </div>
+                                            <div class="row lookfor watchpla">
+                                                  <span class="turnpage prev">Previous</span>
+                                                  <span class="turnpage next">NEXT</span>
+                                            </div>
+                                    </div>                             
+                            <?php endforeach ?>
+
+                 
+
+
+       

@@ -1,0 +1,24 @@
+<!--栏目分类-->
+           <div class="lanmubox">
+              <div class="hd">
+               <ul><li>精心推荐</li><li>最新文章</li><li class="hd_3">随机文章</li></ul>
+              </div>
+              <div class="bd">
+                <ul>
+                    <foreach name="blog" item='v'>
+					<li><a href="{:U('/'.$v['id'])}" title="网站项目实战开发（-）">{$v.title}（{$v.id}）</a></li>
+					</foreach>
+				</ul>
+                 <ul>
+                    <foreach name="blog" item='v'>
+					<li><a href="{:U('/'.$v['id'])}" title="网站项目实战开发（-）">{$v.title}（{$v.id}）</a></li>
+					</foreach>
+				</ul>
+                 <ul>
+                    <foreach name="blog" item='v'>
+					<li><a href="{:U('/'.$v['id'])}" title="网站项目实战开发（-）">{$v.title}（{$v.id}）</a></li>
+					</foreach>
+				</ul>             
+              </div>
+           </div>
+           <!--end-->

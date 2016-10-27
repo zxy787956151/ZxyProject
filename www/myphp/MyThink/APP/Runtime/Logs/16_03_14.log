@@ -1,0 +1,6 @@
+[ 2016-03-14T21:31:54+08:00 ] 127.0.0.1 /MyThink/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+ERR: 无法加载模块:Index
+

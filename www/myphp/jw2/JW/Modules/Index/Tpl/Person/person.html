@@ -1,0 +1,50 @@
+<include file="Common:header"/>
+<include file="Common:nav"/>
+<div id='room'>
+	<form action="{:U(GROUP_NAME.'/Person/update')}" method="post">
+	<foreach name='user' item='v'>
+        <table border='0' align="center" height="400">
+        <tr>
+            <td>个性头像:</td>
+            <td><img src="__PUBLIC__/Images/{$v.img}"/></td>
+        </tr>
+        <tr>
+            <td>用户名:</td>
+            <td align="center"><input type="text" name="username" value="{$v.username}"></td>
+        </tr>
+        <tr>
+            <td>密码:</td>
+            <td align="center"><input type="password" name="pwd" value="{$v.password}"></td>
+        </tr>
+        <tr>
+            <td>确认密码:</td>
+            <td align="center"><input type="text" name="rpwd" value="{$v.password}"></td>
+        </tr>
+        <tr>
+            <td>学习方向:</td>
+            <td align="center"><input type="text" name="direction" value="{$v.direction}"></td>
+        </tr>
+        <tr>
+            <td>加入时间:</td>
+            <td align="center"><input type="text" name="time" value="{$v.time}"></td>
+        </tr>
+        <tr>
+            <td>职务:</td>
+            <td align="center"><input type="text" name="work" value="{$v.work}"></td>
+        </tr>
+        <tr>
+            <td>联系QQ:</td>
+            <td align="center"><input type="text" name="qq" value="{$v.qq}"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="修改"></td>
+            <td align="center"><input type="reset" value="重置"></td>
+        </tr>
+        </table>
+    </foreach>
+</form>
+</div>
+<include file="Common:bottom"/>
+</div>
+</body>
+</html>
