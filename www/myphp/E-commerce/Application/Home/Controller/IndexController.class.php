@@ -20,6 +20,32 @@
 			$this->arr = D('category')->getTree(M('category')->select(),0);
 			$this->latest = M('product')->where('latest=1')->select();
 
+			//插入product表数据算法:
+
+			// $col_arr = array('Black','Orange','Gray');
+			// $siz_arr = array('Small','Middle','Large');
+			// $pro = M('product');
+			// for ($i=1; $i <11 ; $i++) { 
+			// 	$data["$i"] = array(
+			// 		'id' => $i,
+			// 		'photo' => "n".$i."jpg",
+			// 		'name' =>"n".$i,
+			// 		'price'=>$i*111,
+			// 		'color'=>$col_arr[($i-1)%3],
+			// 		'size'=>$siz_arr[($i-1)%3],
+			// 		'TAG'=>"TAG".$i,
+			// 		'SKU'=>"SKU".$i,
+			// 		'cid'=>$i,
+			// 		'description'=>"descriptiondescription".$i,
+			// 		'reviews'=>"reviewsreviews".$i, 
+			// 	);
+
+			// 	// $pro->data($data["$i"])->add();
+			// }
+
+			
+			
+
 			// var_dump($arr[0][child])	;
 			// p($arr);
 			// var_dump($arr[0][0]);
