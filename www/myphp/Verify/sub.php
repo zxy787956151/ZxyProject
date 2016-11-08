@@ -10,6 +10,8 @@ header("Content-Type:text/html;charset=utf-8");
 			echo "验证码错误".@$_SESSION[check_pic];
 		}
 	}
+
+	var_dump($_SESSION['check_pic']);
 	
  ?>
 

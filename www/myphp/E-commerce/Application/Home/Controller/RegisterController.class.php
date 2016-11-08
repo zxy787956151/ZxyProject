@@ -10,7 +10,6 @@
 
 		Public function reg(){
 			// var_dump($_POST);
-
 			//此功能进入模型
 			// if (!preg_match("/^[\x{4e00}-\x{9fa5}]{1,2}+$/u",$_POST['first'])) {
 			// 	$this->error("名字不能为空!,切必须为1或2个汉字!");
