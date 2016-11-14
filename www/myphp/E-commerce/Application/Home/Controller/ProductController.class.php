@@ -41,13 +41,31 @@
 					break;
 
 				case '1':
-					$_SESSION['NowPage']+=1;
+					$_SESSION['NowPage']=2;
                     $mod = ($_SESSION['NowPage'])%($GLOBALS['pagNum']);
                     if ($mod == 0){
                         $mod += $GLOBALS['pagNum'];
                     }
 					$this->PageNow = $Dpro->group('Product','9',$mod,$GLOBALS['pagNum']);
 					break;
+
+                case '2':
+                    $_SESSION['NowPage']=3;
+                    $mod = ($_SESSION['NowPage'])%($GLOBALS['pagNum']);
+                    if ($mod == 0){
+                        $mod += $GLOBALS['pagNum'];
+                    }
+                    $this->PageNow = $Dpro->group('Product','9',$mod,$GLOBALS['pagNum']);
+                    break;
+
+                case 'last':
+                    $_SESSION['NowPage']=$GLOBALS['pagNum'];
+                    $mod = ($_SESSION['NowPage'])%($GLOBALS['pagNum']);
+                    if ($mod == 0){
+                        $mod += $GLOBALS['pagNum'];
+                    }
+                    $this->PageNow = $Dpro->group('Product','9',$mod,$GLOBALS['pagNum']);
+                    break;
 
 				default:
                     $_SESSION['NowPage']=1;
@@ -59,7 +77,7 @@
                     break;
 			}
 
-            var_dump($_SESSION['NowPage']);
+//            var_dump($_SESSION['NowPage']);
 
             $this->display();
 

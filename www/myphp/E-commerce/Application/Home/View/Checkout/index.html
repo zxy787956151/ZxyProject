@@ -124,51 +124,69 @@ amet consectetuer </a></h6>
 		 <div class=" cart-items">
 			 <h3>My Shopping Bag (2)</h3>
 				<script>$(document).ready(function(c) {
-					$('.close1').on('click', function(c){
-						$('.cart-header').fadeOut('slow', function(c){
-							$('.cart-header').remove();
-						});
-						});	  
-					});
+//					$('.close1').on('click', function(c){
+//						$('.cart-header').fadeOut('slow', function(c){
+//							$('.cart-header').remove();
+//						});
+//						});
+//					});
 			   </script>
-			<script>$(document).ready(function(c) {
-					$('.close2').on('click', function(c){
-						$('.cart-header1').fadeOut('slow', function(c){
-							$('.cart-header1').remove();
-						});
-						});	  
-					});
-			   </script>
+
+
 				
 				  <div class="in-check" >
-		  <ul class="unit">
-			<li><span>Item</span></li>
-			<li><span>Product Name</span></li>		
-			<li><span>Unit Price</span></li>
-			<li><span>Stock Status</span></li>
-			<li> </li>
-			<div class="clearfix"> </div>
-		  </ul>
-		  <ul class="cart-header">
-		   <div class="close1"> </div>
-			<li class="ring-in"><a href="single.html" ><img src="__PUBLIC__/images/f1.jpg" class="img-responsive" alt=""></a>
-			</li>
-			<li><span>Woo Dress</span></li>
-			<li><span>$ 60.00</span></li>
-			<li><span>In Stock</span></li>
-			<li> <a href="single.html" class="add-cart cart-check">ADD TO CART</a></li>
-			<div class="clearfix"> </div>
-			</ul>
- <ul class=" cart-header1">
-		   <div class="close2"> </div>
-			<li class="ring-in"><a href="single.html" ><img src="__PUBLIC__/images/f2.jpg" class="img-responsive" alt=""></a>
-			</li>
-			<li><span>Woo Dress</span></li>
-			<li><span>$ 60.00</span></li>
-			<li><span>In Stock</span></li>
-			<li> <a href="single.html" class="add-cart cart-check">ADD TO CART</a></li>
-			<div class="clearfix"> </div>
-			</ul>
+
+		  <if condition="$_SESSION['user'] eq null">
+			  <!--eq 等于-->
+			  <!--neq 不等于-->
+			  <!--gt 大于-->
+			  <!--egt 大于等于-->
+			  <!--lt 小于-->
+			  <!--elt 小于等于-->
+			  <!--like LIKE-->
+			  <!--between BETWEEN-->
+			  <!--notnull IS NUT NULL-->
+			  <!--null IS NULL-->
+			  <ul class="unit">
+				  <li><span>无记录,请登录!</span></li>
+				  <div class="clearfix"> </div>
+			  </ul>
+			  <else />
+
+			  <ul class="unit">
+				  <li><span>Item</span></li>
+				  <li><span>Product Name</span></li>
+				  <li><span>Unit Price</span></li>
+				  <li><span>Stock Status</span></li>
+				  <li> </li>
+				  <div class="clearfix"> </div>
+			  </ul>
+
+			  <foreach name="proList" item	="plv">
+				  <foreach name="plv" item="plvv">
+					  <ul class="cart-header">
+						  <a href="{:U('Checkout/close',array('pid' => $plvv[id]))}"><div class="close1"></div></a>
+						  <li class="ring-in"><a href="single.html" ><img src="__PUBLIC__/images/{$plvv.photo}" class="img-responsive" alt=""></a>
+						  </li>
+						  <li><span>{$plvv.name}</span></li>
+						  <li><span>{$plvv.price}</span></li>
+						  <li>
+							  <span>
+								  <if condition="$plvv[stock] eq 1">In Stock
+									<else />Out Of Stock
+								  </if>
+							  </span>
+						  </li>
+						  <li> <a href="single.html" class="add-cart cart-check">ADD TO CART</a></li>
+						  <div class="clearfix"> </div>
+					  </ul>
+				  </foreach>
+			  </foreach>
+			  </if>
+
+
+
+
 		</div>
 			 </div>
 					  

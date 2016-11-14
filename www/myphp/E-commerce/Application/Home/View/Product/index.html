@@ -318,16 +318,18 @@ amet consectetuer </a></h6>
 		        </div>
 		        </div>	
 	        	<ul class="start">
-					<li class="arrow"><a>首页</a></li>
+					<li class="arrow"><a href="{:U('Product/index',array('pd'=>0))}">首页</a></li>
 					&nbsp;&nbsp;&nbsp;
 					<li class="arrow"><a href="{:U('Product/index',array('pd'=>'-'))}">Up</a></li>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<li class="arrow"><a href="#">1</a></li>
-					<li class="arrow"><a href="#">2</a></li>
-					<li class="arrow"><a href="#">3</a></li>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<for start="1" end="$pagGlobals+1">
+						<li class="arrow"><a href="{:U('Product/index',array('pd'=>$i-1))}">{$i}</a></li>
+						&nbsp;&nbsp;
+					</for>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<li class="arrow"><a href="{:U('Product/index',array('pd'=>'+'))}">Down</a></li>
 					&nbsp;&nbsp;&nbsp;
-					<li class="arrow"><a href="#">尾页</a></li>
+					<li class="arrow"><a href="{:U('Product/index',array('pd'=>'last'))}">尾页</a></li>
 				</ul>
 		        
 				<div class="clearfix"> </div>

@@ -9,7 +9,7 @@
 		 <!---->	
 		 
 			<div class="top-nav">
-				<ul class="memenu skyblue"><li class="active"><a href="index.html">Home</a></li>
+				<ul class="memenu skyblue"><li class="active"><a href="{:U('Index/index')}">Home</a></li>
 
 				<foreach name="arr" item="v">
 					<li class="grid"><a href="{:U('Product/index(-1)')}">{$v.title}</a>	
@@ -39,7 +39,7 @@
 			</div>
 					<!---->
 					<div class="cart box_1">
-						<a href="checkout.html">
+						<a href="{:U('Checkout/index')}">
 						<h3> <div class="total">
 							<span class="simpleCart_total"> </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> </span>)</div>
 							<img src="__PUBLIC__/images/cart2-2.png" alt=""/></h3>

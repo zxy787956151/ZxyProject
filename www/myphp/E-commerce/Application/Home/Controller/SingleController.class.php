@@ -6,7 +6,7 @@
 		Public function index(){
 			$this->arr = D('category')->getTree(M('category')->select(),0);
 			$where['id']=$_GET['pid'];
-
+			$this->assign('SinPid',$_GET['pid']);
 			$this->sin = M('product')->where($where)->select();
 			
 			$this->ptoc = D('ProCol')->MtoM('product','pid','color','cid','pro_col','name','color');
