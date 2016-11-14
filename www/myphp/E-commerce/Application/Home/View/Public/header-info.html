@@ -7,7 +7,15 @@
 							<li><span><i class="glyphicon glyphicon-earphone" class="tele-in"> </i>138 9405 5929</span></li>			
 						</ul>
 						<ul class=" support-right">
-							<li><a href="{:U('account/index')}"><i class="glyphicon glyphicon-user" class="men"> </i>{$_SESSION[user]}</a></li>
+
+							<li><a href="{:U('account/index')}">
+									<i class="glyphicon glyphicon-user" class="men"> </i>
+									{$_SESSION[user]}
+								</a>
+							</li>
+							<if condition="isset($_SESSION[user]) eq true">
+								<a href="{:U('Account/out')}">注销</a>
+							</if>
 							<li><a href="{:U('register/index')}"><i class="glyphicon glyphicon-lock" class="tele"> </i>Create an Account</a></li>			
 						</ul>
 						<div class="clearfix"> </div>

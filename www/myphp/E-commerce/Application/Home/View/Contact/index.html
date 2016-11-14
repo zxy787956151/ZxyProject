@@ -64,23 +64,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class=" contact-top">
 					<h3>Want to work with me?</h3>
+					<form action="{:U('Contact/add')}" method="post">
 						<div>
-							<span>Your Name </span>		
-							<input type="text" value="" >						
+							<span>Your Name </span>
+							<input type="text" name="name" value="" >
 						</div>
 						<div>
-							<span>Your Email </span>		
-							<input type="text" value="" >						
+							<span>Your Email </span>
+							<input type="text" name="email" value="" >
 						</div>
 						<div>
-							<span>Subject</span>		
-							<input type="text" value="" >	
+							<span>Subject</span>
+							<input type="text" name="subject" value="" >
 						</div>
 						<div>
-							<span>Your Message</span>		
-							<textarea> </textarea>	
+							<span>Your Message</span>
+							<textarea name="message"> </textarea>
 						</div>
-						<input type="submit" value="SEND" >	
+						<input type="submit" value="SEND" >
+					</form>
 				</div>
 		
 		</div>

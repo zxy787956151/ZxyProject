@@ -12,7 +12,11 @@
 				<ul class="memenu skyblue"><li class="active"><a href="{:U('Index/index')}">Home</a></li>
 
 				<foreach name="arr" item="v">
-					<li class="grid"><a href="{:U('Product/index(-1)')}">{$v.title}</a>	
+					<li class="grid">
+						<if condition="$v.title eq CONTACT"> <a href="{:U('Contact/index')}">{$v.title}</a>
+							<else /> <a href="{:U('Product/index',array('id' => 0))}">{$v.title}</a>
+						</if>
+
 						<div class="mepanel">
 							<div class="row">
 								
@@ -21,8 +25,8 @@
 										<ul>											
 											<?php 
 												for ($i=0; $i <count($v['child']) ; $i++) { 
-													echo "<li><a href='".U('Product/index(-1)')."'>"
-													.$v['child'][$i]['title']."</a></li>";
+														echo "<li><a href='".U('Product/index',array('id' => 0))."'>"
+														.$v['child'][$i]['title']."</a></li>";
 												}
 											 ?>
 										</ul>

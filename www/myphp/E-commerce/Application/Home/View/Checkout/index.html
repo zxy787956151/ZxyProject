@@ -154,18 +154,19 @@ amet consectetuer </a></h6>
 			  <else />
 
 			  <ul class="unit">
-				  <li><span>Item</span></li>
+				  <li><span>Photo</span></li>
 				  <li><span>Product Name</span></li>
 				  <li><span>Unit Price</span></li>
 				  <li><span>Stock Status</span></li>
-				  <li> </li>
+				  <li><span>Purchase Quantity</span></li>
+				  <li></li>
 				  <div class="clearfix"> </div>
 			  </ul>
 
 			  <foreach name="proList" item	="plv">
 				  <foreach name="plv" item="plvv">
 					  <ul class="cart-header">
-						  <a href="{:U('Checkout/close',array('pid' => $plvv[id]))}"><div class="close1"></div></a>
+						  <a href="{:U('Checkout/close',array('id' => $plvv[id]))}"><div class="close1"></div></a>
 						  <li class="ring-in"><a href="single.html" ><img src="__PUBLIC__/images/{$plvv.photo}" class="img-responsive" alt=""></a>
 						  </li>
 						  <li><span>{$plvv.name}</span></li>
@@ -177,7 +178,7 @@ amet consectetuer </a></h6>
 								  </if>
 							  </span>
 						  </li>
-						  <li> <a href="single.html" class="add-cart cart-check">ADD TO CART</a></li>
+						  <li><span>{$plvv.quantity}</span></li>
 						  <div class="clearfix"> </div>
 					  </ul>
 				  </foreach>

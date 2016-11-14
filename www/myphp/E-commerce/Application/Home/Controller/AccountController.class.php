@@ -27,8 +27,13 @@
 				}
 				
 			}
-
-
 		}
+
+		Public function out(){
+            unset($_SESSION['user']);
+            if (!isset($_SESSION['user'])){
+                $this->success('注销成功!');
+            }
+        }
 	}
  ?>
