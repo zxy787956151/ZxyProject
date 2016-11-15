@@ -38,7 +38,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- js -->
 		 <script src="__PUBLIC__/js/bootstrap.js"></script>
 	<!-- js -->
-
+	<style>
+		.Clearing{
+			font-size: 24px;
+			width:200px;
+			height:30px;
+			background-color: orange;
+		}
+	</style>
 </head>
 <body> 
 <!--header-->	
@@ -167,7 +174,7 @@ amet consectetuer </a></h6>
 				  <foreach name="plv" item="plvv">
 					  <ul class="cart-header">
 						  <a href="{:U('Checkout/close',array('id' => $plvv[id]))}"><div class="close1"></div></a>
-						  <li class="ring-in"><a href="single.html" ><img src="__PUBLIC__/images/{$plvv.photo}" class="img-responsive" alt=""></a>
+						  <li class="ring-in"><a href="{:U('Single/index')}&pid={$plvv.id}" ><img src="__PUBLIC__/images/{$plvv.photo}" class="img-responsive" alt=""></a>
 						  </li>
 						  <li><span>{$plvv.name}</span></li>
 						  <li><span>{$plvv.price}</span></li>
@@ -181,13 +188,13 @@ amet consectetuer </a></h6>
 						  <li><span>{$plvv.quantity}</span></li>
 						  <div class="clearfix"> </div>
 					  </ul>
+
 				  </foreach>
 			  </foreach>
 			  </if>
-
-
-
-
+			  <ul class="cart-header">
+				  <center><a class="Clearing" href="{:U('Checkout/clear')}">结算</a></center>
+			  </ul>
 		</div>
 			 </div>
 					  

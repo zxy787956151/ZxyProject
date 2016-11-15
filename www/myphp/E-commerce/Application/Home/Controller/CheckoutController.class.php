@@ -47,5 +47,9 @@
                 $this->success('宝物已移除购物车!');
             }
         }
+
+        Public function clear(){
+
+        }
 	}
  ?>

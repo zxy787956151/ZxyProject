@@ -23,11 +23,14 @@
                     $where3['pid'] = $pro["$i"]['0']['pid'];
                     $qua = M('car')->where($where3)->select();
                     foreach ($qua['0'] as $kkk => $vvv){
+                        if ($kkk == 'id'){
+                            $kkk = 'cid';
+                        }
                         $pro["$i"]['0']["$kkk"] = $vvv;
                     }
                     $i++;
                 }
-            }                   //※※※注意: id以被car的id覆盖!!
+            }                   //icar的id为cid
             return $pro;
         }
 
